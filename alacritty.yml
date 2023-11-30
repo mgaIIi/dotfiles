@@ -1,12 +1,20 @@
 window:
+    opacity: 1.0
+    
+    position:
+      x: 300
+      y: 300 
     # Blank space added around the window in pixels
     padding:
-        x: 4
-        y: 4
-
+      x: 6
+      y: 6
+    
+    hide_cursor_when_typing: true
     # Spread additional padding evenly around the terminal content
-    dynamic_padding: true
-
+    dynamic_padding: false
+    dimensions:
+      columns: 150
+      lines: 40
     # Disable border and title bar
     decorations: none
 
@@ -28,7 +36,6 @@ colors:
   primary:
     background: '0x011627'
     foreground: '0xd6deeb'
-
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
     text: '0xffffff'
@@ -55,3 +62,4 @@ colors:
     magenta: '0xc792ea'
     cyan:    '0x7fdbca'
     white:   '0xffffff'
+
