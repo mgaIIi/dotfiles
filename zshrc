@@ -11,3 +11,4 @@ source $ZSH/oh-my-zsh.sh
 alias nn="nvim"
 alias py="python3"
 alias ll="ls -la"
+alias ff="fd --type f --hidden | fzf-tmux --reverse | xargs nvim"
