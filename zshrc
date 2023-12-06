@@ -18,10 +18,7 @@ diffme ()
 alias diffs=diffme
 alias nn="nvim"
 alias py="python3"
-alias ghidra="sh /opt/homebrew/Caskroom/ghidra/10.4-20230928/ghidra_10.4_PUBLIC/ghidraRun"
 alias ll="ls -la"
-alias startsp="brew services start spotifyd"
-alias stopsp="brew services stop spotifyd"
 alias ff="fd --type f --hidden --exclude .git | fzf-tmux --reverse | xargs nvim"
 
 export GOPATH=$HOME/go
