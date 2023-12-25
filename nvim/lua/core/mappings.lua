@@ -59,6 +59,7 @@ M.general = {
     ["<Down>"] = { 'v:count || mode(1)[0:1] == "no" ? "j" : "gj"', "Move down", opts = { expr = true } },
     ["<"] = { "<gv", "Indent line" },
     [">"] = { ">gv", "Indent line" },
+
   },
 
   x = {
@@ -104,7 +105,7 @@ M.comment = {
 
   -- toggle comment in both modes
   n = {
-    ["<leader>/"] = {
+    ["<leader>7"] = {
       function()
         require("Comment.api").toggle.linewise.current()
       end,
@@ -113,7 +114,7 @@ M.comment = {
   },
 
   v = {
-    ["<leader>/"] = {
+    ["<leader>7"] = {
       "<ESC><cmd>lua require('Comment.api').toggle.linewise(vim.fn.visualmode())<CR>",
       "Toggle comment",
     },
