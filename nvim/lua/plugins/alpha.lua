@@ -25,7 +25,7 @@
         [[                                                                       ]],
         [[                                                                       ]],
       }
-
+    
       alpha.setup(dashboard.opts)
     end,
   }

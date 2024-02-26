@@ -20,6 +20,15 @@ return {
 			local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
 			local lspconfig = require("lspconfig")
+      lspconfig.tailwindcss.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.bashls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.svelte.setup({
+        capabilities = capabilities,
+      })
 			lspconfig.tsserver.setup({
 				capabilities = capabilities,
 			})
@@ -38,7 +47,6 @@ return {
 			lspconfig.rust_analyzer.setup({
         capabilities = capabilities,
 			})
-
 			lspconfig.arduino_language_server.setup({
 				capabilities = capabilities,
 			})
@@ -69,6 +77,12 @@ return {
 			lspconfig.yamlls.setup({
 				capabilities = capabilities,
 			})
+      lspconfig.htmx.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.clangd.setup({
+        capabilities = capabilities,
+      }) 
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})

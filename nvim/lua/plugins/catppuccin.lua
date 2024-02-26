@@ -5,7 +5,7 @@ return {
 		name = "catppuccin",
 		priority = 900,
 		config = function()
-	  --	  vim.cmd.colorscheme("catppuccin")
+	--  	  vim.cmd.colorscheme("catppuccin")
 		end,
 	},
 }
