@@ -5,7 +5,7 @@ return {
 		name = "rose-pine",
 		priority = 900,
 		config = function()
-	  	  vim.cmd.colorscheme("rose-pine")
+	  	 -- vim.cmd.colorscheme("rose-pine")
 		end,
 	},
 }
