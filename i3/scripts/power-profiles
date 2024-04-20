@@ -36,11 +36,11 @@
 #LOCKSCRIPT="i3lock-extra -m pixelize"
 
 # Colors: FG (foreground), BG (background), HL (highlighted)
-FG_COLOR="#bbbbbb"
+FG_COLOR="#dedede"
 BG_COLOR="#111111"
 HLFG_COLOR="#111111"
-HLBG_COLOR="#bbbbbb"
-BORDER_COLOR="#222222"
+HLBG_COLOR="#dedede"
+BORDER_COLOR="#ffa460"
 
 # Options not related to colors
 #ROFI_TEXT=":"
@@ -121,10 +121,10 @@ typeset -A default_menu_options
 # The default options with keys/commands
 
 default_menu_options=(
-  [ Performance]="powerprofilesctl set performance"
-  [ Balanced]="powerprofilesctl set balanced"
-  [ Power Saver]="powerprofilesctl set power-saver"
-  [ Cancel]=""
+  [    Performance]="powerprofilesctl set performance"
+  [    Balanced]="powerprofilesctl set balanced"
+  [    Power Saver]="powerprofilesctl set power-saver"
+  [    Cancel]=""
 )
 
 # The menu that will be displayed
