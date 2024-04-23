@@ -1,6 +1,6 @@
 font pango: Noto Sans Regular 10
-exec --no-startup-id feh --bg-fill /home/milo/Desktop/Milo/thispc/wallpapers/mac.png
-bindsym $mod+l exec --no-startup-id i3lock -i  ~/Desktop/Milo/thispc/wallpapers/mac.png -p default|win -t
+exec --no-startup-id feh --bg-fill /home/milo/Desktop/Milo/thispc/wallpapers/jaguar.heic
+bindsym $mod+l exec --no-startup-id i3lock -i  ~/Desktop/Milo/thispc/wallpapers/jaguar.heic -p default|win -t
 
 set $mod Mod4
 
@@ -482,14 +482,33 @@ set $jellycolor12 #00988e
 set $jellycolor13 #19b2a7
 set $jellycolor14 #ffffff
 
+# Adwaita theme
+set $adwaitabackground                #1d1d1d
+set $adwaitaforeground                #deddda
+set $adwaitacolor0                    #1d1d1d
+set $adwaitacolor1                    #ed333b
+set $adwaitacolor2                    #57e389
+set $adwaitacolor3                    #ff7800
+set $adwaitacolor4                    #62a0ea
+set $adwaitacolor5                    #9141ac
+set $adwaitacolor6                    #5bc8af
+set $adwaitacolor7                    #deddda
+set $adwaitacolor8                    #9a9996
+set $adwaitacolor9                    #f66151
+set $adwaitacolor10                   #8ff0a4
+set $adwaitacolor11                   #ffa348
+set $adwaitacolor12                   #99c1f1
+set $adwaitacolor13                   #dc8add
+set $adwaitacolor14                   #93ddc2
+set $adwaitacolor15                   #f6f5f4
 
 # target                 title     bg    text   indicator  border
-client.focused           $jellycolor10 $jellybackground $jellyforeground  $jellycolor10 $jellycolor10
-client.focused_inactive  $jellycolor0 $jellybackground $jellyforeground  $jellycolor10 $jellycolor0
-client.unfocused         $jellycolor0 $jellybackground $jellyforeground  $jellycolor10 $jellycolor0
-client.urgent            $jellycolor10    $jellybackground $jellycolor10 $jellycolor0  $jellycolor10
-client.placeholder       $jellycolor0 $jellybackground $jellyforeground  $jellycolor0  $jellycolor0
-client.background        $jellybackground
+client.focused           $adwaitacolor11 $adwaitabackground $adwaitaforeground  $adwaitacolor11 $adwaitacolor11
+client.focused_inactive  $adwaitacolor8 $adwaitabackground $adwaitabackground  $adwaitacolor11 $adwaitacolor8
+client.unfocused         $adwaitacolor8 $adwaitabackground $adwaitabackground  $adwaitacolor11 $adwaitacolor8
+client.urgent            $adwaitacolor11   $jellybackground $adwaitacolor11  $adwaitacolor8  $adwaitacolor11
+client.placeholder       $adwaitacolor8 $adwaitabackground $adwaitaforeground  $adwaitacolor8  $adwaitacolor8
+client.background        $adwaitabackground
 
 ############################################
 # bar settings (input comes from i3blocks) #
@@ -507,16 +526,16 @@ bar {
   strip_workspace_numbers yes
   ##strip_workspace_name no
   colors {
-    background         $jellybackground
-    statusline         $jellyforeground
-    focused_statusline $jellyforeground
-    active_workspace   $jellybackground $jellyforeground $jellycursor
-    focused_separator  $jellybackground
-    focused_workspace  $jellybackground $jellybackground $jellycolor10
-    active_workspace   $jellybackground $jellybackground $jellycolor10
-    inactive_workspace $jellybackground $jellybackground $jellycolor0
-    urgent_workspace   $jellybackground $jellybackground $jellycolor2
-    binding_mode       $jellybackground $jellybackground $jellycolor12
+    background         $adwaitabackground
+    statusline         $adwaitaforeground
+    focused_statusline $adwaitaforeground
+    active_workspace   $adwaitabackground $adwaitaforeground $adwaitacolor11
+    focused_separator  $adwaitabackground
+    focused_workspace  $adwaitabackground $adwaitabackground $adwaitacolor3
+    active_workspace   $adwaitabackground $adwaitabackground $adwaitacolor3
+    inactive_workspace $adwaitabackground $adwaitabackground $adwaitacolor8
+    urgent_workspace   $adwaitabackground $adwaitabackground $adwaitacolor9
+    binding_mode       $adwaitabackground $adwaitabackground $adwaitacolor6
   }
 }
 
