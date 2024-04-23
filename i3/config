@@ -1,11 +1,11 @@
 font pango: Noto Sans Regular 10
-exec --no-startup-id feh --bg-fill /home/milo/Desktop/Milo/thispc/wallpapers/jaguar.heic
-bindsym $mod+l exec --no-startup-id i3lock -i  ~/Desktop/Milo/thispc/wallpapers/jaguar.heic -p default|win -t
+exec --no-startup-id feh --bg-fill /home/milo/Desktop/Milo/thispc/wallpapers/stallman.png
+bindsym $mod+l exec --no-startup-id i3lock -i  ~/Desktop/Milo/thispc/wallpapers/stallman.png -p default|win -t
 
 set $mod Mod4
 
 workspace_layout default
-new_window pixel 2 
+new_window pixel 1 
 
 gaps inner 8
 gaps outer 3
@@ -432,83 +432,108 @@ set $grey		#b0b5bd
 set $mediumgrey		#8b8b8b
 set $yellowbrown	#e1b700
 
-#catppuccin theme
-set $rosewater #f5e0dc
-set $flamingo #f2cdcd
-set $pink #f5c2e7
-set $mauve #cba6f7
-set $red #f38ba8
-set $maroon #eba0ac
-set $peach #fab387
-set $yellow #f9e2af
-set $green #a6e3a1
-set $teal #94e2d5
-set $sky #89dceb
-set $sapphire #74c7ec
-set $blue #89b4fa
-set $lavender #b4befe
-set $text #cdd6f4
-set $subtext1 #bac2de
-set $subtext0 #a6adc8
-set $overlay2 #9399b2
-set $overlay1 #7f849c
-set $overlay0 #6c7086
-set $surface2 #585b70
-set $surface1 #45475a
-set $surface0 #313244
-set $base #1e1e2e
-set $mantle #181825
-set $crust #11111b
+# #catppuccin theme
+# set $rosewater #f5e0dc
+# set $flamingo #f2cdcd
+# set $pink #f5c2e7
+# set $mauve #cba6f7
+# set $red #f38ba8
+# set $maroon #eba0ac
+# set $peach #fab387
+# set $yellow #f9e2af
+# set $green #a6e3a1
+# set $teal #94e2d5
+# set $sky #89dceb
+# set $sapphire #74c7ec
+# set $blue #89b4fa
+# set $lavender #b4befe
+# set $text #cdd6f4
+# set $subtext1 #bac2de
+# set $subtext0 #a6adc8
+# set $overlay2 #9399b2
+# set $overlay1 #7f849c
+# set $overlay0 #6c7086
+# set $surface2 #585b70
+# set $surface1 #45475a
+# set $surface0 #313244
+# set $base #1e1e2e
+# set $mantle #181825
+# set $crust #11111b
+#
+# # Jellybeans theme
+#
+# set $jellybackground #111111
+# set $jellyforeground #dedede
+# set $jellycursor #ffa460
+# set $jelly_sel_back #464d91
+# set $jellycolor0 #919191
+# set $jellycolor1 #bdbdbd
+# set $jellycolor2 #e17373
+# set $jellycolor3 #ffa0a0
+# set $jellycolor4 #94b978
+# set $jellycolor5 #bddeab
+# set $jellycolor6 #ffb97b
+# set $jellycolor7 #ffbda0
+# set $jellycolor8 #96bddb
+# set $jellycolor9 #b1d7f6
+# set $jellycolor10 #e1c0fa
+# set $jellycolor11 #fbdaff
+# set $jellycolor12 #00988e
+# set $jellycolor13 #19b2a7
+# set $jellycolor14 #ffffff
+#
+# # Adwaita theme
+# set $adwaitabackground                #1d1d1d
+# set $adwaitaforeground                #deddda
+# set $adwaitacolor0                    #1d1d1d
+# set $adwaitacolor1                    #ed333b
+# set $adwaitacolor2                    #57e389
+# set $adwaitacolor3                    #ff7800
+# set $adwaitacolor4                    #62a0ea
+# set $adwaitacolor5                    #9141ac
+# set $adwaitacolor6                    #5bc8af
+# set $adwaitacolor7                    #deddda
+# set $adwaitacolor8                    #9a9996
+# set $adwaitacolor9                    #f66151
+# set $adwaitacolor10                   #8ff0a4
+# set $adwaitacolor11                   #ffa348
+# set $adwaitacolor12                   #99c1f1
+# set $adwaitacolor13                   #dc8add
+# set $adwaitacolor14                   #93ddc2
+# set $adwaitacolor15                   #f6f5f4
+#
+# set primary Rosé Pine colorscheme colors
+set $base           #191724
+set $surface        #1f1d2e
+set $overlay        #26233a
+set $muted          #6e6a86
+set $subtle         #908caa
+set $text           #e0def4
+set $love           #eb6f92
+set $gold           #f6c177
+set $rose           #ebbcba
+set $pine           #31748f
+set $foam           #9ccfd8
+set $iris           #c4a7e7
+set $highlightlow   #21202e
+set $highlightmed   #403d52
+set $highlighthigh  #524f67
 
-# Jellybeans theme
-
-set $jellybackground #111111
-set $jellyforeground #dedede
-set $jellycursor #ffa460
-set $jelly_sel_back #464d91
-set $jellycolor0 #919191
-set $jellycolor1 #bdbdbd
-set $jellycolor2 #e17373
-set $jellycolor3 #ffa0a0
-set $jellycolor4 #94b978
-set $jellycolor5 #bddeab
-set $jellycolor6 #ffb97b
-set $jellycolor7 #ffbda0
-set $jellycolor8 #96bddb
-set $jellycolor9 #b1d7f6
-set $jellycolor10 #e1c0fa
-set $jellycolor11 #fbdaff
-set $jellycolor12 #00988e
-set $jellycolor13 #19b2a7
-set $jellycolor14 #ffffff
-
-# Adwaita theme
-set $adwaitabackground                #1d1d1d
-set $adwaitaforeground                #deddda
-set $adwaitacolor0                    #1d1d1d
-set $adwaitacolor1                    #ed333b
-set $adwaitacolor2                    #57e389
-set $adwaitacolor3                    #ff7800
-set $adwaitacolor4                    #62a0ea
-set $adwaitacolor5                    #9141ac
-set $adwaitacolor6                    #5bc8af
-set $adwaitacolor7                    #deddda
-set $adwaitacolor8                    #9a9996
-set $adwaitacolor9                    #f66151
-set $adwaitacolor10                   #8ff0a4
-set $adwaitacolor11                   #ffa348
-set $adwaitacolor12                   #99c1f1
-set $adwaitacolor13                   #dc8add
-set $adwaitacolor14                   #93ddc2
-set $adwaitacolor15                   #f6f5f4
-
+# Teming border and Windows --------------
 # target                 title     bg    text   indicator  border
-client.focused           $adwaitacolor11 $adwaitabackground $adwaitaforeground  $adwaitacolor11 $adwaitacolor11
-client.focused_inactive  $adwaitacolor8 $adwaitabackground $adwaitabackground  $adwaitacolor11 $adwaitacolor8
-client.unfocused         $adwaitacolor8 $adwaitabackground $adwaitabackground  $adwaitacolor11 $adwaitacolor8
-client.urgent            $adwaitacolor11   $jellybackground $adwaitacolor11  $adwaitacolor8  $adwaitacolor11
-client.placeholder       $adwaitacolor8 $adwaitabackground $adwaitaforeground  $adwaitacolor8  $adwaitacolor8
-client.background        $adwaitabackground
+client.focused           $rose     $base $text  $rose      $rose
+client.focused_inactive  $text     $base $text  $subtle    $surface
+client.unfocused         $text     $base $text  $overlay   $overlay
+client.urgent            $text     $base $text  $love      $love
+client.placeholder       $base     $base $text  $overlay   $overlay
+client.background        $base
+# target                 title     bg    text   indicator  border
+#client.focused           $mauve $adwaitabackground $adwaitaforeground  $mauve $mauve
+#client.focused_inactive  $adwaitacolor8 $adwaitabackground $adwaitabackground  $mauve $adwaitacolor8
+#client.unfocused         $adwaitacolor8 $adwaitabackground $adwaitabackground  $mauve $adwaitacolor8
+#client.urgent            $mauve   $adwaitabackground $mauve  $adwaitacolor8  $mauve
+#client.placeholder       $adwaitacolor8 $adwaitabackground $adwaitaforeground  $adwaitacolor8  $adwaitacolor8
+#client.background        $adwaitabackground
 
 ############################################
 # bar settings (input comes from i3blocks) #
@@ -526,16 +551,16 @@ bar {
   strip_workspace_numbers yes
   ##strip_workspace_name no
   colors {
-    background         $adwaitabackground
-    statusline         $adwaitaforeground
-    focused_statusline $adwaitaforeground
-    active_workspace   $adwaitabackground $adwaitaforeground $adwaitacolor11
-    focused_separator  $adwaitabackground
-    focused_workspace  $adwaitabackground $adwaitabackground $adwaitacolor3
-    active_workspace   $adwaitabackground $adwaitabackground $adwaitacolor3
-    inactive_workspace $adwaitabackground $adwaitabackground $adwaitacolor8
-    urgent_workspace   $adwaitabackground $adwaitabackground $adwaitacolor9
-    binding_mode       $adwaitabackground $adwaitabackground $adwaitacolor6
+    background         $base
+    statusline         $text
+    focused_statusline $text
+    active_workspace   $base $text $iris
+    focused_separator  $base
+    focused_workspace  $base $base $iris
+    active_workspace   $base $base $iris
+    inactive_workspace $base $base $subtle
+    urgent_workspace   $base $base $love
+    binding_mode       $base $base $foam
   }
 }
 
