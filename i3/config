@@ -1,6 +1,6 @@
 font pango: Noto Sans Regular 10
-exec --no-startup-id feh --bg-fill /home/milo/Desktop/Milo/thispc/wallpapers/stallman.png
-bindsym $mod+l exec --no-startup-id i3lock -i  ~/Desktop/Milo/thispc/wallpapers/stallman.png -p default|win -t
+exec --no-startup-id feh --bg-fill /home/milopc/Desktop/Milo/thispc/wallpapers/rosearch.png
+bindsym $mod+l exec --no-startup-id i3lock -i  /home/milopc/Desktop/Milo/thispc/wallpapers/rosearch.png -p default|win -t
 
 set $mod Mod4
 
