@@ -11,8 +11,10 @@ return {
 					javascript = { "biome" },
 					typescript = { "biome" },
 					rust = { "rustfmt" },
-					svelte = { "prettier" },
+					svelte = { "eslint_d" },
 					go = { "gofmt", "gofumpt", "goimports" },
+					asm = { "asmfmt" },
+					c = { "clang-format" },
 				},
 
 				format_on_save = {
