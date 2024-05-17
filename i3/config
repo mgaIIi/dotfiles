@@ -1,11 +1,11 @@
-font pango: Noto Sans Regular 10
-exec --no-startup-id feh --bg-fill /home/milopc/Desktop/Milo/thispc/wallpapers/berserk.jpg
-bindsym $mod+l exec --no-startup-id i3lock -i  /home/milopc/Desktop/Milo/thispc/wallpapers/berserk.jpg -p default|win -t
+font pango: IosevkaTerm NF 10
+exec --no-startup-id feh --bg-fill /home/milopc/Desktop/Milo/thispc/wallpapers/purplewaves.png
+bindsym $mod+l exec --no-startup-id i3lock -i  /home/milopc/Desktop/Milo/thispc/wallpapers/purplewaves.png -p default|win -t
 
 set $mod Mod4
 
 workspace_layout default
-new_window pixel 1 
+new_window pixel 3 
 
 gaps inner 8
 gaps outer 3
@@ -15,8 +15,8 @@ floating_modifier $mod
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
-#create new workspace with incremental number with mod+n
-
+# to toggle polybar
+#exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # switch to workspace
 bindcode $mod+10    workspace  $ws1
@@ -126,8 +126,6 @@ bindsym $mod+q kill
 
 # exit-menu
 bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
-
-# lock with a picture:
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -240,16 +238,16 @@ bindsym $mod+Shift+p exec --no-startup-id ~/.config/i3/scripts/power-profiles
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1:1"
-set $ws2 "2:2"
-set $ws3 "3:3"
-set $ws4 "4:4"
-set $ws5 "5:5"
-set $ws6 "6:6"
-set $ws7 "7:7"
-set $ws8 "8:8"
-set $ws9 "9:9"
-set $ws10 "10:10"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
 
 # use workspaces on different displays:
 # where you have to replace VGA-0/HDMI-0 with the names for your displays
@@ -411,91 +409,24 @@ for_window [class="urxvt"] border pixel 1
 # set position of floating window
 #for_window [class=".*"] move position center
 
-# # Adwaita theme
-# set $adwaitabackground                #1d1d1d
-# set $adwaitaforeground                #deddda
-# set $adwaitacolor0                    #1d1d1d
-# set $adwaitacolor1                    #ed333b
-# set $adwaitacolor2                    #57e389
-# set $adwaitacolor3                    #ff7800
-# set $adwaitacolor4                    #62a0ea
-# set $adwaitacolor5                    #9141ac
-# set $adwaitacolor6                    #5bc8af
-# set $adwaitacolor7                    #deddda
-# set $adwaitacolor8                    #9a9996
-# set $adwaitacolor9                    #f66151
-# set $adwaitacolor10                   #8ff0a4
-# set $adwaitacolor11                   #ffa348
-# set $adwaitacolor12                   #99c1f1
-# set $adwaitacolor13                   #dc8add
-# set $adwaitacolor14                   #93ddc2
-# set $adwaitacolor15                   #f6f5f4
-#
-# ONEDARK THEME
-
-# set $onedark-foreground #979eab
-# set $onedark-background #282c34
-# set $onedark-color0 #282c34
-# set $onedark-color1 #e06c75
-# set $onedark-color2 #98c379
-# set $onedark-color3 #e5c07b
-# set $onedark-color4 #61afef
-# set $onedark-color5 #be5046
-# set $onedark-color6 #56b6c2
-# set $onedark-color7 #979eab
-# set $onedark-color8 #393e48
-# set $onedark-color9 #d19a66
-# set $onedark-color10 #56b6c2
-# set $onedark-color11 #e5c07b
-# set $onedark-color12 #61afef
-# set $onedark-color13 #be5046
-# set $onedark-color14 #56b6c2
-# set $onedark-color15 #abb2bf
-
-
-# ROSE PINE THEME 
-# set primary Rosé Pine colorscheme colors
-#set $base           #191724
-#set $surface        #1f1d2e
-#set $overlay        #26233a
-#set $muted          #6e6a86
-#set $subtle         #908caa
-#set $text           #e0def4
-#set $love           #eb6f92
-#set $gold           #f6c177
-#set $rose           #ebbcba
-#set $pine           #31748f
-#set $foam           #9ccfd8
-#set $iris           #c4a7e7
-#set $highlightlow   #21202e
-#set $highlightmed   #403d52
-#set $highlighthigh  #524f67
-
-# Teming border and Windows --------------
-# target                 title     bg    text   indicator  border
-#client.focused           $rose     $base $text  $rose      $rose
-#client.focused_inactive  $text     $base $text  $subtle    $surface
-#client.unfocused         $text     $base $text  $overlay   $overlay
-#client.urgent            $text     $base $text  $love      $love
-#client.placeholder       $base     $base $text  $overlay   $overlay
-#client.background        $base
-
 # DRACULA
 # class                 border  bground text    indicator child_border
-client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
-client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
-client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
-client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
-client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
-client.background       #F8F8F2
+# client.focused          #50fa7b #6272A4 #F8F8F2 #6272A4   #6272A4
+# client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+# client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+# client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+# client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+# client.background       #F8F8F2
 
-# target                 title     bg    text   indicator  border
-#client.focused           $mauve $adwaitabackground $adwaitaforeground  $mauve $mauve
-#client.focused_inactive  $adwaitacolor8 $adwaitabackground $adwaitabackground  $mauve $adwaitacolor8
-#client.unfocused         $adwaitacolor8 $adwaitabackground $adwaitabackground  $mauve $adwaitacolor8
-#client.urgent            $mauve   $adwaitabackground $mauve  $adwaitacolor8  $mauve
-#client.placeholder       $adwaitacolor8 $adwaitabackground $adwaitaforeground  $adwaitacolor8  $adwaitacolor8
-#client.background        $adwaitabackground
+# NIGHT OWL
+# class                 border  bground text    indicator child_border
+client.focused          #82aaff #011627 #d6deeb #2e3440   #82aaff
+client.focused_inactive #82aaff #011627 #d6deeb #2e3440   #82aaff
+client.unfocused        #011627 #011627 #d6deeb #2e3440   #82aaff
+client.urgent           #ef5350 #011627 #d6deeb #2e3440   #82aaff
+client.placeholder      #addb67 #011627 #d6deeb #2e3440   #82aaff
+client.background       #011627
+
 
 ############################################
 # bar settings (input comes from i3blocks) #
@@ -503,27 +434,27 @@ client.background       #F8F8F2
 
 # Start i3bar to display a workspace bar
 # (plus the system information i3status finds out, if available)
-bar {
-  mode dock
-  font pango: IosevkaTerm Nerd Font 10 
-  status_command i3blocks -c ~/.config/i3/i3blocks.conf
-  position top
-  workspace_buttons yes
-  workspace_min_width 60
-  strip_workspace_numbers yes
-  ##strip_workspace_name no
-  colors {
-    background #282A36
-    statusline #F8F8F2
-    separator  #44475A
-
-    focused_workspace  #44475A #44475A #F8F8F2
-    active_workspace   #282A36 #44475A #F8F8F2
-    inactive_workspace #282A36 #282A36 #BFBFBF
-    urgent_workspace   #FF5555 #FF5555 #F8F8F2
-    binding_mode       #FF5555 #FF5555 #F8F8F2
-  }
-}
+# bar {
+#   mode dock
+#   font pango: IosevkaTerm Nerd Font 10 
+#   status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#   position top
+#   workspace_buttons yes
+#   workspace_min_width 60
+#   strip_workspace_numbers yes
+#   ##strip_workspace_name no
+#   colors {
+#     background #282A36
+#     statusline #F8F8F2
+#     separator  #44475A
+#
+#     focused_workspace  #44475A #44475A #F8F8F2
+#     active_workspace   #282A36 #44475A #F8F8F2
+#     inactive_workspace #282A36 #282A36 #BFBFBF
+#     urgent_workspace   #FF5555 #FF5555 #F8F8F2
+#     binding_mode       #FF5555 #FF5555 #F8F8F2
+#   }
+# }
 
 #####################################
 # Application menu handled by rofi: #
@@ -533,6 +464,8 @@ bar {
 
 bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun \
 		-config ~/.config/rofi/rofidmenu.rasi
+
+bindsym $mod+Shift+d exec --no-startup-id ~/.config/i3/scripts/powermenu
 
 #bindsym F9 exec --no-startup-id rofi -modi drun -show drun \
 #		-config ~/.config/rofi/rofidmenu.rasi

@@ -13,6 +13,7 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 -- Save current file with leader s
 vim.keymap.set("n", "<leader>s", ":w<CR>")
 vim.keymap.set("n", "<c-s>", ":w<CR>")
+vim.keymap.set("n", "<leader>lx", ":terminal mix format<CR>")
 
 -- move the cursor up and down 5 lines with ctrl-j and ctrl-k
 vim.keymap.set("n", "<c-j>", "5j")

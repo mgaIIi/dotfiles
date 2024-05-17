@@ -6,22 +6,22 @@ configuration {
 
 * {
     /* Dracula theme colour palette */
-    drac-bgd: #282A36;
-    drac-cur: #44475a;
-    drac-fgd: #f8f8f2;
+    drac-bgd: #011627;
+    drac-cur: #80a4c2;
+    drac-fgd: #d6deeb;
     drac-cmt: #6272a4;
-    drac-cya: #E40066;
-    drac-grn: #50fa7b;
-    drac-ora: #ffb86c;
-    drac-pnk: #ff79c6;
-    drac-pur: #bd93f9;
-    drac-red: #ff5555;
-    drac-yel: #f1fa8c;
+    drac-cya: #82aaff;
+    drac-grn: #22da6e;
+    drac-ora: #addb67;
+    drac-pnk: #c792ea;
+    drac-pur: #c792ea;
+    drac-red: #ef5350;
+    drac-yel: #ffeb95;
 
     font: "IosevkaTerm NF 12";
     foreground: @drac-fgd;
     background-color: @drac-bgd;
-    active-background: @drac-pur;
+    active-background: @drac-cya;
     urgent-background: @drac-red;
     urgent-foreground: @drac-bgd;
     
@@ -29,7 +29,7 @@ configuration {
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
     separatorcolor: @active-background;
-    bordercolor: @drac-pur;
+    bordercolor: @drac-cya;
 }
 
 #window {
@@ -38,7 +38,7 @@ configuration {
     border-radius:    0;
     border-color:     @bordercolor;
     padding:          15;
-    width:            400;
+    width:            700;
 }
 #mainbox {
     border:  0;
@@ -125,11 +125,11 @@ configuration {
 }
 #entry {
     spacing:    0;
-    text-color: @drac-pur;
+    text-color: @drac-cya;
 }
 #prompt {
     spacing:    0;
-    text-color: @drac-grn;
+    text-color: @drac-yel;
 }
 #inputbar {
     children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
@@ -138,7 +138,7 @@ configuration {
     expand:     false;
     str:        ">";
     margin:     0px 0.3em 0em 0em ;
-    text-color: @drac-pur;
+    text-color: @drac-cya;
 }
 element-text, element-icon {
     background-color: inherit;
