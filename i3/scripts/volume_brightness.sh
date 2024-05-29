@@ -1,15 +1,9 @@
 #!/bin/bash
-# original source: https://gitlab.com/Nmoleo/i3-volume-brightness-indicator
-
-# taken from here: https://gitlab.com/Nmoleo/i3-volume-brightness-indicator
-
-# See README.md for usage instructions
-bar_color="#7f7fff"
+bar_color="#fca31c"
 volume_step=1
 brightness_step=2.5
 max_volume=100
 
-# Uses regex to get volume from pactl
 function get_volume {
     pactl get-sink-volume @DEFAULT_SINK@ | grep -Po '[0-9]{1,3}(?=%)' | head -1
 }
@@ -21,7 +15,7 @@ function get_mute {
 
 # Uses regex to get brightness from xbacklight
 function get_brightness {
-    xbacklight | grep -Po '[0-9]{1,3}' | head -n 1
+    pkexec /usr/bin/brillo -G
 }
 
 # Returns a mute icon, a volume-low icon, or a volume-high icon, depending on the volume
@@ -29,17 +23,17 @@ function get_volume_icon {
     volume=$(get_volume)
     mute=$(get_mute)
     if [ "$volume" -eq 0 ] || [ "$mute" == "yes" ] ; then
-        volume_icon=""
+        volume_icon=" "
     elif [ "$volume" -lt 50 ]; then
-        volume_icon=""
+        volume_icon=" "
     else
-        volume_icon=""
+        volume_icon="  "
     fi
 }
 
 # Always returns the same icon - I couldn't get the brightness-low icon to work with fontawesome
 function get_brightness_icon {
-    brightness_icon=""
+    brightness_icon="󰃠 "
 }
 
 # Displays a volume notification using dunstify
@@ -84,13 +78,13 @@ case $1 in
 
     brightness_up)
     # Increases brightness and displays the notification
-    xbacklight -inc $brightness_step -time 0 
+    pkexec /usr/bin/brillo -A 2 
     show_brightness_notif
     ;;
 
     brightness_down)
     # Decreases brightness and displays the notification
-    xbacklight -dec $brightness_step -time 0
+    pkexec /usr/bin/brillo -U 2
     show_brightness_notif
     ;;
 esac
