@@ -1,0 +1,49 @@
+theme = "rose_pine"
+
+[editor]
+mouse = true
+auto-save = true
+cursorline = true
+cursorcolumn = false
+bufferline = "always"
+true-color = true
+line-number = "relative"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.statusline]
+left = [ "mode", "spinner", "diagnostics" ]
+center = [ "file-name", "separator", "version-control", "separator" ]
+right = [ "position", "position-percentage", "total-line-numbers" ]
+separator = " "
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.lsp]
+enable=true
+display-messages = true
+auto-signature-help = false
+
+[editor.indent-guides]
+render = true
+character = "╎"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+p = "paste_clipboard_before"
+y = "yank_main_selection_to_clipboard"
+"C-s" = ":w!"
+"A-," = "goto_previous_buffer"
+"A-." = "goto_next_buffer"
+"A-x" = ":buffer-close"
+"A-/" = "repeat_last_motion"
+
+[keys.insert]
+"C-x" = "normal_mode"
+
