@@ -1,4 +1,4 @@
-theme = "rose_pine"
+theme = "tokyonight_storm"
 
 [editor]
 mouse = true
@@ -39,11 +39,12 @@ hidden = false
 p = "paste_clipboard_before"
 y = "yank_main_selection_to_clipboard"
 "C-s" = ":w!"
+C-c = "normal_mode"
 "A-," = "goto_previous_buffer"
 "A-." = "goto_next_buffer"
 "A-x" = ":buffer-close"
-"A-/" = "repeat_last_motion"
+"0" = "goto_line_start"
+"$" = "goto_line_end"
 
 [keys.insert]
-"C-x" = "normal_mode"
-
+C-c = "normal_mode"

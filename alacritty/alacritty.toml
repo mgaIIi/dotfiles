@@ -9,7 +9,7 @@ style = "Bold"
 
 [font.italic]
 family = "Iosevka NF"
-style = "Italic"
+style = "Regular"
 
 [font.normal]
 family = "Iosevka NF"
@@ -17,89 +17,16 @@ style = "Regular"
 
 [font.bold_italic]
 family = "Iosevka NF"
-style = "Italic"
-
-# sublime text monokai
-[colors.primary]
-foreground = "#e0def4"
-background = "#191724"
-dim_foreground = "#908caa"
-bright_foreground = "#e0def4"
-
-[colors.cursor]
-text = "#e0def4"
-cursor = "#524f67"
-
-[colors.vi_mode_cursor]
-text = "#e0def4"
-cursor = "#524f67"
-
-[colors.search.matches]
-foreground = "#908caa"
-background = "#26233a"
-
-[colors.search.focused_match]
-foreground = "#191724"
-background = "#ebbcba"
-
-[colors.hints.start]
-foreground = "#908caa"
-background = "#1f1d2e"
-
-[colors.hints.end]
-foreground = "#6e6a86"
-background = "#1f1d2e"
-
-[colors.line_indicator]
-foreground = "None"
-background = "None"
-
-[colors.footer_bar]
-foreground = "#e0def4"
-background = "#1f1d2e"
-
-[colors.selection]
-text = "#e0def4"
-background = "#403d52"
-
-[colors.normal]
-black = "#26233a"
-red = "#eb6f92"
-green = "#31748f"
-yellow = "#f6c177"
-blue = "#9ccfd8"
-magenta = "#c4a7e7"
-cyan = "#ebbcba"
-white = "#e0def4"
-
-[colors.bright]
-black = "#6e6a86"
-red = "#eb6f92"
-green = "#31748f"
-yellow = "#f6c177"
-blue = "#9ccfd8"
-magenta = "#c4a7e7"
-cyan = "#ebbcba"
-white = "#e0def4"
-
-[colors.dim]
-black = "#6e6a86"
-red = "#eb6f92"
-green = "#31748f"
-yellow = "#f6c177"
-blue = "#9ccfd8"
-magenta = "#c4a7e7"
-cyan = "#ebbcba"
-white = "#e0def4"
+style = "Bold"
 
 [selection]
 save_to_clipboard = true
 
 [window]
 decorations = "Full"
-dynamic_padding = false 
+dynamic_padding = false
 dynamic_title = false
-opacity = 0.85
+dimensions = {columns = 130, lines = 35}
 
 [window.padding]
 x = 5
@@ -116,3 +43,26 @@ bindings = [
   { key = "c", mods = "Alt", action = "Copy"},
 ]
 
+[colors.primary]
+background = "#24283b"
+foreground = "#a9b1d6"
+
+[colors.normal]
+black = "#32344a"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#ad8ee6"
+cyan = "#449dab"
+white = "#9699a8"
+
+[colors.bright]
+black = "#444b6a"
+red = "#ff7a93"
+green = "#b9f27c"
+yellow = "#ff9e64"
+blue = "#7da6ff"
+magenta = "#bb9af7"
+cyan = "#0db9d7"
+white = "#acb0d0"
