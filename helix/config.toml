@@ -1,4 +1,4 @@
-theme = "tokyonight_storm"
+theme = "github_dark_high_contrast"
 
 [editor]
 mouse = true
@@ -8,6 +8,10 @@ cursorcolumn = false
 bufferline = "always"
 true-color = true
 line-number = "relative"
+scrolloff = 999
+
+[editor.soft-wrap]
+enable = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -45,6 +49,13 @@ C-c = "normal_mode"
 "A-x" = ":buffer-close"
 "0" = "goto_line_start"
 "$" = "goto_line_end"
+"G" = "goto_file_end"
 
+[keys.normal.g]
+"g" = "goto_file_start"
+
+[keys.select]
+"G" = "goto_file_end"
 [keys.insert]
 C-c = "normal_mode"
+
