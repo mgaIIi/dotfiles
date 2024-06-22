@@ -52,10 +52,8 @@
   services.xserver.desktopManager.gnome.enable = true;
 
   # Configure keymap in X11
-  services.xserver = {
-    layout = "us";
-    xkbVariant = "";
-  };
+  services.xserver.xkb.layout = "us";
+  services.xserver.xkb.variant = "";
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -78,7 +76,6 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
-
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.milo = {
     isNormalUser = true;
@@ -135,7 +132,8 @@
   ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
-  
+
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
