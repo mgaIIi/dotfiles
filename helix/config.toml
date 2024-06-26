@@ -1,4 +1,4 @@
-theme = "github_dark_high_contrast"
+theme = "monokai_pro"
 
 [editor]
 mouse = true
