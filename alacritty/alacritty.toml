@@ -119,26 +119,40 @@ bindings = [
 # index = 17
 # color = "#f5e0dc"
 
+# [colors.primary]
+# background = "0x2D2A2E"
+# foreground = "0xfff1f3"
+
+# [colors.normal]
+# black = "0x2c2525"
+# red = "0xfd6883"
+# green = "0xadda78"
+# yellow = "0xf9cc6c"
+# blue = "0xf38d70"
+# magenta = "0xa8a9eb"
+# cyan = "0x85dacc"
+# white = "0xfff1f3"
+
+# [colors.bright]
+# black = "0x72696a"
+# red = "0xfd6883"
+# green = "0xadda78"
+# yellow = "0xf9cc6c"
+# blue = "0xf38d70"
+# magenta = "0xa8a9eb"
+# cyan = "0x85dacc"
+# white = "0xfff1f3"
+
 [colors.primary]
-background = "0x2D2A2E"
-foreground = "0xfff1f3"
+background = "0x1E1E1E"
+foreground = "0xD4D4D4"
 
 [colors.normal]
-black = "0x2c2525"
-red = "0xfd6883"
-green = "0xadda78"
-yellow = "0xf9cc6c"
-blue = "0xf38d70"
-magenta = "0xa8a9eb"
-cyan = "0x85dacc"
-white = "0xfff1f3"
-
-[colors.bright]
-black = "0x72696a"
-red = "0xfd6883"
-green = "0xadda78"
-yellow = "0xf9cc6c"
-blue = "0xf38d70"
-magenta = "0xa8a9eb"
-cyan = "0x85dacc"
-white = "0xfff1f3"
+black = "0x1E1E1E"
+red = "0xF44747"
+green = "0x608B4E"
+yellow = "0xD7BA7D"
+blue = "0x569CD6"
+magenta = "0xC586C0"
+cyan = "0x9CDCFE"
+white = "0xD4D4D4"
