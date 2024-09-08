@@ -1,0 +1,18 @@
+separator=false
+separator_block_width=25
+
+[menu]
+full_text="󰣇 "
+command=rofi -modi drun,run -show drun
+color=#ffffff
+
+[battery]
+command=./battery_script
+interval=1
+color=#ffffff
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S  '
+interval=1
+color=#ffffff
+
