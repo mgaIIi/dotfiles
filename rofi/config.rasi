@@ -1,10 +1,10 @@
 
 configuration {
 	modi:				"drun";
-	font:				"JetBrainsMono NF 14";
+	font:				"Iosevka NF 20";
 	show-icons:         true;
-	icon-theme: 			"Reversal-dark";
-	display-drun: 			"";
+	icon-theme: 		"Reversal-dark";
+	display-drun: 		  "";
 	drun-display-format:  "{name}";
 	sidebar-mode: 			false;
 }
@@ -15,7 +15,7 @@ configuration {
 	bg:				    #1E1E1E;
 	fg:				    #e8e8d3;
 	accent:             #687363;
-	button:	            #3E3E3E;
+	button:	            #1793d1;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -26,39 +26,40 @@ window {
 	width:			    35%;
 	padding: 			10px;
 	border:             5px;
-	border-color:       #3e3e3e;
+	border-color:       #1793d1;
 }
 
 prompt {
-	background-color:	@button;
+	background-color:	#3e3e3e;
 	enabled:			true;
 	padding:			0.5% 32px 0% -0.5%;
-	font:				"JetBrainsMono NF 14";
+	font:				"Iosevka NF 14";
 }
 
 entry {
-    	placeholder:			"Search";
-	background-color:               @button;
-    	placeholder-color:              @fg;
-    	expand:                         true;
-    	padding:                        0.15% 0% 0% 0%;
+    placeholder:			"Search";
+	font:                    "Iosevka NF 40";
+	background-color:               #3e3e3e;
+    placeholder-color:              @fg;
+    expand:                         true;
+    padding:                        0.15% 0% 0% 0%;
 }
 
 inputbar {
 	children:			[ prompt, entry ];
-    	background-color:               @button;
-    	expand:                         false;
-    	border-radius:                  6px;
-    	margin:                         0%;
-    	padding:                        10px;
+    background-color:               #3e3e3e;
+    expand:                         false;
+    border-radius:                  6px;
+    margin:                         0%;
+    padding:                        10px;
 }
 
 listview {
-    	columns:                        4;
-    	lines:	                        3;
-    	cycle:                          false;
-    	dynamic:                        true;
-    	layout:                         vertical;
+    columns:                        3;
+    lines:	                        3;
+    cycle:                          false;
+    dynamic:                        false;
+    layout:                         vertical;
 }
 
 mainbox {
@@ -91,5 +92,5 @@ element-text, element-icon {
 
 element selected {
     	background-color:               @button;
-    	border-radius:                  35px;
+    	border-radius:                  10px;
 }

@@ -15,4 +15,3 @@ color=#ffffff
 command=date '+%Y-%m-%d %H:%M:%S  '
 interval=1
 color=#ffffff
-
