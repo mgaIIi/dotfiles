@@ -4,17 +4,18 @@ font pango:Iosevka NF 15
 gaps inner 20
 gaps outer 0
 
-default_border pixel 1
+default_border pixel 2
 default_floating_border pixel 1
 
-client.focused          #1793D1 #1793D1 #ffffff #1793D1
+client.focused          #1793d1 #1793d1 #ffffff #1793d1
 client.unfocused        #1E1E1E #1E1E1E #ffffff #1E1E1E
 client.urgent           #1E1E1E #1E1E1E #ffffff #1E1E1E
 client.placeholder      #1E1E1E #1E1E1E #ffffff #1E1E1E
 
 exec --no-startup-id dex --autostart --environment i3
 
-exec feh --bg-fill ~/.config/i3/wallpapers/arch_wallpapers/Original/Original_tiny.png
+exec feh --bg-fill ~/.config/i3/wallpapers/arch_wallpapers/Famous_cs/Catppuccin_frappe.png 
+#exec feh --bg-scale ~/.config/i3/wallpapers/spongebob_shoes.jpg
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
@@ -41,6 +42,7 @@ bindsym $mod+q kill
 # start rofi
 #bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 bindsym $mod+d exec "rofi -modi drun,run -show drun"
+bindsym $mod+o exec ~/.config/i3/volume.sh
 bindsym $mod+Shift+d exec ~/.config/i3/powermenu.sh
 
 # change focus
@@ -136,15 +138,15 @@ bindsym $mod+r mode "resize"
 bar {
     status_command i3blocks
     position bottom
-
+    
     colors {
         background #1e1e1e
         statusline #ffffff
         separator  #ffffff
 
-        focused_workspace  #1793D1 #1793D1 #FFFFFF
-        active_workspace   #1E1E1E #1E1E1E #69C9F9
-        inactive_workspace #1E1E1E #1E1E1E #888888
+        focused_workspace  #1793d1 #1793d1 #ffffff
+        active_workspace   #1e1e1e #1e1e1e #ffffff
+        inactive_workspace #1e1e1e #1e1e1e #ffffff
         urgent_workspace   #900000 #900000 #ffffff
     }
 

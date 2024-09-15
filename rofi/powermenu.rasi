@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				  "drun";
-	font:				  "Iosevka NF 20";
+	font:				  "Iosevka NF 15";
 	show-icons:           false;
 	icon-theme: 		  "Reversal-dark";
 	display-drun: 		  "";
@@ -12,7 +12,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1E1E1E;
+	bg:				    #282828;
 	fg:				    #e8e8d3;
 	accent:             #687363;
 	button:	            #1793d1;
@@ -23,9 +23,9 @@ configuration {
 
 window {
 	border-radius:      0px;
-	width:			    35%;
+	width:			    20%;
 	padding: 			10px;
-	border:             5px;
+	border:             2px;
 	border-color:       #1793d1;
 }
 
@@ -33,12 +33,12 @@ prompt {
 	background-color:	#3e3e3e;
 	enabled:			true;
 	padding:			0.5% 32px 0% -0.5%;
-	font:				"Iosevka NF 14";
+	font:				"Iosevka NF 15";
 }
 
 entry {
     	placeholder:			"Search";
-		font:                    "Iosevka NF 40";
+		font:                    "Iosevka NF 15";
 		background-color:        #3e3e3e;
     	placeholder-color:              @fg;
     	expand:                         true;
@@ -70,7 +70,7 @@ mainbox {
 
 element {
     orientation:                    vertical;
-    padding:                        2% 2% 2% 2%;
+    padding:                        1% 1% 1% 1%;
 }
 
 element-icon {
@@ -79,7 +79,7 @@ element-icon {
 }
 
 element-text {
-		font:                           "Iosevka NF 25";
+		font:                           "Iosevka NF 15";
     	expand:                         true;
     	horizontal-align:               0.5;
     	vertical-align:                 0.5;
@@ -92,6 +92,7 @@ element-text, element-icon {
 }
 
 element selected {
+	text-color:  #ffffff;
     background-color:               @button;
     border-radius:                  10px;
 }
