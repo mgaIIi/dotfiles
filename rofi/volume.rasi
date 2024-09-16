@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				  "drun";
-	font:				  "Iosevka NF 15";
+	font:				  "JetbrainsMono NF 17";
 	show-icons:           false;
 	icon-theme: 		  "Reversal-dark";
 	display-drun: 		  "";
@@ -23,7 +23,7 @@ configuration {
 
 window {
 	border-radius:      0px;
-	width:			    30%;
+	width:			    35%;
 	padding: 			10px;
 	border:             2px;
 	border-color:       #1793d1;
