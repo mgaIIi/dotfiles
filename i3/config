@@ -1,6 +1,6 @@
 set $mod Mod4
 
-font pango:JetbrainsMono 13
+font pango:JetbrainsMono NF 13
 gaps inner 20
 gaps outer 0
 
@@ -14,7 +14,7 @@ client.placeholder      #1E1E1E #1E1E1E #ffffff #1E1E1E
 
 exec --no-startup-id dex --autostart --environment i3
 
-exec feh --bg-fill ~/.config/i3/wallpapers/arch_wallpapers/Pattern/Original_lighter.png
+exec feh --bg-fill ~/.config/i3/wallpapers/arch_wallpapers/Original/Original_waves.png
 #exec feh --bg-scale ~/.config/i3/wallpapers/spongebob_shoes.jpg
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet

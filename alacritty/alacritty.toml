@@ -3,22 +3,22 @@ import = ["~/.config/alacritty/darkplus.toml"]
 live_config_reload = true
 
 [font]
-size = 15
+size = 11
 
 [font.bold]
-family = "Iosevka NF"
+family = "JetbrainsMono NF"
 style = "Bold"
 
 [font.italic]
-family = "Iosevka NF"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.normal]
-family = "Iosevka NF"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "Iosevka NF"
+family = "JetbrainsMono NF"
 style = "Bold"
 
 [selection]

@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"JetbrainsMono NF 17";
+	font:				"JetbrainsMono NF 14";
 	show-icons:         true;
 	icon-theme: 		"Reversal-dark";
 	display-drun: 		  "";
