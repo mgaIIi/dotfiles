@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"JetbrainsMono NF 14";
+	font:				"Iosevka NF 20";
 	show-icons:         true;
 	icon-theme: 		"Reversal-dark";
 	display-drun: 		  "";
@@ -12,10 +12,10 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #282828;
-	fg:				    #e8e8d3;
+	bg:				    #11111b;
+	fg:				    #1e1e2e;
 	accent:             #687363;
-	button:	            #1793d1;
+	button:	            #1e1e2e;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -23,29 +23,30 @@ configuration {
 
 window {
 	border-radius:      0px;
-	width:			    30%;
+	width:			    40%;
 	padding: 			10px;
 	border:             2px;
-	border-color:       #1793d1;
+	border-color:       #89b4fa;
 }
 
 prompt {
-	background-color:	#3e3e3e;
+	background-color:	#1e1e2e;
 	enabled:			true;
 	padding:			0.5% 32px 0% -0.5%;
 }
 
 entry {
-    placeholder:			"Search";
-	background-color:               #3e3e3e;
-    placeholder-color:              @fg;
+    placeholder:		            "Search";
+	background-color:               #1e1e2e;
+    placeholder-color:              #45475a;
+	text-color:                     #89b4fa;
     expand:                         true;
     padding:                        0.15% 0% 0% 0%;
 }
 
 inputbar {
 	children:			[ prompt, entry ];
-    background-color:               #3e3e3e;
+    background-color:               #1e1e2e;
     expand:                         false;
     border-radius:                  6px;
     margin:                         0%;
@@ -53,7 +54,8 @@ inputbar {
 }
 
 listview {
-    columns:                        3;
+	foreground:                     #cdd6f4;
+	columns:                        3;
     lines:	                        1;
     cycle:                          false;
     dynamic:                        false;
@@ -69,6 +71,7 @@ mainbox {
 element {
     	orientation:                    vertical;
     	padding:                        2% 0% 2% 0%;
+		text-color:                     #cdd6f4;
 }
 
 element-icon {
@@ -89,7 +92,7 @@ element-text, element-icon {
 }
 
 element selected {
-		text-color: #ffffff;
+		text-color: #89b4fa;
     	background-color:               @button;
     	border-radius:                  10px;
 }

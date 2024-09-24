@@ -1,21 +1,20 @@
 set $mod Mod4
 
-font pango:JetbrainsMono NF 13
+font pango:Iosevka NF 16
 gaps inner 20
 gaps outer 0
 
-default_border pixel 2
+default_border pixel 1
 default_floating_border pixel 1
 
-client.focused          #1793d1 #1793d1 #ffffff #1793d1
-client.unfocused        #1E1E1E #1E1E1E #ffffff #1E1E1E
-client.urgent           #1E1E1E #1E1E1E #ffffff #1E1E1E
-client.placeholder      #1E1E1E #1E1E1E #ffffff #1E1E1E
+client.focused          #89b4fa #89b4fa #ffffff #89b4fa
+client.unfocused        #11111b #11111b #ffffff #11111b
+client.urgent           #11111b #11111b #ffffff #11111b
+client.placeholder      #11111b #11111b #ffffff #11111b
 
 exec --no-startup-id dex --autostart --environment i3
 
-exec feh --bg-fill ~/.config/i3/wallpapers/arch_wallpapers/Original/Original_waves.png
-#exec feh --bg-scale ~/.config/i3/wallpapers/spongebob_shoes.jpg
+exec feh --bg-fill ~/.config/i3/wallpapers/mandelbrot_gap.png
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
@@ -30,13 +29,12 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 bindsym XF86MonBrightnessUp exec brightnessctl set +2%
 bindsym XF86MonBrightnessDown exec brightnessctl set 2%-
 
-# Use Mouse+$mod to drag floating windows to their wanted position
+# byndings for volume when connected to another monitor
+bindsym $mod+Shift+n exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym $mod+Shift+m exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+  
 floating_modifier $mod
-
-# move tiling windows via drag & drop by left-clicking into the title bar,
-# or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
-
 bindsym $mod+Return exec alacritty
 bindsym $mod+i  exec firefox
 bindsym $mod+q kill
@@ -120,10 +118,8 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
-# exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -B 'Yes, exit i3' 'i3-msg exit'"
 
-# resize window (you can also use the mouse for that)
 mode "resize" {
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt
@@ -142,14 +138,14 @@ bar {
     position bottom
     
     colors {
-        background #1e1e1e
+        background #11111b
         statusline #ffffff
         separator  #ffffff
 
-        focused_workspace  #1793d1 #1793d1 #ffffff
-        active_workspace   #1e1e1e #1e1e1e #ffffff
-        inactive_workspace #1e1e1e #1e1e1e #ffffff
-        urgent_workspace   #900000 #900000 #ffffff
+        focused_workspace  #89b4fa #89b4fa #FFFFFF
+        active_workspace   #11111b #11111b #FFFFFF
+        inactive_workspace #11111b #11111b #FFFFFF
+        urgent_workspace   #900000 #900000 #575757
     }
 
     tray_output primary

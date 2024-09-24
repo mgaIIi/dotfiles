@@ -1,48 +1,23 @@
 # See dunst(5) for all configuration options
 
 [global]
-    ### Display ###
-
-    # Which monitor should the notifications be displayed on.
     monitor = 0
-
-    # Display notification on focused monitor.  Possible modes are:
-    #   mouse: follow mouse pointer
-    #   keyboard: follow window with keyboard focus
-    #   none: don't follow anything
-    #
-    # "keyboard" needs a window manager that exports the
-    # _NET_ACTIVE_WINDOW property.
-    # This should be the case for almost all modern window managers.
-    #
-    # If this option is set to mouse or keyboard, the monitor option
-    # will be ignored.
     follow = none
 
     ### Geometry ###
-
-    # dynamic width from 0 to 300
-    # width = (0, 300)
-    # constant width of 300
-    width = 300
-
-    # The height of a single notification, excluding the frame.
+    width = (200, 400)
+    # width = 400
     height = 200
 
-    # Position the notification in the top right corner
     origin = top-right
 
-    # Offset from the origin
     offset = 20x20
 
-    # Scale factor. It is auto-detected if value is 0.
     scale = 0
 
-    # Maximum number of notification (0 means no limit)
     notification_limit = 2
 
     ### Progress bar ###
-
     # Turn on the progress bar. It appears when a progress hint is passed with
     # for example dunstify -h int:value:12
     progress_bar = true
@@ -103,13 +78,13 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#64CBFF"
-
+    frame_color = "#575757"
+    
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
     # of size frame_width will be drawn around each notification instead.
     # Click events on gaps do not currently propagate to applications below.
-    gap_size = 5
+    gap_size = 10
 
     # Define a color for the separator.
     # possible values are:
@@ -136,7 +111,7 @@
 
     ### ---------------------------------------------- Text ###
 
-    font = JetbrainsMono NF 10
+    font = JetbrainsMono NF 12
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -297,11 +272,12 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#1E1E1E"
-    foreground = "#64CBFF"
+    background = "#11111b"
+    foreground = "#89b4fa"
+    frame_color = "#89b4fa"
     timeout = 10
     override_pause_level = 30
-    #default_icon = /path/to/icon
+    default_icon = /home/milo/.config/dunst/icons/trex.svg
 
 [urgency_critical]
     background = "#900000"

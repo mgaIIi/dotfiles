@@ -1,17 +1,22 @@
 separator=false
-separator_block_width=25
+separator_block_width=15
 
 [menu]
 full_text="󰣇 "
 command=rofi -modi drun,run -show drun
-color=#ffffff
+color=#89b4fa
+
+[power_menu]
+full_text="⭘ "
+command=sh /home/milo/.config/i3/powermenu.sh
+color=#89b4fa
 
 [battery]
 command=./battery_script
 interval=1
-color=#ffffff
+color=#89b4fa
 
 [time]
-command=date '+%Y-%m-%d %H:%M:%S  '
+command=date +"%I:%M   "
 interval=1
-color=#ffffff
+color=#89b4fa

@@ -1,4 +1,7 @@
-theme = "dark_plus"
+#theme = "ayu_mirage"
+# theme = "dark_plus"
+theme = "catppuccin_mocha"
+# theme = "gruvbox"
 
 [editor]
 mouse = true
@@ -56,6 +59,7 @@ C-c = "normal_mode"
 
 [keys.select]
 "G" = "goto_file_end"
+
 [keys.insert]
 C-c = "normal_mode"
 

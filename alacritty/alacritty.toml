@@ -1,24 +1,24 @@
-import = ["~/.config/alacritty/darkplus.toml"]
+import = ["~/.config/alacritty/catppuccin_mocha.toml"]
 
 live_config_reload = true
 
 [font]
-size = 11
+size = 17
 
 [font.bold]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Bold"
 
 [font.italic]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.normal]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Bold"
 
 [selection]
@@ -31,8 +31,8 @@ dynamic_title = false
 dimensions = {columns = 130, lines = 35}
 
 [window.padding]
-x = 10
-y = 10
+x = 20
+y = 20
 
 [cursor]
 style = "Beam"
