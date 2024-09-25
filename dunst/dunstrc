@@ -78,7 +78,7 @@
     frame_width = 2
 
     # Defines color of the frame around the notification window.
-    frame_color = "#575757"
+    frame_color = "#7fbbb3"
     
     # Size of gap to display between notifications - requires a compositor.
     # If value is greater than 0, separator_height will be ignored and a border
@@ -272,12 +272,11 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#11111b"
-    foreground = "#89b4fa"
-    frame_color = "#89b4fa"
+    background = "#2d353b"
+    foreground = "#d3c6aa"
+    frame_color = "#7fbbb3"
     timeout = 10
     override_pause_level = 30
-    default_icon = /home/milo/.config/dunst/icons/trex.svg
 
 [urgency_critical]
     background = "#900000"

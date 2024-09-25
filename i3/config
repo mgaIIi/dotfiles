@@ -1,20 +1,20 @@
 set $mod Mod4
 
-font pango:Iosevka NF 16
+font pango:Iosevka NF 13
 gaps inner 20
 gaps outer 0
 
 default_border pixel 1
 default_floating_border pixel 1
 
-client.focused          #89b4fa #89b4fa #ffffff #89b4fa
+client.focused          #7fbbb3 #7fbbb3 #ffffff #7fbbb3
 client.unfocused        #11111b #11111b #ffffff #11111b
 client.urgent           #11111b #11111b #ffffff #11111b
 client.placeholder      #11111b #11111b #ffffff #11111b
 
 exec --no-startup-id dex --autostart --environment i3
 
-exec feh --bg-fill ~/.config/i3/wallpapers/mandelbrot_gap.png
+exec feh --bg-fill ~/.config/i3/wallpapers/rwb.png
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
@@ -138,13 +138,13 @@ bar {
     position bottom
     
     colors {
-        background #11111b
+        background #2d353b
         statusline #ffffff
         separator  #ffffff
 
-        focused_workspace  #89b4fa #89b4fa #FFFFFF
-        active_workspace   #11111b #11111b #FFFFFF
-        inactive_workspace #11111b #11111b #FFFFFF
+        focused_workspace  #7fbbb3 #2d353b #7fbbb3
+        active_workspace   #2d353b #2d353b #FFFFFF
+        inactive_workspace #2d353b #2d353b #FFFFFF
         urgent_workspace   #900000 #900000 #575757
     }
 

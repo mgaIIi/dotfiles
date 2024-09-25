@@ -12,10 +12,10 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #11111b;
-	fg:				    #1e1e2e;
+	bg:				    #2d353b;
+	fg:				    #d3c6aa;
 	accent:             #687363;
-	button:	            #1e1e2e;
+	button:	            #dbbc7f;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -24,29 +24,29 @@ configuration {
 window {
 	border-radius:      0px;
 	width:			    40%;
-	padding: 			10px;
-	border:             2px;
-	border-color:       #89b4fa;
+	padding: 			30px;
+	border:             5px;
+	border-color:       #7fbbb3;
 }
 
 prompt {
-	background-color:	#1e1e2e;
+	background-color:	@bg;
 	enabled:			true;
 	padding:			0.5% 32px 0% -0.5%;
 }
 
 entry {
     placeholder:		            "Search";
-	background-color:               #1e1e2e;
-    placeholder-color:              #45475a;
-	text-color:                     #89b4fa;
+	background-color:               @bg;
+    placeholder-color:              @fg;
+	text-color:                     #ffffff;
     expand:                         true;
     padding:                        0.15% 0% 0% 0%;
 }
 
 inputbar {
 	children:			[ prompt, entry ];
-    background-color:               #1e1e2e;
+    background-color:               @bg;
     expand:                         false;
     border-radius:                  6px;
     margin:                         0%;
@@ -54,8 +54,8 @@ inputbar {
 }
 
 listview {
-	foreground:                     #cdd6f4;
-	columns:                        3;
+	foreground:                     #ffffff;
+	columns:                        2;
     lines:	                        1;
     cycle:                          false;
     dynamic:                        false;
@@ -71,7 +71,7 @@ mainbox {
 element {
     	orientation:                    vertical;
     	padding:                        2% 0% 2% 0%;
-		text-color:                     #cdd6f4;
+		text-color:                     #ffffff;
 }
 
 element-icon {
@@ -80,6 +80,7 @@ element-icon {
 }
 
 element-text {
+font: "Iosevka NF 30";
     	expand:                         true;
     	horizontal-align:               0.5;
     	vertical-align:                 0.5;
@@ -87,12 +88,12 @@ element-text {
 }
 
 element-text, element-icon {
-	background-color:		inherit;
+	background-color:	inherit;
 	text-color:			inherit;
 }
 
 element selected {
-		text-color: #89b4fa;
-    	background-color:               @button;
-    	border-radius:                  10px;
+		text-color: #ffffff;
+    	background-color: #a7c080              ;
+    	border-radius:                  100px;
 }

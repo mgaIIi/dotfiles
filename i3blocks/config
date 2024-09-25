@@ -4,19 +4,19 @@ separator_block_width=15
 [menu]
 full_text="󰣇 "
 command=rofi -modi drun,run -show drun
-color=#89b4fa
+color=#ffffff
 
 [power_menu]
 full_text="⭘ "
 command=sh /home/milo/.config/i3/powermenu.sh
-color=#89b4fa
+color=#ffffff
 
 [battery]
 command=./battery_script
 interval=1
-color=#89b4fa
+color=#ffffff
 
 [time]
-command=date +"%I:%M   "
+command=date +"%I:%M "
 interval=1
-color=#89b4fa
+color=#ffffff

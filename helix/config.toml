@@ -1,7 +1,7 @@
 #theme = "ayu_mirage"
-# theme = "dark_plus"
-theme = "catppuccin_mocha"
-# theme = "gruvbox"
+#theme = "dark_plus"
+theme = "everforest_dark"
+# theme = "boo_berry"
 
 [editor]
 mouse = true
