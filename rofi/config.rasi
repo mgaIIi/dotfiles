@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Iosevka NF 20";
+	font:				"Iosevka NF 26";
 	show-icons:         true;
 	icon-theme: 		"Reversal-dark";
 	display-drun: 		  "";
@@ -24,7 +24,7 @@ configuration {
 window {
 	border-radius:      0px;
 	width:			    40%;
-	padding: 			30px;
+	padding: 			10px;
 	border:             5px;
 	border-color:       #7fbbb3;
 }
@@ -80,7 +80,7 @@ element-icon {
 }
 
 element-text {
-font: "Iosevka NF 30";
+font: "Iosevka NF 22";
     	expand:                         true;
     	horizontal-align:               0.5;
     	vertical-align:                 0.5;
@@ -95,5 +95,5 @@ element-text, element-icon {
 element selected {
 		text-color: #ffffff;
     	background-color: #a7c080              ;
-    	border-radius:                  100px;
+    	border-radius:                  10px;
 }

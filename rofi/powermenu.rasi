@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Iosevka NF 20";
+	font:				"Iosevka NF 26";
 	show-icons:         false;
 	icon-theme: 		"Reversal-dark";
 	display-drun: 		  "";
@@ -71,5 +71,5 @@ element-text, element-icon {
 element selected {
 		text-color: #ffffff;
     	background-color: #a7c080              ;
-    	border-radius:                  100px;
+    	border-radius:                  10px;
 }
