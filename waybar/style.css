@@ -1,18 +1,20 @@
 * {
   border: none;
-  font-family: 'Iosevka NF';
-  font-size: 22px;
-  min-height: 45px;
+  font-family: 'JetbrainsMono NF';
+  font-size: 12px;
+  min-height: 5px;
 }
 
 window#waybar {
   background: transparent;
 }
 
-#custom-arch, #workspaces {
-  border-radius: 10px;
-  background-color: #272e33;
-  color: #d3c6aa;
+#custom-arch,
+#workspaces {
+  border: 1px solid #7ebbb3;
+  border-radius: 0px;
+  background-color: #475258;
+  color: #ffffff;
   margin-top: 15px;
   margin-right: 15px;
   padding-top: 1px;
@@ -21,34 +23,55 @@ window#waybar {
 }
 
 #custom-arch {
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 15px;
-  color: #d3c6aa;
+  color: #ffffff;
 }
 
 #workspaces button {
-  background: #272e33;
-  color: #d3c6aa;
+  background-color: #475258;
+  color: #ffffff;
+  border-radius: 0px;
+  box-shadow: none;
+  text-shadow: none;
 }
 
-#clock, #backlight, #pulseaudio, #bluetooth, #network, #battery{
-  border-radius: 10px;
-  background-color: #272e33;
-  color: #d3c6aa;
+#workspaces button:hover {
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  background: none;
+  transition: none;
+}
+
+#clock,
+#backlight,
+#pulseaudio,
+#bluetooth,
+#network,
+#battery {
+  border: 1px solid #7ebbb3;
+  border-radius: 0px;
+  background-color: #475258;
+  color: #ffffff;
   margin-top: 15px;
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 15px;
 }
 
-#backlight, #bluetooth {
+#backlight,
+#bluetooth {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  border-right: 0px;
   padding-right: 5px;
   margin-right: 0
 }
 
-#pulseaudio, #network {
+#pulseaudio,
+#network {
+  border-left: 0px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   padding-left: 5px;

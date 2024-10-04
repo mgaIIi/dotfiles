@@ -4,7 +4,7 @@
     "modules-center": ["clock"],
     "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery"],
     "custom/arch": {
-      "format": "  ",
+      "format": "  󰣇  ",
       "tooltip": false,
       "on-click": "sh $HOME/.config/rofi/bin/powermenu"
     },
@@ -19,20 +19,21 @@
       }
     },
     "clock": {
-      "format": "  {:%H:%M}",
+      "format": "{:%H:%M}",
+      "tooltip": false,
     },
     "backlight": {
       "device": "intel_backlight",
       "format": "{icon} {percent}%",
-      "format-icons": [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+      "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "pulseaudio": {
-      "format": ">{icon} {volume}%",
-      "format-muted": " ",
+      "format": "{icon} {volume}%",
+      "format-muted": "",
       "tooltip": false,
       "format-icons": {
-        "headphone": "  ",
-        "default": ["  ", "  ", "󰕾  ", "󰕾  ", "󰕾  ", "  ", "  ", "  "]
+        "headphone": " ",
+        "default": ["", " ", "󰕾 ", "󰕾 ", "󰕾 ", " ", " ", " "]
       },
       "scroll-step": 1,
     },
@@ -53,8 +54,8 @@
     },
     "battery": {
       "format": "{icon} {capacity}%",
-      "format-icons": ["  ", "  ", "  ", "  " , "  " , "  " , "  ", "  ", "  ", "  "],
-      "format-charging": "   {capacity}%",
+      "format-icons": [" ", " ", " ", " " , " " , " " , " ", " ", " ", " "],
+      "format-charging": "󰠠 {capacity}%",
       "tooltip": false,
     },
 }
