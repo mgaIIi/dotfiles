@@ -4,7 +4,6 @@
     monitor = 0
     follow = none
 
-    ### Geometry ###
     width = (200, 400)
     # width = 600
     height = 400
@@ -195,7 +194,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 0
+    corner_radius = 10
 
     # Define which corners to round when drawing the window. If the corner radius
     # is set to 0 this option will be ignored.
@@ -272,9 +271,9 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#2d353b"
+    background = "#2e2d38"
     foreground = "#ffffff"
-    frame_color = "#7ebbb3"
+    frame_color = "#7e91bb"
     timeout = 10
     override_pause_level = 30
 

@@ -1,5 +1,5 @@
-import = ["~/.config/alacritty/everforest.toml"]
-# import = ["~/.config/alacritty/darkplus.toml"]
+#import = ["~/.config/alacritty/everforest.toml"]
+import = ["~/.config/alacritty/darkplus.toml"]
 
 live_config_reload = true
 
