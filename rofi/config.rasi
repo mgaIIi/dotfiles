@@ -12,17 +12,17 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #2e2d38;
+	bg:				    #191724;
 	fg:				    #f0f3f6;
-	accent:             #7e91bb;
-	button:	            #7e91bb;
+	accent:             #f6c177;
+	button:	            #f6c177;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      10px;
 	width:			    30%;
 	padding: 			10px;
 	border:             1px;
@@ -95,6 +95,6 @@ element selected {
 		text-color: @fg;
 		border: 1px;
 		border-color: @button;
-    	background-color: @bg;
-    	border-radius:                  0px;
+    	background-color: @button;
+    	border-radius:                  10px;
 }

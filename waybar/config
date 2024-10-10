@@ -1,61 +1,62 @@
 {
+  "position": "bottom",
   "layer": "top",
-    "modules-left": ["custom/arch", "hyprland/workspaces"],
-    "modules-center": ["clock"],
-    "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery"],
-    "custom/arch": {
-      "format": "  󰣇  ",
-      "tooltip": false,
-      "on-click": "sh $HOME/.config/rofi/bin/powermenu"
+  "modules-left": ["custom/arch"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery","clock" ],
+  "custom/arch": {
+    "format": "  󰣇  ",
+    "tooltip": false,
+    "on-click": "sh $HOME/.config/rofi/bin/powermenu"
+  },
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "format": "{icon}",
+    "tooltip": false,
+    "all-outputs": true,
+    "format-icons": {
+      "active": " ",
+      "default": " "
+    }
+  },
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip": false,
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "",
+    "tooltip": false,
+    "format-icons": {
+      "headphone": " ",
+      "default": ["", " ", "󰕾 ", "󰕾 ", "󰕾 ", " ", " ", " "]
     },
-    "hyprland/workspaces": {
-      "format": "{name}",
-      "format": "{icon}",
-      "tooltip": false,
-      "all-outputs": true,
-      "format-icons": {
-        "active": " ",
-        "default": " "
-      }
-    },
-    "clock": {
-      "format": "{:%H:%M}",
-      "tooltip": false,
-    },
-    "backlight": {
-      "device": "intel_backlight",
-      "format": "{icon} {percent}%",
-      "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
-    "pulseaudio": {
-      "format": "{icon} {volume}%",
-      "format-muted": "",
-      "tooltip": false,
-      "format-icons": {
-        "headphone": " ",
-        "default": ["", " ", "󰕾 ", "󰕾 ", "󰕾 ", " ", " ", " "]
-      },
-      "scroll-step": 1,
-    },
-    "bluetooth": {
-      "format": " {status}",
-      "format-disabled": "", // an empty format will hide the module
-      "format-connected": " {num_connections}",
-      "tooltip-format": "{device_enumerate}",
-      "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
-    },
-    "network": {
-      "interface": "wlan0",
-      "format": "{ifname}",
-      "format-wifi": "  {essid}",
-      "format-ethernet": "{ipaddr}/{cidr}   ",
-      "format-disconnected": "󰖪  No Network",
-      "tooltip": false,
-    },
-    "battery": {
-      "format": "{icon} {capacity}%",
-      "format-icons": [" ", " ", " ", " " , " " , " " , " ", " ", " ", " "],
-      "format-charging": "󰠠 {capacity}%",
-      "tooltip": false,
-    },
+    "scroll-step": 1,
+  },
+  "bluetooth": {
+    "format": " {status}",
+    "format-disabled": "", // an empty format will hide the module
+    "format-connected": " {num_connections}",
+    "tooltip-format": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
+  },
+  "network": {
+    "interface": "wlan0",
+    "format": "{ifname}",
+    "format-wifi": "  {essid}",
+    "format-ethernet": "{ipaddr}/{cidr}   ",
+    "format-disconnected": "󰖪  No Network",
+    "tooltip": false,
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": [" ", " ", " ", " " , " " , " " , " ", " ", " ", " "],
+    "format-charging": "󰠠 {capacity}%",
+    "tooltip": false,
+  },
 }

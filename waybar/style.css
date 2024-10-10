@@ -1,8 +1,9 @@
 * {
   border: none;
   font-family: 'JetbrainsMono NF';
-  font-size: 12px;
+  font-size: 11px;
   min-height: 5px;
+  margin-bottom: 1px;
 }
 
 window#waybar {
@@ -15,16 +16,15 @@ window#waybar {
   /* background-color: #000000; */
   background: transparent;
   color: #ffffff;
-  margin-top: 15px;
-  margin-right: 15px;
+  /* margin-top: 15px; */
+  /* margin-right: 15px; */
   padding-top: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
 }
 
 #custom-arch {
-  font-size: 16px;
-  margin-left: 15px;
+  margin-left: 5px;
   color: #ffffff;
 }
 
@@ -55,10 +55,10 @@ window#waybar {
   /* background-color: #000000; */
   background: transparent;
   color: #ffffff;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   padding-left: 10px;
   padding-right: 10px;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 #backlight,
@@ -79,5 +79,5 @@ window#waybar {
 }
 
 #clock {
-  margin-right: 0;
+  margin-right: 5px;
 }

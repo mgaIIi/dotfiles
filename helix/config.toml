@@ -1,7 +1,7 @@
 #theme = "everforest_dark"
-theme = "dark_plus"
+#theme = "dark_plus"
 #theme = "catppuccin_mocha"
-# theme = "boo_berry"
+theme = "rose_pine"
 
 [editor]
 mouse = true
