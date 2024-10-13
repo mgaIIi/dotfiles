@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"JetbrainsMono NF 10";
+	font:				"JetbrainsMono NF 8";
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -14,17 +14,17 @@ configuration {
 * {
 	bg:				    #191724;
 	fg:				    #f0f3f6;
-	accent:             #f6c177;
-	button:	            #f6c177;
+	accent:             #c4a7e7;
+	button:	            #c4a7e7;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      10px;
+	border-radius:      0px;
 	width:			    30%;
-	padding: 			10px;
+	padding: 			0px;
 	border:             1px;
 	border-color:       @button;
 }
@@ -48,53 +48,53 @@ inputbar {
 	children:			[ prompt, entry ];
     background-color:               @bg;
     expand:                         false;
-    border-radius:                  6px;
+    border-radius:                  0px;
     margin:                         0%;
-    padding:                        0px;
+    padding:                        10px;
 }
 
 listview {
 	foreground:                     #ffffff;
-	columns:                        2;
-    lines:	                        1;
-    cycle:                          false;
-    dynamic:                        false;
+	columns:                        1;
+    lines:	                        3;
+    cycle:                          true;
+    dynamic:                        true;
     layout:                         vertical;
 }
 
 mainbox {
     	children:                       [ inputbar, listview ];
-    	spacing:                       	2%;
-    	padding:                        2% 1% 2% 1%;
+    	spacing:                       	0%;
+    	padding:                        0% 0% 0% 0%;
 }
 
 element {
-    	orientation:                    vertical;
-    	padding:                        2% 0% 2% 0%;
+    	orientation:                    horizontal;
+    	padding:                        1% 1% 1% 1%;
 		text-color:                     #ffffff;
 }
 
 element-icon {
-    	size:                           30px;
+    	size:                           20px;
     	horizontal-align:	 	0.5;
 }
 
 element-text {
-    	expand:                         true;
-    	horizontal-align:               0.5;
-    	vertical-align:                 0.5;
-    	margin:                         0.5% 0.5% -0.5% 0.5%;
+		text-color: @button;
+		expand:                         true;
+		horizontal-align:               0;
+    	vertical-align:                 0;
+    	margin:                         0.3% 0% 0% 0.5%;
 }
 
 element-text, element-icon {
 	background-color:	inherit;
-	text-color:			inherit;
+	text-color: inherit;
 }
 
 element selected {
-		text-color: @fg;
-		border: 1px;
-		border-color: @button;
+		// border: 1px;
+		// border-color: @button;
     	background-color: @button;
-    	border-radius:                  10px;
+    	border-radius:                  0px;
 }
