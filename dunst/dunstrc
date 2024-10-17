@@ -10,7 +10,7 @@
 
     origin = top-right
 
-    offset = 15x15
+    offset = 10x10
 
     scale = 0
 
@@ -74,7 +74,7 @@
 
     # Defines width in pixels of frame around the notification window.
     # Set to 0 to disable.
-    frame_width = 2
+    frame_width = 1
 
     # Defines color of the frame around the notification window.
     frame_color = "#7fbbb3"
@@ -110,7 +110,7 @@
 
     ### ---------------------------------------------- Text ###
 
-    font = JetbrainsMono NF 9
+    font = JetbrainsMono NF 7
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -194,7 +194,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 10
+    corner_radius = 0
 
     # Define which corners to round when drawing the window. If the corner radius
     # is set to 0 this option will be ignored.
@@ -264,16 +264,16 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#222222"
+    background = "#"
     foreground = "#888888"
     timeout = 10
     # Icon for notifications with low urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#2e2d38"
+    background = "#232136"
     foreground = "#ffffff"
-    frame_color = "#7e91bb"
+    frame_color = "#9ccfd8"
     timeout = 10
     override_pause_level = 30
 

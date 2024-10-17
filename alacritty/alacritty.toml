@@ -1,5 +1,6 @@
 #import = ["~/.config/alacritty/everforest.toml"]
 import = ["~/.config/alacritty/rosepine.toml"]
+# import = ["~/.config/alacritty/darkplus.toml"]
 
 live_config_reload = true
 
@@ -30,6 +31,7 @@ decorations = "Full"
 dynamic_padding = false
 dynamic_title = false
 dimensions = {columns = 130, lines = 35}
+# opacity = 0.9
 
 [window.padding]
 x = 10

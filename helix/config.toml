@@ -1,6 +1,3 @@
-#theme = "everforest_dark"
-#theme = "dark_plus"
-#theme = "catppuccin_mocha"
 theme = "rose_pine"
 
 [editor]
