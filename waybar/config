@@ -5,7 +5,7 @@
   "modules-center": ["hyprland/workspaces"],
   "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery","clock" ],
   "custom/arch": {
-    "format": "  󰣇  ",
+    "format": "  ",
     "tooltip": false,
     "on-click": "sh $HOME/.config/rofi/bin/powermenu"
   },
@@ -15,8 +15,8 @@
     "tooltip": false,
     "all-outputs": true,
     "format-icons": {
-      "active": " ",
-      "default": " "
+      "active": "󰝤",
+      "default": " "
     }
   },
   "clock": {
@@ -54,6 +54,7 @@
     "tooltip": false,
   },
   "battery": {
+    "interval": 5,
     "format": "{icon} {capacity}%",
     "format-icons": [" ", " ", " ", " " , " " , " " , " ", " ", " ", " "],
     "format-charging": "󰠠 {capacity}%",

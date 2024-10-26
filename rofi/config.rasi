@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"JetbrainsMono NF 8";
+	font:				"Jetbrains Mono NF 10";
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -12,10 +12,10 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #191724;
-	fg:				    #f0f3f6;
-	accent:             #c4a7e7;
-	button:	            #c4a7e7;
+	bg:				    #232230;
+	fg:				    #ffffff;
+	accent:             #7e91bb;
+	button:	            #7e91bb;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -94,8 +94,7 @@ element-text, element-icon {
 }
 
 element selected {
-		// border: 1px;
-		// border-color: @button;
-    	background-color: @button;
+		text-color: @bg;
+    	background-color: #83ff33;
     	border-radius:                  0px;
 }

@@ -1,15 +1,9 @@
-#import = ["~/.config/alacritty/everforest.toml"]
-import = ["~/.config/alacritty/rosepine.toml"]
-# import = ["~/.config/alacritty/darkplus.toml"]
-
-live_config_reload = true
-
 [font]
 size = 10
 
 [font.bold]
 family = "JetbrainsMono NF"
-style = "Bold"
+style = "Regular"
 
 [font.italic]
 family = "JetbrainsMono NF"
@@ -21,7 +15,7 @@ style = "Regular"
 
 [font.bold_italic]
 family = "JetbrainsMono NF"
-style = "Bold"
+style = "Regular"
 
 [selection]
 save_to_clipboard = true
@@ -34,8 +28,8 @@ dimensions = {columns = 130, lines = 35}
 # opacity = 0.9
 
 [window.padding]
-x = 10
-y = 10
+x = 20
+y = 20
 
 [cursor]
 style = "Beam"
@@ -47,3 +41,7 @@ bindings = [
   { key = "v", mods = "Alt", action = "Paste"},
   { key = "c", mods = "Alt", action = "Copy"},
 ]
+
+[general]
+live_config_reload = true
+import = ["~/.config/alacritty/tokyo.toml"]
