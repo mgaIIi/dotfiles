@@ -1,20 +1,20 @@
 [font]
-size = 10
+size = 8
 
 [font.bold]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.italic]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.normal]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "JetbrainsMono NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [selection]
@@ -28,13 +28,13 @@ dimensions = {columns = 130, lines = 35}
 # opacity = 0.9
 
 [window.padding]
-x = 20
-y = 20
+x = 10
+y = 10
 
 [cursor]
 style = "Beam"
 unfocused_hollow = false
-thickness = 0.2
+thickness = 0.1
 
 [keyboard]
 bindings = [

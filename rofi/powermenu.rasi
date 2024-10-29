@@ -1,7 +1,7 @@
 
 configuration {
 	modi:"drun";
-	font:"Jetbrains Mono NF 10";
+	font:"Iosevka NF 8";
 	show-icons: false;
 	icon-theme: "Tela-circle";
 	display-drun: "";
@@ -14,8 +14,8 @@ configuration {
 * {
 	bg:				    #232230;
 	fg:				    #ffffff;
-	accent:             #7e91bb;
-	button:	            #7e91bb;
+	accent:             #acc7ff;
+	button:	            #acc7ff;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -32,7 +32,7 @@ window {
 listview {
 	foreground:                     #ffffff;
 	columns:                        1;
-    lines:	                        4;
+    lines:	                        3;
     cycle:                          false;
     dynamic:                        false;
     layout:                         vertical;
@@ -71,6 +71,6 @@ element selected {
 	text-color: @bg;
 		// border: 1px;
 		// border-color: @button;
-    	background-color: #83ff33;
+    	background-color: @button;
     	border-radius:                  0px;
 }
