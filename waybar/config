@@ -5,7 +5,7 @@
   "modules-center": ["hyprland/workspaces"],
   "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery","clock" ],
   "custom/arch": {
-    "format": "   ",
+    "format": " ",
     "tooltip": false,
     "on-click": "sh $HOME/.config/rofi/bin/powermenu"
   },
@@ -34,16 +34,16 @@
     "tooltip": false,
     "format-icons": {
       "headphone": " ",
-      "default": ["", " ", "󰕾 ", "󰕾 ", "󰕾 ", " ", " ", " "]
+      "default": ["", "", "󰕾", "󰕾", "󰕾", "", "", ""]
     },
     "scroll-step": 1,
   },
   "bluetooth": {
     "format": " {status}",
-    "format-disabled": "", // an empty format will hide the module
+    "format-disabled": "󰂲 bt disabled",
     "format-connected": " {num_connections}",
     "tooltip-format": "{device_enumerate}",
-    "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
+    "tooltip-format-enumerate-connected": "{device_alias} {device_address}"
   },
   "network": {
     "interface": "wlan0",
