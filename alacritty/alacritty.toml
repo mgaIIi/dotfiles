@@ -1,20 +1,21 @@
 [font]
-size = 8
+size = 13
+
 
 [font.bold]
-family = "Iosevka NF"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.italic]
-family = "Iosevka NF"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.normal]
-family = "Iosevka NF"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.bold_italic]
-family = "Iosevka NF"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [selection]

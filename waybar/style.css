@@ -1,9 +1,10 @@
 * {
   border: none;
-  font-family: 'Iosevka NF';
+  font-family: 'Agave Nerd Font';
   font-size: 11px;
-  color: #BFC5FF;
-  background: transparent;
+  color: #ffffff;
+  background: #1a1b26;
+  /* background: transparent; */
 }
 
 window#waybar {
