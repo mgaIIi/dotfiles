@@ -15,8 +15,8 @@
     "tooltip": false,
     "all-outputs": true,
     "format-icons": {
-      "active": "󰝤",
-      "default": " "
+      "active": "",
+      "default": ""
     }
   },
   "clock": {

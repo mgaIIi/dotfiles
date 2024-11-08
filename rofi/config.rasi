@@ -14,38 +14,32 @@ configuration {
 * {
 	bg:				    #232230;
 	fg:				    #ffffff;
-	accent:             #FF5E8E;
-	button:	            #FF5E8E;
+	accent:             #8DC6FF;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
-	width:			    18%;
-	padding: 			0px;
+	border-radius:      10px;
+	width:			    90%;
+	height:             90%;
+	padding: 			10px;
 	border:             1px;
-	border-color:       @button;
-}
-
-prompt {
-	background-color:	@bg;
-	enabled:			true;
-	padding:			0% 0% 0% 0%;
+	border-color:       @accent;
 }
 
 entry {
     placeholder:		            "Search";
 	background-color:               @bg;
-    placeholder-color:              @fg;
+    placeholder-color:              #aaaaaa;
 	text-color:                     #ffffff;
     expand:                         true;
     padding:                        0% 0% 0% 0%;
 }
 
 inputbar {
-	children:			[ prompt, entry ];
+	children:			            [ entry ];
     background-color:               @bg;
     expand:                         false;
     border-radius:                  0px;
@@ -81,7 +75,7 @@ element-icon {
 }
 
 element-text {
-		text-color: @button;
+		text-color: @accent;
 		expand:                         true;
 		horizontal-align:               0;
     	vertical-align:                 0;
@@ -94,7 +88,7 @@ element-text, element-icon {
 }
 
 element selected {
-		text-color: @fg;
-    	background-color: @button;
-    	border-radius:                  0px;
+		text-color: @bg;
+    	background-color: @accent;
+    	border-radius: 7px;
 }

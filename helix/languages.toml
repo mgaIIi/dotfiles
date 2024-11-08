@@ -334,6 +334,8 @@ source = { git = "https://github.com/yusdacra/tree-sitter-protobuf", rev = "19c2
 
 [[language]]
 name = "elixir"
+formatter = { command = "mix format"}
+auto-format = true
 scope = "source.elixir"
 injection-regex = "(elixir|ex)"
 file-types = ["ex", "exs", { glob = "mix.lock" }]

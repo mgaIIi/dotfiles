@@ -1,7 +1,7 @@
 * {
   border: none;
   font-family: 'Agave Nerd Font';
-  font-size: 11px;
+  font-size: 9px;
   color: #ffffff;
   background: #1a1b26;
   /* background: transparent; */
@@ -13,17 +13,23 @@ window#waybar {
 
 #custom-arch,
 #workspaces {
-  /* margin-bottom: 10px; */
+  background: #1a1b26;
+  border-radius: 10px;
 }
 
 #custom-arch {
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 10px;
 }
 
+#workspaces {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #workspaces button {
-  /* background-color: inherit; */
   background: transparent;
-  border-radius: 0px;
   box-shadow: none;
   text-shadow: none;
 }
@@ -42,8 +48,8 @@ window#waybar {
 #bluetooth,
 #network,
 #battery {
+  background: #1a1b26;
   border-radius: 10px;
-  /* margin-bottom: 10px; */
   padding-left: 10px;
   padding-right: 10px;
   margin-right: 10px;
@@ -51,11 +57,10 @@ window#waybar {
 
 #backlight,
 #bluetooth {
+  padding-right: 5px;
+  margin-right: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-right: 0px;
-  padding-right: 5px;
-  margin-right: 0
 }
 
 #pulseaudio,

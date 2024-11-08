@@ -1,6 +1,5 @@
 [font]
-size = 13
-
+size = 10
 
 [font.bold]
 family = "Agave Nerd Font"
@@ -18,6 +17,22 @@ style = "Regular"
 family = "Agave Nerd Font"
 style = "Regular"
 
+# [font.bold]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.italic]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.normal]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Iosevka NF"
+# style = "Regular"
+
 [selection]
 save_to_clipboard = true
 
@@ -29,8 +44,8 @@ dimensions = {columns = 130, lines = 35}
 # opacity = 0.9
 
 [window.padding]
-x = 10
-y = 10
+x = 15
+y = 15
 
 [cursor]
 style = "Beam"
