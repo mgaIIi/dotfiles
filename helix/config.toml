@@ -11,7 +11,7 @@ line-number = "relative"
 scrolloff = 999
 
 [editor.soft-wrap]
-enable = false
+enable = true
 
 [editor.cursor-shape]
 insert = "bar"

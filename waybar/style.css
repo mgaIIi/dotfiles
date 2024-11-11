@@ -1,8 +1,8 @@
 * {
   border: none;
   font-family: 'Agave Nerd Font';
-  font-size: 9px;
-  color: #ffffff;
+  font-size: 10px;
+  color: #a8c9ff;
   background: #1a1b26;
   /* background: transparent; */
 }
@@ -13,7 +13,6 @@ window#waybar {
 
 #custom-arch,
 #workspaces {
-  background: #1a1b26;
   border-radius: 10px;
 }
 
@@ -29,7 +28,6 @@ window#waybar {
 }
 
 #workspaces button {
-  background: transparent;
   box-shadow: none;
   text-shadow: none;
 }
@@ -48,7 +46,6 @@ window#waybar {
 #bluetooth,
 #network,
 #battery {
-  background: #1a1b26;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;

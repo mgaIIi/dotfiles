@@ -12,7 +12,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #232230;
+	bg:				    #161721;
 	fg:				    #ffffff;
 	accent:             #8DC6FF;
 	background-color:   @bg;
@@ -21,9 +21,9 @@ configuration {
 
 
 window {
-	border-radius:      10px;
-	width:			    90%;
-	height:             90%;
+	border-radius:      0px;
+	width:			    100%;
+	height:             100%;
 	padding: 			10px;
 	border:             1px;
 	border-color:       @accent;
@@ -90,5 +90,5 @@ element-text, element-icon {
 element selected {
 		text-color: @bg;
     	background-color: @accent;
-    	border-radius: 7px;
+    	border-radius: 0px;
 }

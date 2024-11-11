@@ -13,7 +13,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #232230;
+	bg:				    #161721;
 	fg:				    #ffffff;
 	accent:             #FF5E8E;
 	button:	            #FF5E8E;
@@ -23,8 +23,8 @@ configuration {
 
 
 window {
-	border-radius:      5px;
-	width:			    10%;
+	border-radius:      0px;
+	width:			    100%;
 	padding: 			0px;
 	border:             1px;
 	border-color:       @button;
