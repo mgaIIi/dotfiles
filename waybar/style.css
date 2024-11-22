@@ -1,33 +1,27 @@
 * {
+  margin: 0;
+  padding: 0;
   border: none;
   font-family: 'Agave Nerd Font';
-  font-size: 10px;
-  color: #a8c9ff;
-  background: #1a1b26;
-  /* background: transparent; */
-}
-
-window#waybar {
+  font-size: 11px;
+  color: #000000;
   background: transparent;
 }
 
-#custom-arch,
-#workspaces {
-  border-radius: 10px;
-}
+
+#workspaces {}
 
 #custom-arch {
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-left: 10px;
+  margin-left: 10;
 }
 
 #workspaces {
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 10;
 }
 
 #workspaces button {
+  margin-left: 5;
+  margin-right: 5;
   box-shadow: none;
   text-shadow: none;
 }
@@ -40,34 +34,33 @@ window#waybar {
   transition: none;
 }
 
-#clock,
 #backlight,
 #pulseaudio,
 #bluetooth,
 #network,
 #battery {
-  border-radius: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-right: 10px;
+  border-radius: 5;
+  padding-left: 5;
+  padding-right: 5;
+  margin-right: 5;
+}
+
+#clock {
+  margin-right: 10;
 }
 
 #backlight,
 #bluetooth {
-  padding-right: 5px;
-  margin-right: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  /* padding-right: 5px; */
+  /* margin-right: 0; */
+  /* border-top-right-radius: 0; */
+  /* border-bottom-right-radius: 0; */
 }
 
 #pulseaudio,
 #network {
-  border-left: 0px;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding-left: 5px;
-}
-
-#clock {
-  margin-right: 10px;
+  /* border-left: 0px; */
+  /* border-top-left-radius: 0; */
+  /* border-bottom-left-radius: 0; */
+  /* padding-left: 5px; */
 }

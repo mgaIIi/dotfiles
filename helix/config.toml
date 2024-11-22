@@ -1,5 +1,4 @@
-theme = "tokyonight"
-
+theme = "gruvbox_dark_hard"
 [editor]
 mouse = true
 auto-save = true
@@ -42,7 +41,6 @@ hidden = false
 [keys.normal]
 p = "paste_clipboard_before"
 y = "yank_main_selection_to_clipboard"
-"C-s" = ":w!"
 C-c = "normal_mode"
 "A-h" = "goto_previous_buffer"
 "A-l" = "goto_next_buffer"

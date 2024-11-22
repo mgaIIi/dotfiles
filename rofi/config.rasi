@@ -12,9 +12,9 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #161721;
+	bg:				    #1d2021;
 	fg:				    #ffffff;
-	accent:             #8DC6FF;
+	accent:             #83a598;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -25,7 +25,7 @@ window {
 	width:			    100%;
 	height:             100%;
 	padding: 			10px;
-	border:             1px;
+	border:             0px;
 	border-color:       @accent;
 }
 

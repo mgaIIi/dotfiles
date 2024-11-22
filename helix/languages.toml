@@ -829,6 +829,7 @@ command = "ruff-lsp"
 
 [[language]]
 name = "python"
+formatter = { command = "ruff format"}
 auto-format = true
 scope = "source.python"
 injection-regex = "py(thon)?"
@@ -837,8 +838,8 @@ shebangs = ["python"]
 roots = ["pyproject.toml", "setup.py", "poetry.lock", "pyrightconfig.json"]
 comment-token = "#"
 language-servers = [ "ruff" ]
-# TODO: pyls needs utf-8 offsets
 indent = { tab-width = 6, unit = "    " }
+
 
 [[grammar]]
 name = "python"

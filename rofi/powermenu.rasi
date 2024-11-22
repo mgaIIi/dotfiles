@@ -13,21 +13,20 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #161721;
+	bg:				    #1d2021;
 	fg:				    #ffffff;
-	accent:             #FF5E8E;
-	button:	            #FF5E8E;
+	accent:	            #d3869b;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
-	width:			    100%;
+	border-radius:      6px;
+	width:			    20%;
 	padding: 			0px;
 	border:             1px;
-	border-color:       @button;
+	border-color:       @accent;
 }
 
 
@@ -52,7 +51,7 @@ element {
 }
 
 element-text {
-		text-color: @button;
+		text-color: @accent;
 		expand:                         true;
 		horizontal-align:               0.5;
     	vertical-align:                 0.5;
@@ -66,6 +65,6 @@ element-text, element-icon {
 
 element selected {
 		text-color: @fg;
-    	background-color: @button;
+    	background-color: @accent;
     	border-radius:                  0px;
 }

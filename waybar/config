@@ -1,5 +1,5 @@
 {
-  "position": "bottom",
+  "position": "top",
   "layer": "top",
   "modules-left": ["custom/arch", "hyprland/workspaces"],
   "modules-center": [],
