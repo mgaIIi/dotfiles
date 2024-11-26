@@ -2,7 +2,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 10";
+	font:				"Agave Nerd Font 20";
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";

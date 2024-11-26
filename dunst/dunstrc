@@ -1,12 +1,12 @@
 [global]
     monitor = 0
     follow = none
-    width = (200, 400)
-    height = 400
-    origin = top-right
+    width = (200, 600)
+    height = 800
+    origin = top-center
     offset = 10x10
     scale = 0
-    notification_limit = 2
+    notification_limit = 1
 
     progress_bar = true
     progress_bar_height = 10
@@ -22,15 +22,15 @@
     transparency = 0
     separator_height = 2
     padding = 10
-    horizontal_padding = 10
-    text_icon_padding = 5
-    frame_width = 1
-    frame_color = "#569cd6"
+    horizontal_padding = 30
+    text_icon_padding = 20
+    frame_width = 3
+    frame_color = "#8ec07c"
     
     gap_size = 10
     separator_color = frame
     sort = yes
-    font = Agave Nerd Font 8
+    font = Agave Nerd Font 18
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -48,8 +48,8 @@
     enable_recursive_icon_lookup = true
     icon_theme = Tela-circle
     icon_position = left
-    min_icon_size = 20
-    max_icon_size = 20
+    min_icon_size = 40
+    max_icon_size = 40
     icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
 
     ### History ###
@@ -59,11 +59,11 @@
     ### Misc/Advanced ###
 
     dmenu = /usr/bin/dmenu -p dunst:
-    browser = /usr/bin/xdg-open
+    browser = /usr/bin/firefox
     always_run_script = true
     title = Dunst
     class = Dunst
-    corner_radius = 0
+    corner_radius = 20
     corners = all
     ignore_dbusclose = false
     force_xwayland = false
@@ -74,16 +74,15 @@
 [experimental]
     per_monitor_dpi = false
 
-
 [urgency_low]
-    background = "#"
+    background = "#1d2021"
     foreground = "#888888"
     timeout = 10
 
 [urgency_normal]
-    background = "#1a1b26"
+    background = "#1d2021"
     foreground = "#ffffff"
-    frame_color = "#acc7ff"
+    frame_color = "#8ec07c"
     timeout = 10
     override_pause_level = 30
 
