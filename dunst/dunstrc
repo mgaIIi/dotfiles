@@ -80,9 +80,9 @@
     timeout = 10
 
 [urgency_normal]
-    background = "#1d2021"
+    background = "#282a36"
     foreground = "#ffffff"
-    frame_color = "#8ec07c"
+    frame_color = "#21222c"
     timeout = 10
     override_pause_level = 30
 

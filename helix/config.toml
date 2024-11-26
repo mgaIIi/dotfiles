@@ -1,4 +1,4 @@
-theme = "gruvbox_dark_hard"
+theme = "dracula"
 [editor]
 mouse = true
 auto-save = true

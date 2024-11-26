@@ -1,7 +1,7 @@
 
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/gruvbox.toml"]
+import = ["~/.config/alacritty/dracula.toml"]
 
 [font]
 size = 18
@@ -22,22 +22,6 @@ style = "Regular"
 family = "Agave Nerd Font"
 style = "Regular"
 
-# [font.bold]
-# family = "Iosevka NF"
-# style = "Regular"
-
-# [font.italic]
-# family = "Iosevka NF"
-# style = "Regular"
-
-# [font.normal]
-# family = "Iosevka NF"
-# style = "Regular"
-
-# [font.bold_italic]
-# family = "Iosevka NF"
-# style = "Regular"
-
 [selection]
 save_to_clipboard = true
 
@@ -49,8 +33,8 @@ dimensions = {columns = 130, lines = 35}
 # opacity = 0.9
 
 [window.padding]
-x = 15
-y = 15
+x = 25
+y = 25
 
 [cursor]
 style = "Beam"
