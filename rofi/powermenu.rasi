@@ -13,16 +13,16 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #282a36;
+	bg:				    #1a1b26;
 	fg:				    #ffffff;
-	accent:             #bd93f9;
+	accent:             #F54B4B;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      6px;
+	border-radius:      20px;
 	width:			    20%;
 	padding: 			0px;
 	border:             1px;

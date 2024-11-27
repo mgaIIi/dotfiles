@@ -1,7 +1,7 @@
 
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/dracula.toml"]
+import = ["~/.config/alacritty/tokyo.toml"]
 
 [font]
 size = 18
