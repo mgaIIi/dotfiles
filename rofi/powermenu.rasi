@@ -2,7 +2,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 20";
+	font:				"Agave Nerd Font 16";
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -22,10 +22,10 @@ configuration {
 
 
 window {
-	border-radius:      20px;
+	border-radius:      0px;
 	width:			    20%;
 	padding: 			0px;
-	border:             1px;
+	border:             3px;
 	border-color:       @accent;
 }
 
@@ -64,7 +64,7 @@ element-text, element-icon {
 }
 
 element selected {
-		text-color: @fg;
+		text-color: @bg;
     	background-color: @accent;
     	border-radius:                  0px;
 }
