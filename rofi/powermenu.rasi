@@ -15,14 +15,14 @@ configuration {
 * {
 	bg:				    #1a1b26;
 	fg:				    #ffffff;
-	accent:             #F54B4B;
+	accent:             #F0576E;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      20px;
 	width:			    20%;
 	padding: 			0px;
 	border:             3px;
