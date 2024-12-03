@@ -5,7 +5,8 @@
   font-family: 'Agave Nerd Font';
   font-size: 22px;
   color: #f8f8f2;
-  background: transparent;
+  background: #1a1b26;
+  /* background: transparent; */
 }
 
 #custom-arch {
