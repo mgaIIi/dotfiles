@@ -1,7 +1,7 @@
 [global]
     monitor = 0
     follow = none
-    width = (200, 600)
+    width = (200, 1000)
     height = 800
     origin = top-center
     offset = 10x10
@@ -24,13 +24,13 @@
     padding = 10
     horizontal_padding = 30
     text_icon_padding = 20
-    frame_width = 3
+    frame_width = 2
     frame_color = "#8ec07c"
     
     gap_size = 10
     separator_color = frame
     sort = yes
-    font = Agave Nerd Font 18
+    font = Agave Nerd Font 20
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -80,9 +80,9 @@
     timeout = 10
 
 [urgency_normal]
-    background = "#282a36"
+    background = "#1a1b26"
     foreground = "#ffffff"
-    frame_color = "#21222c"
+    frame_color = "#9ece6a"
     timeout = 10
     override_pause_level = 30
 
