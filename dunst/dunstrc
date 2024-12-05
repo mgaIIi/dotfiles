@@ -4,7 +4,7 @@
     width = (200, 1000)
     height = 800
     origin = top-center
-    offset = 10x10
+    offset = 50x50
     scale = 0
     notification_limit = 1
 
@@ -21,7 +21,7 @@
     indicate_hidden = yes
     transparency = 0
     separator_height = 2
-    padding = 10
+    padding = 20
     horizontal_padding = 30
     text_icon_padding = 20
     frame_width = 2
@@ -63,7 +63,7 @@
     always_run_script = true
     title = Dunst
     class = Dunst
-    corner_radius = 20
+    corner_radius = 100
     corners = all
     ignore_dbusclose = false
     force_xwayland = false
@@ -82,7 +82,7 @@
 [urgency_normal]
     background = "#1a1b26"
     foreground = "#ffffff"
-    frame_color = "#9ece6a"
+    frame_color = "#cde0ff"
     timeout = 10
     override_pause_level = 30
 
