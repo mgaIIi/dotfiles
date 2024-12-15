@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 16";
+	font:				"JetbrainsMono NF 16";
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -12,6 +12,12 @@ configuration {
 @theme "/dev/null"
 
 * {
+	// GRUV
+	// bg:				    #1e1e1e;
+	// fg:				    #ffffff;
+	// accent:             #aaaaff;
+
+	// TOKYO
 	bg:				    #1a1b26;
 	fg:				    #ffffff;
 	accent:             #af92d2;

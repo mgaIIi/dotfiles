@@ -2,7 +2,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 16";
+	font:				"JetbrainsMono NF 16";
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -15,15 +15,15 @@ configuration {
 * {
 	bg:				    #1a1b26;
 	fg:				    #ffffff;
-	accent:             #F0576E;
+	accent:             #af92d2;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      20px;
-	width:			    20%;
+	border-radius:      10px;
+	width:			    10%;
 	padding: 			0px;
 	border:             3px;
 	border-color:       @accent;

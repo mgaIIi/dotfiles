@@ -1,26 +1,41 @@
-
 [general]
 live_config_reload = true
 import = ["~/.config/alacritty/tokyo.toml"]
 
 [font]
-size = 20
+size = 16
 
 [font.bold]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.normal]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
+
+# [font.bold]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.italic]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.normal]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Iosevka NF"
+# style = "Regular"
 
 [selection]
 save_to_clipboard = true
@@ -30,7 +45,6 @@ decorations = "Full"
 dynamic_padding = false
 dynamic_title = false
 dimensions = {columns = 130, lines = 35}
-# opacity = 0.9
 
 [window.padding]
 x = 25
