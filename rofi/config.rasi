@@ -20,7 +20,7 @@ configuration {
 	// TOKYO
 	bg:				    #1a1b26;
 	fg:				    #ffffff;
-	accent:             #af92d2;
+	accent:             #ff6600;
 	background-color:   @bg;
 	text-color:         @fg;
 }

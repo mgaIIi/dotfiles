@@ -2,7 +2,7 @@
     monitor = 0
     follow = none
     width = (200,400)
-    height = 800
+    height = (50,150)
     origin = top-center
     offset = 50x50
     scale = 0
@@ -30,7 +30,7 @@
     gap_size = 10
     separator_color = frame
     sort = yes
-    font = Agave Nerd Font 15
+    font = JetbrainsMono NF 15
     line_height = 0
     markup = full
     format = "<b>%s</b>\n%b"
@@ -50,14 +50,13 @@
     icon_position = left
     min_icon_size = 40
     max_icon_size = 40
-    icon_path = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
+    icon_path = /usr/share/icons/Tela-circle/  
 
     ### History ###
     sticky_history = yes
     history_length = 20
 
     ### Misc/Advanced ###
-
     dmenu = /usr/bin/dmenu -p dunst:
     browser = /usr/bin/firefox
     always_run_script = true
@@ -72,7 +71,7 @@
     mouse_right_click = close_all
 
 [experimental]
-    per_monitor_dpi = false
+    per_monitor_dpi = true
 
 [urgency_low]
     background = "#1d2021"
@@ -82,7 +81,7 @@
 [urgency_normal]
     background = "#1a1b26"
     foreground = "#ffffff"
-    frame_color = "#cde0ff"
+    frame_color = "#dddddd"
     timeout = 10
     override_pause_level = 30
 
