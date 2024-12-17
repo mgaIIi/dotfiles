@@ -15,17 +15,17 @@ configuration {
 * {
 	bg:				    #1a1b26;
 	fg:				    #ffffff;
-	accent:             #ff6600;
+	accent:             #5eeaff;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      10px;
-	width:			    10%;
+	border-radius:      5px;
+	width:			    20%;
 	padding: 			0px;
-	border:             3px;
+	border:             2px;
 	border-color:       @accent;
 }
 

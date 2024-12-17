@@ -3,7 +3,7 @@ live_config_reload = true
 import = ["~/.config/alacritty/tokyo.toml"]
 
 [font]
-size = 16
+size = 14
 
 [font.bold]
 family = "JetbrainsMono NF"
