@@ -12,12 +12,6 @@ configuration {
 @theme "/dev/null"
 
 * {
-	// GRUV
-	// bg:				    #1e1e1e;
-	// fg:				    #ffffff;
-	// accent:             #aaaaff;
-
-	// TOKYO
 	bg:				    #1a1b26;
 	fg:				    #ffffff;
 	accent:             #5eeaff;
@@ -38,7 +32,7 @@ window {
 entry {
     placeholder:		            "Search";
 	background-color:               @bg;
-    placeholder-color:              #aaaaaa;
+    placeholder-color:              #656997;
 	text-color:                     #ffffff;
     expand:                         true;
     padding:                        0% 0% 0% 0%;
@@ -86,7 +80,7 @@ element-text {
 		expand:                         true;
 		horizontal-align:               0;
     	vertical-align:                 0;
-    	margin:                         0.5% 0% 0% 0.3%;
+    	margin:                         0.1% 0% 0% 0.3%;
 }
 
 element-text, element-icon {
@@ -97,5 +91,5 @@ element-text, element-icon {
 element selected {
 		text-color: @bg;
     	background-color: @accent;
-    	border-radius: 20px;
+    	border-radius: 2px;
 }
