@@ -3,7 +3,39 @@ live_config_reload = true
 import = ["~/.config/alacritty/tokyo.toml"]
 
 [font]
-size = 14
+size = 16
+
+# [font.bold]
+# family = "Hurmit Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "Hurmit Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "Hurmit Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Hurmit Nerd Font"
+# style = "Regular"
+
+# [font.bold]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
 
 [font.bold]
 family = "JetbrainsMono NF"
@@ -47,8 +79,8 @@ dynamic_title = false
 dimensions = {columns = 130, lines = 35}
 
 [window.padding]
-x = 25
-y = 25
+x = 10
+y = 10
 
 [cursor]
 style = "Beam"
