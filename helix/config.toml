@@ -1,5 +1,5 @@
-theme = "tokyonight"
-
+# theme = "tokyonight"
+theme = "gruvbox_dark_hard"
 [editor]
 mouse = true
 auto-save = true
