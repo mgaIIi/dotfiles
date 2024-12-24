@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 16";
+	font:				"Agave Nerd Font 20";
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -12,18 +12,18 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1a1b26;
+	bg:				    #1d2021;
 	fg:				    #ffffff;
-	accent:             #7da6ff;
+	accent:             #fabd2f;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
-	width:			    40%;
-	height:             40%;
+	border-radius:      15px;
+	width:			    30%;
+	height:             30%;
 	padding: 			20px;
 	border:             2px;
 	border-color:       @accent;
@@ -32,7 +32,7 @@ window {
 entry {
     placeholder:		            "Search";
 	background-color:               @bg;
-    placeholder-color:              #656997;
+    placeholder-color:              #fabd2f;
 	text-color:                     #ffffff;
     expand:                         true;
     padding:                        0% 0% 0% 0%;
@@ -53,9 +53,9 @@ listview {
 	columns:                        1;
     lines:	                        3;
     cycle:                          true;
-    dynamic:                        true;
+    dynamic:                        false;
     layout:                         vertical;
-	fixed-height: false;
+	fixed-height: true;
 }
 
 mainbox {
@@ -71,7 +71,7 @@ element {
 }
 
 element-icon {
-    	size:                           20px;
+    	size:                           30px;
     	horizontal-align:	 	0.5;
 }
 
@@ -91,5 +91,5 @@ element-text, element-icon {
 element selected {
 		text-color: @bg;
     	background-color: @accent;
-    	border-radius: 0px;
+    	border-radius: 10px;
 }

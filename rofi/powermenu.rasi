@@ -2,7 +2,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 16";
+	font:				"Agave Nerd Font 20";
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -13,18 +13,18 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1a1b26;
+	bg:				    #1d2021;
 	fg:				    #ffffff;
-	accent:             #7da6ff;
+	accent:             #fabd2f;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      10px;
 	width:			    15%;
-	padding: 			0px;
+	padding: 			30px;
 	border:             2px;
 	border-color:       @accent;
 }
@@ -35,7 +35,7 @@ listview {
 	columns:                        1;
     lines:	                        3;
     layout:                         vertical;
-	fixed-height: false;
+	fixed-height: true;
 }
 
 mainbox {
@@ -66,5 +66,5 @@ element-text, element-icon {
 element selected {
 		text-color: @bg;
     	background-color: @accent;
-    	border-radius:                  0px;
+    	border-radius:                  10px;
 }
