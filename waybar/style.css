@@ -5,10 +5,10 @@
   font-family: 'Agave Nerd Font';
   font-size: 24px;
   color: #fabd2f;
-
+  background: #1d2021;
   /* TOKYO */
   /* background: #1a1b26; */
-  background: transparent;
+  /* background: transparent; */
 }
 
 #custom-arch {

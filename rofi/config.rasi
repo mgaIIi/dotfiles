@@ -21,7 +21,7 @@ configuration {
 
 
 window {
-	border-radius:      15px;
+	border-radius:      0px;
 	width:			    30%;
 	height:             30%;
 	padding: 			20px;
@@ -91,5 +91,5 @@ element-text, element-icon {
 element selected {
 		text-color: @bg;
     	background-color: @accent;
-    	border-radius: 10px;
+    	border-radius: 0px;
 }
