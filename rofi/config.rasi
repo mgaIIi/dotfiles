@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 20";
+	font:				"JetbrainsMono Nerd Font 16";
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -12,16 +12,16 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1d2021;
+	bg:				    #1e1e1e;
 	fg:				    #ffffff;
-	accent:             #fabd2f;
+	accent:             #9cdcfe;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      30px;
 	width:			    30%;
 	height:             30%;
 	padding: 			20px;
@@ -32,8 +32,8 @@ window {
 entry {
     placeholder:		            "Search";
 	background-color:               @bg;
-    placeholder-color:              #fabd2f;
-	text-color:                     #ffffff;
+    placeholder-color:              @accent;
+	text-color:                     @accent;
     expand:                         true;
     padding:                        0% 0% 0% 0%;
 	margin: 0% 0% 1% 0%;
@@ -91,5 +91,5 @@ element-text, element-icon {
 element selected {
 		text-color: @bg;
     	background-color: @accent;
-    	border-radius: 0px;
+    	border-radius: 10px;
 }

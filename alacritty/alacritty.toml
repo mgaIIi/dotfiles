@@ -1,9 +1,9 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/gruvbox.toml"]
+import = ["~/.config/alacritty/darkplus.toml"]
 
 [font]
-size = 20
+size = 17
 
 # [font.bold]
 # family = "Hurmit Nerd Font"
@@ -19,39 +19,39 @@ size = 20
 
 # [font.bold_italic]
 # family = "Hurmit Nerd Font"
+# style = "Regular"
+
+# [font.bold]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Agave Nerd Font"
 # style = "Regular"
 
 [font.bold]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.normal]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
-
-# [font.bold]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.italic]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.normal]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.bold_italic]
-# family = "JetbrainsMono NF"
-# style = "Regular"
 
 # [font.bold]
 # family = "Iosevka NF"
