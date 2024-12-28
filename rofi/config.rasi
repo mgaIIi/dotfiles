@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"JetbrainsMono Nerd Font 16";
+	font:				"Agave Nerd Font 18";
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -12,7 +12,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1e1e1e;
+	bg:				    #1a1b26;
 	fg:				    #ffffff;
 	accent:             #9cdcfe;
 	background-color:   @bg;
@@ -21,7 +21,7 @@ configuration {
 
 
 window {
-	border-radius:      30px;
+	border-radius:      13px;
 	width:			    30%;
 	height:             30%;
 	padding: 			20px;
@@ -80,7 +80,7 @@ element-text {
 		expand:                         true;
 		horizontal-align:               0;
     	vertical-align:                 0;
-    	margin:                         0.1% 0% 0% 0.3%;
+    	margin:                         0.2% 0% 0% 0.3%;
 }
 
 element-text, element-icon {

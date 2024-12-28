@@ -1,5 +1,5 @@
-# theme = "tokyonight"
-theme = "dark_plus"
+theme = "tokyonight"
+# theme = "ayu_evolve"
 [editor]
 mouse = true
 auto-save = true
