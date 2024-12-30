@@ -1,5 +1,6 @@
 theme = "tokyonight"
-# theme = "ayu_evolve"
+# theme = "github_dark_high_contrast"
+
 [editor]
 mouse = true
 auto-save = true

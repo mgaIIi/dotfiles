@@ -1,9 +1,7 @@
-
-
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 18";
-	show-icons:         false;
+	font:				"Agave Nerd Font 8";
+	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
 	drun-display-format:  "{name}";
@@ -15,17 +13,17 @@ configuration {
 * {
 	bg:				    #1a1b26;
 	fg:				    #ffffff;
-	accent:             #9cdcfe;
+	accent:             #b9f27c;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      13px;
+	border-radius:      5px;
 	width:			    15%;
-	padding: 			30px;
-	border:             2px;
+	padding: 			20px;
+	border:             1px;
 	border-color:       @accent;
 }
 
@@ -51,9 +49,9 @@ element {
 }
 
 element-text {
-		text-color: @accent;
+		text-color:                     @accent;
 		expand:                         true;
-		horizontal-align:               0.5;
+		horizontal-align:               0.35;
     	vertical-align:                 0.5;
     	margin:                         0% 0% 0% 0%;
 }
@@ -64,7 +62,7 @@ element-text, element-icon {
 }
 
 element selected {
-		text-color: @bg;
-    	background-color: @accent;
-    	border-radius: 10px;
+	text-color: @bg;
+    background-color: @accent;
+    border-radius: 3px;
 }

@@ -1,13 +1,13 @@
 * {
   margin: 0;
-  padding: 2;
+  padding: 0;
   border: none;
-  font-family: 'JetbrainsMono Nerd Font';
-  font-size: 20px;
-  color: #eeeeee;
+  font-family: 'Agave Nerd Font';
+  font-size: 11px;
+  color: #ffffff;
   /* background: #1e1e1e; */
   /* TOKYO */
-  background: #1a1b26;
+  background: #000000;
   /* background: transparent; */
 }
 
@@ -20,8 +20,8 @@
 }
 
 #workspaces button {
-  margin-left: 5;
-  margin-right: 5;
+  margin-left: 3;
+  margin-right: 3;
   box-shadow: none;
   text-shadow: none;
 }
@@ -39,10 +39,10 @@
 #bluetooth,
 #network,
 #battery {
-  padding-left: 20;
-  padding-right: 20;
+  padding-left: 10;
+  padding-right: 10;
 }
 
 #clock {
-  padding-right: 15;
+  margin-right: 10;
 }
