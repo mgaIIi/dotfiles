@@ -1,93 +1,41 @@
 [global]
-    monitor = 0
-    follow = none
-    width = (200,400)
-    height = (50,150)
-    origin = top-center
-    offset = 50x50
-    scale = 0
-    notification_limit = 1
-
-    progress_bar = true
-    progress_bar_height = 10
-    progress_bar_frame_width = 1
-    progress_bar_min_width = 150
-    progress_bar_max_width = 300
-    progress_bar_corner_radius = 0
-    progress_bar_corners = all
-    icon_corner_radius = 0
-    icon_corners = all
-
-    indicate_hidden = yes
-    transparency = 0
-    separator_height = 2
-    padding = 20
-    horizontal_padding = 30
-    text_icon_padding = 20
-    frame_width = 2
-    frame_color = "#8ec07c"
+    width = 400
+    offset = 0x0
     
-    gap_size = 10
-    separator_color = frame
-    sort = yes
-    font = JetbrainsMono NF 15
-    line_height = 0
-    markup = full
-    format = "<b>%s</b>\n%b"
-    alignment = left
-    vertical_alignment = center
+    progress_bar_min_width = 380
+    progress_bar_max_width = 380
+    progress_bar_corner_radius = 2
 
-    show_age_threshold = 60
-    ellipsize = middle
-    ignore_newline = no
-    stack_duplicates = true
-    hide_duplicate_count = false
-    show_indicators = yes
+    padding = 10
+    horizontal_padding = 10
+    frame_width = 1
+    gap_size = 3
+    font = "JetbrainsMono NF 14"
 
-    ### Icons ###
+    icon_path = "/usr/share/icons/Tela-circle/"
     enable_recursive_icon_lookup = true
-    icon_theme = Tela-circle
-    icon_position = left
-    min_icon_size = 40
-    max_icon_size = 40
-    icon_path = /usr/share/icons/Tela-circle/  
+    corner_radius = 2
 
-    ### History ###
-    sticky_history = yes
-    history_length = 20
-
-    ### Misc/Advanced ###
-    dmenu = /usr/bin/dmenu -p dunst:
-    browser = /usr/bin/firefox
-    always_run_script = true
-    title = Dunst
-    class = Dunst
-    corner_radius = 10
-    corners = all
-    ignore_dbusclose = false
-    force_xwayland = false
-    mouse_left_click = close_current
-    mouse_middle_click = do_action, close_current
-    mouse_right_click = close_all
-
-[experimental]
-    per_monitor_dpi = true
+    background = "#191724"
+    foreground = "#e0def4"
 
 [urgency_low]
-    background = "#1d2021"
-    foreground = "#888888"
-    timeout = 10
+    background = "#191724"
+    highlight = "#31748f"
+    frame_color = "#31748f"
+    default_icon = "dialog-information"
+    format = "<b><span foreground='#31748f'>%s</span></b>\n%b"
 
 [urgency_normal]
-    background = "#1a1b26"
-    foreground = "#ffffff"
-    frame_color = "#dddddd"
-    timeout = 10
-    override_pause_level = 30
+    background = "#191724"
+    highlight = "#f6c177"
+    frame_color = "#f6c177"
+    default_icon = "dialog-warning"
+    format = "<b><span foreground='#f6c177'>%s</span></b>\n%b"
 
 [urgency_critical]
-    background = "#900000"
-    foreground = "#ffffff"
-    frame_color = "#ff0000"
-    timeout = 0
-    override_pause_level = 60
+    background = "#191724"
+    highlight = "#eb6f92"
+    frame_color = "#eb6f92"
+    default_icon = "dialog-error"
+    format = "<b><span foreground='#eb6f92'>%s</span></b>\n%b"

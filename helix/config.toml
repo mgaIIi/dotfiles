@@ -1,5 +1,5 @@
-theme = "tokyonight"
-# theme = "github_dark_high_contrast"
+# theme = "tokyonight"
+theme = "rose_pine"
 
 [editor]
 mouse = true

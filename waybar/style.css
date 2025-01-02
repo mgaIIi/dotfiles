@@ -1,14 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  padding-top: 1;
+  padding-bottom: 1;
   border: none;
-  font-family: 'Agave Nerd Font';
-  font-size: 11px;
-  color: #ffffff;
+  font-family: 'JetbrainsMono NF';
+  font-size: 22px;
+  color: #9ccfd8;
   /* background: #1e1e1e; */
   /* TOKYO */
-  background: #000000;
-  /* background: transparent; */
+  background: transparent;
+}
+
+#waybar {
+  background: #191724;
 }
 
 #custom-arch {
@@ -20,8 +25,8 @@
 }
 
 #workspaces button {
-  margin-left: 3;
-  margin-right: 3;
+  margin-left: 8;
+  margin-right: 8;
   box-shadow: none;
   text-shadow: none;
 }

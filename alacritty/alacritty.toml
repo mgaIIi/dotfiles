@@ -1,41 +1,25 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/tokyo.toml"]
+import = ["~/.config/alacritty/rosepine.toml"]
 
 [font]
-size = 10
+size = 16
 
 [font.bold]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.normal]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
-
-# [font.bold]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.italic]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.normal]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.bold_italic]
-# family = "JetbrainsMono NF"
-# style = "Regular"
 
 # [font.bold]
 # family = "Iosevka NF"
