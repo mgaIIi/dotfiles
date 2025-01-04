@@ -14,7 +14,7 @@ configuration {
 * {
 	bg:				    #191724;
 	fg:				    #ffffff;
-	accent:             #9ccfd8;
+	accent:             #bfbbde;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -50,7 +50,7 @@ inputbar {
 
 listview {
 	foreground:                     #ffffff;
-	columns:                        1;
+	columns:                        2;
     lines:	                        3;
     cycle:                          true;
     dynamic:                        false;
@@ -91,5 +91,5 @@ element-text, element-icon {
 element selected {
 text-color: @bg;
 background-color: @accent;
-border-radius: 0px;
+border-radius: 100px;
 }

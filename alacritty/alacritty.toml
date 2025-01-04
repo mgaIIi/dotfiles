@@ -1,6 +1,6 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/rosepine.toml"]
+import = ["~/.config/alacritty/catppuccin_mocha.toml"]
 
 [font]
 size = 16
@@ -20,6 +20,23 @@ style = "Regular"
 [font.bold_italic]
 family = "JetbrainsMono NF"
 style = "Regular"
+
+# [font.bold]
+# family = "FiraCode Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "FiraCode Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "FiraCode Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "FiraCode Nerd Font"
+# style = "Regular"
+
 
 # [font.bold]
 # family = "Iosevka NF"
