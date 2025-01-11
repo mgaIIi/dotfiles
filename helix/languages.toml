@@ -294,6 +294,7 @@ source = { git = "https://github.com/FuelLabs/tree-sitter-sway", rev = "e491a005
 
 [[language]]
 name = "toml"
+auto-format = true
 scope = "source.toml"
 injection-regex = "toml"
 file-types = ["toml", { glob = "poetry.lock" }, { glob = "Cargo.lock" }]

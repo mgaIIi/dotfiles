@@ -6,14 +6,14 @@
   border: none;
   font-family: 'JetbrainsMono NF';
   font-size: 22px;
-  color: #9ccfd8;
+  color: #ffffff;
   /* background: #1e1e1e; */
   /* TOKYO */
   background: transparent;
 }
 
 #waybar {
-  background: #121219;
+  background: #1e1e2e;
 }
 
 #custom-arch {

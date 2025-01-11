@@ -1,4 +1,3 @@
-# theme = "tokyonight"
 theme = "catppuccin_mocha"
 
 [editor]
@@ -24,9 +23,9 @@ left = [ "mode", "spinner", "diagnostics" ]
 center = [ "file-name", "separator", "version-control", "separator" ]
 right = [ "position", "position-percentage", "total-line-numbers" ]
 separator = " "
-mode.normal = "NORMAL"
-mode.insert = "INSERT"
-mode.select = "SELECT"
+mode.normal = "ᕙ( ͡° ͜ʖ ͡°)ᕗ"
+mode.insert = "(˵ ͡° ͜ʖ ͡°˵)"
+mode.select = "( ͡❍ ͜ ʖ ͡❍)"
 
 [editor.lsp]
 enable=true
@@ -35,7 +34,8 @@ auto-signature-help = false
 
 [editor.indent-guides]
 render = true
-character = "╎"
+# character = "╎"
+character = "┋"
 
 [editor.file-picker]
 hidden = false
