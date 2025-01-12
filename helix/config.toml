@@ -24,7 +24,7 @@ center = [ "file-name", "separator", "version-control", "separator" ]
 right = [ "position", "position-percentage", "total-line-numbers" ]
 separator = " "
 mode.normal = "ᕙ( ͡° ͜ʖ ͡°)ᕗ"
-mode.insert = "(˵ ͡° ͜ʖ ͡°˵)"
+mode.insert = "( ♥ ◡ ♥ )७"
 mode.select = "( ͡❍ ͜ ʖ ͡❍)"
 
 [editor.lsp]
@@ -35,7 +35,7 @@ auto-signature-help = false
 [editor.indent-guides]
 render = true
 # character = "╎"
-character = "┋"
+character = "┃"
 
 [editor.file-picker]
 hidden = false

@@ -5,40 +5,39 @@ import = ["~/.config/alacritty/catppuccin_mocha.toml"]
 
 
 [font]
-size = 14
-
-[font.bold]
-family = "JetbrainsMono NF"
-style = "Regular"
-
-[font.italic]
-family = "JetbrainsMono NF"
-style = "Regular"
-
-[font.normal]
-family = "JetbrainsMono NF"
-style = "Regular"
-
-[font.bold_italic]
-family = "JetbrainsMono NF"
-style = "Regular"
+size = 10
 
 # [font.bold]
-# family = "FiraCode Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
 
 # [font.italic]
-# family = "FiraCode Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
 
 # [font.normal]
-# family = "FiraCode Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
 
 # [font.bold_italic]
-# family = "FiraCode Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
 
+[font.bold]
+family = "Agave Nerd Font"
+style = "Regular"
+
+[font.italic]
+family = "Agave Nerd Font"
+style = "Regular"
+
+[font.normal]
+family = "Agave Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "Agave Nerd Font"
+style = "Regular"
 
 # [font.bold]
 # family = "Iosevka NF"
@@ -66,8 +65,8 @@ dynamic_title = false
 dimensions = {columns = 130, lines = 35}
 
 [window.padding]
-x = 20
-y = 20
+x = 10
+y = 10
 
 [cursor]
 style = "Beam"

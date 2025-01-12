@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"JetbrainsMono NF 16";
+	font:				"Agave Nerd Font 11";
 	location:           0;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
@@ -25,7 +25,7 @@ window {
 	border-radius:      0px;
 	width:			    30%;
 	height:             30%;
-	padding: 			20px;
+	padding: 			10px;
 	border:             1px;
 	border-color:       @accent;
 }
@@ -74,16 +74,16 @@ element {
 }
 
 element-icon {
-    	size:                           30px;
+    	size:                           20px;
     	horizontal-align:	 	0.5;
+		vertical-align: 0.5;
 }
 
 element-text {
 	text-color: @accent;
 	expand:                         true;
 	horizontal-align:               0;
-	vertical-align:                 0;
-	margin:                         0.35% 0% 0% 0.3%;
+	vertical-align:                 0.5;
 }
 
 element-text, element-icon {
