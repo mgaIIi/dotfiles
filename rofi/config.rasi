@@ -2,7 +2,7 @@
 configuration {
 	modi:				"drun";
 	font:				"Agave Nerd Font 11";
-	location:           0;
+	location:           7;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -36,10 +36,10 @@ entry {
     placeholder-color:              @accent;
 	text-color:                     @accent;
 	vertical-align:   0.5;
-	horizontal-align: 0.5;
+	horizontal-align: 0;
     expand:                         true;
     padding:                        0% 0% 0% 0%;
-	margin: 0% 0% 1% 0%;
+	margin: 0% 0% 0% 0%;
 }
 
 inputbar {
@@ -48,7 +48,7 @@ inputbar {
     expand:                         false;
     border-radius:                  0px;
     margin:                         0%;
-    padding:                        10px;
+    padding:                        2px;
 }
 
 listview {
@@ -62,7 +62,7 @@ listview {
 }
 
 mainbox {
-    	children:                       [ inputbar, listview ];
+    	children:                       [ listview,inputbar ];
     	spacing:                       	0%;
     	padding:                        0% 0% 0% 0%;
 }
@@ -94,5 +94,5 @@ element-text, element-icon {
 element selected {
 text-color: @bg;
 background-color: @accent;
-border-radius: 100px;
+border-radius: 8px;
 }
