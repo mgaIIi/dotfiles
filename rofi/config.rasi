@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 11";
+	font:				"Agave Nerd Font 18";
 	location:           7;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";

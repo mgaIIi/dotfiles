@@ -1,6 +1,6 @@
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 11";
+	font:				"Agave Nerd Font 18";
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";

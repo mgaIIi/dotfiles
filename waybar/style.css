@@ -1,11 +1,11 @@
 * {
   margin: 0;
-  padding: 0;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 1;
+  padding-top: 1;
+  padding-bottom: 1;
   border: none;
   font-family: 'Agave Nerd Font';
-  font-size: 11px;
+  font-size: 15px;
   color: #ffffff;
   /* background: #1e1e1e; */
   /* TOKYO */

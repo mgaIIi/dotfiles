@@ -6,16 +6,16 @@
   // "margin-left" : 20,
   // "margin-right" : 20,
   "modules-left": ["custom/arch", "hyprland/workspaces"],
-  "modules-center": [],
-  "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery","clock" ],
+  "modules-center": ["clock"],
+  "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery" ],
   "custom/arch": {
-    "format": "   ",
+    "format": "[   ]",
     "tooltip": false,
     "on-click": "sh $HOME/.config/rofi/bin/powermenu"
   },
   "hyprland/workspaces": {
     //"format": "{name}",
-    "format": "{icon}",
+    "format": "[ {icon} ]",
     "tooltip": false,
     "all-outputs": true,
     "format-icons": {
