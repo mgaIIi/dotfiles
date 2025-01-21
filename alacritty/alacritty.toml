@@ -5,7 +5,7 @@ import = ["~/.config/alacritty/catppuccin_mocha.toml"]
 
 
 [font]
-size = 14
+size = 17
 
 # [font.bold]
 # family = "JetbrainsMono NF"

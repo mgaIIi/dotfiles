@@ -1,8 +1,8 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 18";
-	location:           7;
+	font:				"Agave Nerd Font 20";
+	location:           1;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -23,8 +23,8 @@ configuration {
 
 window {
 	border-radius:      0px;
-	width:			    30%;
-	height:             30%;
+	width:			    20%;
+	height:             20%;
 	padding: 			10px;
 	border:             1px;
 	border-color:       @accent;
@@ -74,7 +74,7 @@ element {
 }
 
 element-icon {
-    	size:                           20px;
+    	size:                           30px;
     	horizontal-align:	 	0.5;
 		vertical-align: 0.5;
 }
@@ -94,5 +94,5 @@ element-text, element-icon {
 element selected {
 text-color: @bg;
 background-color: @accent;
-border-radius: 8px;
+border-radius: 6px;
 }

@@ -1,16 +1,17 @@
 [global]
+    origin = bottom-right
     width = 400
-    offset = 0x0
+    offset = 20x20
     max_icon_size = 32
     progress_bar_min_width = 100
     progress_bar_max_width = 100
     progress_bar_corner_radius = 2
 
-    padding = 10
-    horizontal_padding = 5
+    padding = 20
+    horizontal_padding = 25
     frame_width = 1
     gap_size = 3
-    font = "Agave Nerd Font 18"
+    font = "Agave Nerd Font 16"
 
     icon_path = "/usr/share/icons/Tela-circle"
     enable_recursive_icon_lookup = true
@@ -23,19 +24,19 @@
     background = "#1e1e2e"
     highlight = "#bfbbde"
     frame_color = "#bfbbde"
-    default_icon = "/usr/share/icons/Tela-circle/16/actions/dialog-information.svg"
+    default_icon = ""
     format = "<b><span foreground='#31748f'>%s</span></b>\n%b"
 
 [urgency_normal]
     background = "#1e1e2e"
     highlight = "#bfbbde"
     frame_color = "#bfbbde"
-    default_icon = "dialog-warning"
+    default_icon = ""
     format = "<b><span foreground='#bfbbde'>%s</span></b>\n%b"
 
 [urgency_critical]
     background = "#1e1e2e"
     highlight = "#bfbbde"
     frame_color = "#bfbbde"
-    default_icon = "dialog-error"
+    default_icon = ""
     format = "<b><span foreground='#eb6f92'>%s</span></b>\n%b"

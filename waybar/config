@@ -1,5 +1,5 @@
 {
-  "position": "bottom",
+  "position": "top",
   "layer": "top",
   // "margin-top" : 1,
   // "margin-bottom" : 20,
@@ -9,13 +9,13 @@
   "modules-center": ["clock"],
   "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery" ],
   "custom/arch": {
-    "format": "[   ]",
+    "format": "  󱥸  ",
     "tooltip": false,
     "on-click": "sh $HOME/.config/rofi/bin/powermenu"
   },
   "hyprland/workspaces": {
     //"format": "{name}",
-    "format": "[ {icon} ]",
+    "format": "{icon} ",
     "tooltip": false,
     "all-outputs": true,
     "format-icons": {
@@ -24,20 +24,20 @@
     }
   },
   "clock": {
-    "format": "[ {:%H:%M} ]",
+    "format": "{:%H:%M}",
     "tooltip": false,
     "on-click" : "/usr/bin/alacritty"
   },
   "backlight": {
     "device": "intel_backlight",
-    "format": " [ {icon} {percent} ]",
+    "format": "{icon} {percent} | ",
     "scroll-step": 0.3,
     "tooltip": false,
     "format-icons": ["", "", "", "", "", "", "", "", ""]
   },
   "pulseaudio": {
-    "format": "[ {icon} {volume} ]",
-    "format-muted": "",
+    "format": "{icon} {volume} | ",
+    "format-muted": "  | ",
     "tooltip": false,
     "format-icons": {
       "headphone": " ",
@@ -46,25 +46,25 @@
     "scroll-step": 0.3,
   },
   "bluetooth": {
-    "format": "[  {status} ]",
-    "format-disabled": "[ 󰂲 bt disabled ]",
-    "format-connected": "[  {num_connections} ]",
-    "tooltip-format": "[ {device_enumerate} ]",
+    "format": " {status} | ",
+    "format-disabled": "󰂲 bt disabled | ",
+    "format-connected": " {num_connections} | ",
+    "tooltip-format": "{device_enumerate} | ",
     "tooltip-format-enumerate-connected": "{device_alias} {device_address}"
   },
   "network": {
     "interface": "wlan0",
-    "format": "[ {ifname} ]",
-    "format-wifi": "[   {essid} ]",
-    "format-ethernet": "[ {ipaddr}/{cidr}   ]",
-    "format-disconnected": "[ 󰖪  No Network ]",
+    "format": "{ifname} | ",
+    "format-wifi": "  {essid} | ",
+    "format-ethernet": "{ipaddr}/{cidr}   | ",
+    "format-disconnected": "󰖪  No Network | ",
     "tooltip": false,
   },
   "battery": {
     "interval": 5,
-    "format": "[ {icon} {capacity} ]",
+    "format": "{icon} {capacity} ",
     "format-icons": [" ", " ", " ", " " , " " , " " , " ", " ", " ", " "],
-    "format-charging": "[ 󱐋 {capacity} ]",
+    "format-charging": "󱐋 {capacity} ",
     "tooltip": false,
   },
 }
