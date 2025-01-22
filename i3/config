@@ -1,13 +1,13 @@
 set $mod Mod4
 
-font pango:Iosevka NF 13
-gaps inner 20
+font pango:Iosevka NF 11
+gaps inner 0
 gaps outer 0
 
 default_border pixel 1
 default_floating_border pixel 1
 
-client.focused          #7fbbb3 #7fbbb3 #ffffff #7fbbb3
+client.focused          #5e5e6e #5e5e6e #ffffff #5e5e6e
 client.unfocused        #11111b #11111b #ffffff #11111b
 client.urgent           #11111b #11111b #ffffff #11111b
 client.placeholder      #11111b #11111b #ffffff #11111b
@@ -40,42 +40,23 @@ bindsym $mod+i  exec firefox
 bindsym $mod+q kill
 
 # start rofi
-#bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 bindsym $mod+d exec "rofi -modi drun,run -show drun"
 bindsym $mod+o exec ~/.config/i3/volume.sh
 bindsym $mod+Shift+d exec ~/.config/i3/powermenu.sh
 
-# change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
-# alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
-# move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
 
-# alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
-
-# enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
-
-# toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
-
-# change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
 # Define names for default workspaces for which we configure key bindings later on.
@@ -118,35 +99,32 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Do you really want to exit i3?' -B 'Yes, exit i3' 'i3-msg exit'"
-
 mode "resize" {
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+    bindsym h resize shrink width 10 px or 10 ppt
+    bindsym j resize grow height 10 px or 10 ppt
+    bindsym k resize shrink height 10 px or 10 ppt
+    bindsym l resize grow width 10 px or 10 ppt
 
-        bindsym Return mode "default"
-        bindsym Escape mode "default"
-        bindsym $mod+r mode "default"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+    bindsym $mod+r mode "default"
 }
 
 bindsym $mod+r mode "resize"
 
-bar {
-    status_command i3blocks
-    position bottom
+# bar {
+#     position top
     
-    colors {
-        background #2d353b
-        statusline #ffffff
-        separator  #ffffff
+#     colors {
+#         background #1e1e2e
+#         statusline #ffffff
+#         separator  #ffffff
 
-        focused_workspace  #7fbbb3 #2d353b #7fbbb3
-        active_workspace   #2d353b #2d353b #FFFFFF
-        inactive_workspace #2d353b #2d353b #FFFFFF
-        urgent_workspace   #900000 #900000 #575757
-    }
+#         focused_workspace  #5e5e6e #5e5e6e #ffffff
+#         active_workspace   #2d353b #2d353b #FFFFFF
+#         inactive_workspace #2d353b #2d353b #FFFFFF
+#         urgent_workspace   #900000 #900000 #575757
+#     }
 
-    tray_output primary
-}
+#     tray_output primary
+# }
