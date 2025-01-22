@@ -1,43 +1,42 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/catppuccin_mocha.toml"]
+import = ["~/.config/alacritty/everforest.toml"]
 # import = ["~/.config/alacritty/tokyo.toml"]
 
-
 [font]
-size = 17
-
-# [font.bold]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.italic]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.normal]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.bold_italic]
-# family = "JetbrainsMono NF"
-# style = "Regular"
+size = 16
 
 [font.bold]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.normal]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
+
+# [font.bold]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
 
 # [font.bold]
 # family = "Iosevka NF"
@@ -63,7 +62,6 @@ decorations = "Full"
 dynamic_padding = false
 dynamic_title = false
 dimensions = {columns = 130, lines = 35}
-
 [window.padding]
 x = 10
 y = 10

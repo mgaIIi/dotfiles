@@ -1,8 +1,8 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 20";
-	location:           1;
+	font:				"JetbrainsMono NF 16";
+	location:           0;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
 	display-drun: 		  "";
@@ -13,7 +13,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1e1e2e;
+	bg:				    #2d353b;
 	fg:				    #ffffff;
 	accent:             #bfbbde;
 	background-color:   @bg;
@@ -36,7 +36,7 @@ entry {
     placeholder-color:              @accent;
 	text-color:                     @accent;
 	vertical-align:   0.5;
-	horizontal-align: 0;
+	horizontal-align: 0.5;
     expand:                         true;
     padding:                        0% 0% 0% 0%;
 	margin: 0% 0% 0% 0%;
@@ -53,7 +53,7 @@ inputbar {
 
 listview {
 	foreground:                     #ffffff;
-	columns:                        2;
+	columns:                        1;
     lines:	                        1;
     cycle:                          true;
     dynamic:                        false;
@@ -82,7 +82,7 @@ element-icon {
 element-text {
 	text-color: @accent;
 	expand:                         true;
-	horizontal-align:               0;
+	horizontal-align:               0.5;
 	vertical-align:                 0.5;
 }
 
