@@ -4,8 +4,8 @@
   padding-top: 2;
   padding-bottom: 2;
   border: none;
-  font-family: 'Agave Nerd Font';
-  font-size: 23px;
+  font-family: 'JetbrainsMono NF';
+  font-size: 20px;
   color: #ffffff;
   /* background: #1e1e1e; */
   /* TOKYO */
@@ -13,8 +13,8 @@
 }
 
 #waybar {
-  /* background: #1e1e2e; */
-  background: #000000;
+  background: #2d353b;
+  /* background: #000000; */
 }
 
 #custom-arch {

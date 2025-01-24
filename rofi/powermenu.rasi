@@ -17,9 +17,9 @@ configuration {
 
 window {
 	border-radius:      0px;
-	width:			    12%;
+	width:			    30%;
 	padding: 			10px;
-	border:             1px;
+	border:             2px;
 	border-color:       @accent;
 }
 
