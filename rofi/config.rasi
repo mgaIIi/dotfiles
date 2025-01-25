@@ -15,79 +15,79 @@ configuration {
 * {
 	bg:				    #2d353b;
 	fg:				    #ffffff;
-	accent:             #bfbbde;
+	accent:             #8f9b9f;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      15px;
 	width:			    30%;
 	height:             20%;
 	padding: 			10px;
-	border:             2px;
-	border-color:       @accent;
+	border:             3px;
+	border-color: @accent;
 }
 
 entry {
-    placeholder:		            "Search";
-	background-color:               @bg;
-    placeholder-color:              @accent;
-	text-color:                     @accent;
+    placeholder: "Search";
+	background-color: @bg;
+    placeholder-color: @accent;
+	text-color: @accent;
 	vertical-align:   0.5;
 	horizontal-align: 0.5;
-    expand:                         true;
-    padding:                        0% 0% 0% 0%;
+    expand: true;
+    padding: 0% 0% 0% 0%;
 	margin: 0% 0% 0% 0%;
 }
 
 inputbar {
-	children:			            [ entry ];
-    background-color:               @bg;
-    expand:                         false;
-    border-radius:                  0px;
-    margin:                         0%;
-    padding:                        2px;
+	children: [ entry ];
+    background-color: @bg;
+    expand: false;
+    border-radius: 0px;
+    margin: 0%;
+    padding: 2px;
 }
 
 listview {
-	foreground:                     #ffffff;
-	columns:                        1;
-    lines:	                        1;
-    cycle:                          true;
-    dynamic:                        false;
-    layout:                         vertical;
+	foreground: #ffffff;
+	columns: 1;
+    lines: 1;
+    cycle: true;
+    dynamic: false;
+    layout: vertical;
 	fixed-height: true;
 }
 
 mainbox {
-    	children:                       [ listview,inputbar ];
-    	spacing:                       	0%;
-    	padding:                        0% 0% 0% 0%;
+    children: [ listview,inputbar ];
+    spacing: 0%;
+    padding: 0% 0% 0% 0%;
 }
 
 element {
-    	orientation:                    horizontal;
-    	padding:                        0.5% 0.5% 0.5% 0.5%;
-		text-color:                     #ffffff;
+    orientation: horizontal;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+	text-color: #ffffff;
 }
 
 element-icon {
-    	size:                           30px;
-    	horizontal-align:	 	0.5;
-		vertical-align: 0.5;
+    size: 30px;
+    horizontal-align: 0.5;
+	vertical-align: 0.5;
 }
 
 element-text {
 	text-color: @accent;
-	expand:                         true;
-	horizontal-align:               0.5;
-	vertical-align:                 0.5;
+	expand: true;
+	horizontal-align: 0.5;
+	vertical-align: 0.5;
 }
 
 element-text, element-icon {
-	background-color:	inherit;
+	background-color: inherit;
 	text-color: inherit;
 }
 

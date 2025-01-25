@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 1;
-  padding-top: 2;
-  padding-bottom: 2;
+  padding-top: 1;
+  padding-bottom: 1;
   border: none;
   font-family: 'JetbrainsMono NF';
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
   /* background: #1e1e1e; */
   /* TOKYO */
@@ -13,7 +13,7 @@
 }
 
 #waybar {
-  background: #2d353b;
+  background: #1d2021;
   /* background: #000000; */
 }
 

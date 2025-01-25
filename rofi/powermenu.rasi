@@ -9,17 +9,17 @@ configuration {
 * {
 	bg:				    #2d353b;
 	fg:				    #ffffff;
-	accent:             #bfbbde;
+	accent:             #8f9b9f;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      15px;
 	width:			    30%;
 	padding: 			10px;
-	border:             2px;
+	border:             3px;
 	border-color:       @accent;
 }
 
@@ -33,24 +33,24 @@ listview {
 }
 
 mainbox {
-    	children:                       [listview ];
-    	spacing:                       	0%;
-    	padding:                        0% 0% 0% 0%;
+    children:                       [listview ];
+    spacing:                       	0%;
+    padding:                        0% 0% 0% 0%;
 }
 
 element {
-    	orientation:                    horizontal;
-		horizontal-align:               0.5;
-    	vertical-align:                 0.5;
-    	padding:                        1% 1% 1% 1%;
-		text-color:                     #ffffff;
+    orientation:                    horizontal;
+	horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    padding:                        1% 1% 1% 1%;
+	text-color:                     #ffffff;
 }
 
 element-text {
-		text-color:                     @accent;
-		expand:                         true;
-		horizontal-align:               0.5;
-    	vertical-align:                 0.5;
+	text-color:                     @accent;
+	expand:                         true;
+	horizontal-align:               0.5;
+    vertical-align:                 0.5;
 }
 
 element-text, element-icon {

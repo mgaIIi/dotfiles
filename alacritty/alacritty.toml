@@ -3,7 +3,7 @@ live_config_reload = true
 import = ["~/.config/alacritty/everforest.toml"]
 
 [font]
-size = 16
+size = 15
 
 [font.bold]
 family = "JetbrainsMono NF"
@@ -60,7 +60,7 @@ save_to_clipboard = true
 decorations = "Full"
 dynamic_padding = false
 dynamic_title = false
-dimensions = {columns = 130, lines = 35}
+dimensions = { columns = 130, lines = 35 }
 [window.padding]
 x = 10
 y = 10
@@ -72,6 +72,6 @@ thickness = 0.1
 
 [keyboard]
 bindings = [
-  { key = "v", mods = "Alt", action = "Paste"},
-  { key = "c", mods = "Alt", action = "Copy"},
+  { key = "v", mods = "Alt", action = "Paste" },
+  { key = "c", mods = "Alt", action = "Copy" },
 ]
