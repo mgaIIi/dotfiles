@@ -38,7 +38,8 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec alacritty
 bindsym $mod+i  exec firefox
 bindsym $mod+q kill
-bindsym $mod+a resize set 1200 px 800 px, move position center
+bindsym $mod+a move position center
+bindsym $mod+c resize set 1200 px 800 px, move position center
 
 # start rofi
 bindsym $mod+d exec "rofi -modi drun,run -show drun"
