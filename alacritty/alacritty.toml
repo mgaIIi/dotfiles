@@ -1,41 +1,41 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/everforest.toml"]
+import = ["~/.config/alacritty/tokyo.toml"]
 
 [font]
-size = 15
-
-[font.bold]
-family = "JetbrainsMono NF"
-style = "Regular"
-
-[font.italic]
-family = "JetbrainsMono NF"
-style = "Regular"
-
-[font.normal]
-family = "JetbrainsMono NF"
-style = "Regular"
-
-[font.bold_italic]
-family = "JetbrainsMono NF"
-style = "Regular"
+size = 18
 
 # [font.bold]
-# family = "Agave Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
 
 # [font.italic]
-# family = "Agave Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
 
 # [font.normal]
-# family = "Agave Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
 
 # [font.bold_italic]
-# family = "Agave Nerd Font"
+# family = "JetbrainsMono NF"
 # style = "Regular"
+
+[font.bold]
+family = "Agave Nerd Font"
+style = "Regular"
+
+[font.italic]
+family = "Agave Nerd Font"
+style = "Regular"
+
+[font.normal]
+family = "Agave Nerd Font"
+style = "Regular"
+
+[font.bold_italic]
+family = "Agave Nerd Font"
+style = "Regular"
 
 # [font.bold]
 # family = "Iosevka NF"

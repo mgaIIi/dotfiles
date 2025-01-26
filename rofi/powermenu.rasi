@@ -7,7 +7,7 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #2d353b;
+	bg:				    #1a1b26;
 	fg:				    #ffffff;
 	accent:             #8f9b9f;
 	background-color:   @bg;
@@ -17,7 +17,7 @@ configuration {
 
 window {
 	border-radius:      15px;
-	width:			    30%;
+	width:			    20%;
 	padding: 			10px;
 	border:             3px;
 	border-color:       @accent;
@@ -42,7 +42,7 @@ element {
     orientation:                    horizontal;
 	horizontal-align:               0.5;
     vertical-align:                 0.5;
-    padding:                        1% 1% 1% 1%;
+    padding:                        0.2% 0.2% 0.2% 0.2%;
 	text-color:                     #ffffff;
 }
 
