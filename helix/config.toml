@@ -1,5 +1,5 @@
-theme = "tokyonight"
-# theme = "dark_plus"
+# theme = "tokyonight"
+theme = "nord"
 
 [editor]
 mouse = true

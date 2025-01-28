@@ -1,9 +1,9 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/tokyo.toml"]
+import = ["~/.config/alacritty/nord.toml"]
 
 [font]
-size = 21
+size = 20
 
 [font.bold]
 family = "Agave Nerd Font"
@@ -32,8 +32,8 @@ dimensions = { columns = 130, lines = 35 }
 # opacity = 0.92
 
 [window.padding]
-x = 10
-y = 10
+x = 15
+y = 15
 
 [cursor]
 style = "Beam"
