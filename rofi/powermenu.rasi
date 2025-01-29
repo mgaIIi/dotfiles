@@ -16,7 +16,7 @@ configuration {
 
 
 window {
-	border-radius:      15px;
+	border-radius:      0px;
 	width:			    20%;
 	padding: 			10px;
 	border:             3px;
@@ -27,7 +27,7 @@ window {
 listview {
 	foreground:                     #ffffff;
 	columns:                        1;
-    lines:	                        3;
+    lines:	                        4;
     layout:                         vertical;
 	fixed-height: true;
 }

@@ -1,11 +1,14 @@
 
 #!/bin/bash
 
-options="Suspend\nReboot\nShutdown"
+options="Lock\nSuspend\nReboot\nShutdown"
 
 selected=$(echo -e $options | rofi -dmenu -i -p "" -theme ~/.config/rofi/powermenu.rasi)
 
 case $selected in
+    Lock)
+        hyprlock
+        ;;
     Suspend)
         systemctl suspend
         ;;
