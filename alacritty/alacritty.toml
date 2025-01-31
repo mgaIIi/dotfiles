@@ -3,7 +3,7 @@ live_config_reload = true
 import = ["~/.config/alacritty/cat.toml"]
 
 [font]
-size = 21
+size = 18
 
 [font.bold]
 family = "Agave Nerd Font"
@@ -20,6 +20,40 @@ style = "Regular"
 [font.bold_italic]
 family = "Agave Nerd Font"
 style = "Regular"
+
+# [font.bold]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.italic]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.normal]
+# family = "Iosevka NF"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Iosevka NF"
+# style = "Regular"
+
+
+# [font.bold]
+# family = "Vitkovac H"
+# style = "Regular"
+
+# [font.italic]
+# family = "Vitkovac H"
+# style = "Regular"
+
+# [font.normal]
+# family = "Vitkovac H"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Vitkovac H"
+# style = "Regular"
+
 
 [selection]
 save_to_clipboard = true

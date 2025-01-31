@@ -1,20 +1,18 @@
 * {
   margin: 0;
-  padding: 1;
-  padding-top: 1;
-  padding-bottom: 1;
-  border: none;
+  /* padding: 1; */
+  /* padding-top: 1; */
+  /* padding-bottom: 1; */
   font-family: 'Agave Nerd Font';
-  font-size: 22px;
+  font-size: 20px;
   color: #ffffff;
-  /* background: #1e1e1e; */
-  /* TOKYO */
   background: transparent;
 }
 
 #waybar {
-  background: #1a1b26;
-  /* background: #000000; */
+  background: #1e1e2e;
+  border: 2px solid #c8a4ff;
+  border-radius: 8px;
 }
 
 #custom-arch {

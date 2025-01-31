@@ -1,13 +1,15 @@
 {
-  "position": "bottom",
+  "position": "top",
   "layer": "top",
-  // "margin-top" : 1,
-  // "margin-bottom" : 20,
-  // "margin-left" : 20,
-  // "margin-right" : 20,
+  "margin-top" : 10,
+  "margin-bottom" : 2,
+  "margin-left" : 10,
+  "margin-right" : 10,
+
   "modules-left": ["custom/arch", "custom/rof", "hyprland/workspaces"],
   "modules-center": ["clock"],
   "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery" ],
+
   "custom/arch": {
     "format": "  󱥸  ",
     "tooltip": false,
@@ -35,14 +37,14 @@
   },
   "backlight": {
     "device": "intel_backlight",
-    "format": "{icon} {percent} | ",
+    "format": "{icon} {percent} - ",
     "scroll-step": 0.3,
     "tooltip": false,
     "format-icons": ["", "", "", "", "", "", "", "", ""]
   },
   "pulseaudio": {
-    "format": "{icon} {volume} | ",
-    "format-muted": "  | ",
+    "format": "{icon} {volume} - ",
+    "format-muted": "  - ",
     "tooltip": false,
     "format-icons": {
       "headphone": " ",
@@ -51,18 +53,18 @@
     "scroll-step": 0.3,
   },
   "bluetooth": {
-    "format": " {status} | ",
-    "format-disabled": "󰂲 bt disabled | ",
-    "format-connected": " {num_connections} | ",
-    "tooltip-format": "{device_enumerate} | ",
+    "format": " {status} - ",
+    "format-disabled": "󰂲 bt disabled - ",
+    "format-connected": " {num_connections} - ",
+    "tooltip-format": "{device_enumerate} - ",
     "tooltip-format-enumerate-connected": "{device_alias} {device_address}"
   },
   "network": {
     "interface": "wlan0",
-    "format": "{ifname} | ",
-    "format-wifi": "  {essid} | ",
-    "format-ethernet": "{ipaddr}/{cidr}   | ",
-    "format-disconnected": "󰖪  No Network | ",
+    "format": "{ifname} - ",
+    "format-wifi": "  {essid} - ",
+    "format-ethernet": "{ipaddr}/{cidr}   - ",
+    "format-disconnected": "󰖪  No Network - ",
     "tooltip": false,
   },
   "battery": {
