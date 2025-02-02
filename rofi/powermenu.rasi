@@ -6,23 +6,23 @@ configuration {
 
 @theme "/dev/null"
 
+
 * {
-	bg:				    #1e1e2e;
+	bg:				    #1e1f22;
 	fg:				    #ffffff;
-	accent:             #C8A4FF;
+	accent:             #499c54;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      10px;
 	width:			    20%;
 	padding: 			10px;
-	border:             3px;
-	border-color:       @accent;
+	border:             2px;
+	border-color: @accent;
 }
-
 
 listview {
 	foreground:                     #ffffff;

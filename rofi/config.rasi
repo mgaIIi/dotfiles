@@ -13,9 +13,9 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1e1e2e;
+	bg:				    #1f272d;
 	fg:				    #ffffff;
-	accent:             #C8A4FF;
+	accent:             #486250;
 	background-color:   @bg;
 	text-color:         @fg;
 }

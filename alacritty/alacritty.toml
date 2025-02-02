@@ -1,6 +1,6 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/cat.toml"]
+import = ["~/.config/alacritty/jetbrains_dark.toml"]
 
 [font]
 size = 18
@@ -68,7 +68,8 @@ dimensions = { columns = 130, lines = 35 }
 [window.padding]
 x = 15
 y = 15
-
+# x = 0
+# y = 0
 [cursor]
 style = "Beam"
 unfocused_hollow = false
