@@ -8,13 +8,13 @@
     progress_bar_corner_radius = 2
     padding = 20
     horizontal_padding = 20
-    frame_width = 2
-    frame_color = "#8CFFAF"
+    frame_width = 3
+    frame_color = "#333333"
     gap_size = 3
     font = "Agave Nerd Font 16"
     timeout = 0
     icon_path = "/usr/share/icons/Tela-circle"
     enable_recursive_icon_lookup = true
-    corner_radius = 15
-    background = "#1f272d"
+    corner_radius = 100
+    background = "#1e1f22"
     foreground = "#ffffff"

@@ -5,18 +5,17 @@
   "margin-bottom" : 0,
   "margin-left" : 10,
   "margin-right" : 10,
-
-  "modules-left": ["custom/arch", "custom/rof", "hyprland/workspaces"],
-  "modules-center": ["clock"],
-  "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery" ],
-
+  "width" : 150,
+  "modules-left": [],
+  "modules-center": ["custom/arch","custom/rof", "hyprland/workspaces"],
+  "modules-right": [],
   "custom/arch": {
     "format": "  󱥸  ",
     "tooltip": false,
     "on-click": "sh $HOME/.config/rofi/bin/powermenu"
   },
   "custom/rof": {
-    "format" : " 󰊲  ",
+    "format" : " 󰊲   |",
     "tooltip" : false,
     "on-click": "rofi run -show drun"
   },

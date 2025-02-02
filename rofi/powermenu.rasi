@@ -8,9 +8,9 @@ configuration {
 
 
 * {
-	bg:				    #1f272d;
+	bg:				    #1e1f22;
 	fg:				    #ffffff;
-	accent:             #aaaaaa;
+	accent:             #0FA31B;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -20,8 +20,8 @@ window {
 	border-radius:      15px;
 	width:			    20%;
 	padding: 			10px;
-	border:             2px;
-	border-color: @accent;
+	border:             3px;
+	border-color: #333333;
 }
 
 listview {
