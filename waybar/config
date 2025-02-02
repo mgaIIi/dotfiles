@@ -38,7 +38,7 @@
   "backlight": {
     "device": "intel_backlight",
     "format": "{icon} {percent} - ",
-    "scroll-step": 0.3,
+    "scroll-step": 0.2,
     "tooltip": false,
     "format-icons": ["", "", "", "", "", "", "", "", ""]
   },
@@ -50,7 +50,7 @@
       "headphone": " ",
       "default": ["", " ", "󰕾", "󰕾", "󰕾 ", " ", " ", " "]
     },
-    "scroll-step": 0.3,
+    "scroll-step": 0.2,
   },
   "bluetooth": {
     "format": " {status} - ",
