@@ -8,16 +8,16 @@ configuration {
 
 
 * {
-	bg:				    #1e1f22;
+	bg:				    #1f272d;
 	fg:				    #ffffff;
-	accent:             #499c54;
+	accent:             #aaaaaa;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      10px;
+	border-radius:      15px;
 	width:			    20%;
 	padding: 			10px;
 	border:             2px;

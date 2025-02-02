@@ -15,18 +15,18 @@ configuration {
 * {
 	bg:				    #1f272d;
 	fg:				    #ffffff;
-	accent:             #486250;
+	accent:             #aaaaaa;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      15px;
 	width:			    20%;
 	height:             20%;
 	padding: 			10px;
-	border:             3px;
+	border:             2px;
 	border-color: @accent;
 }
 
