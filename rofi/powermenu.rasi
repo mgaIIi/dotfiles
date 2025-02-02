@@ -10,7 +10,7 @@ configuration {
 * {
 	bg:				    #1e1f22;
 	fg:				    #ffffff;
-	accent:             #0FA31B;
+	accent:             #5A9BBC;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -21,7 +21,7 @@ window {
 	width:			    20%;
 	padding: 			10px;
 	border:             3px;
-	border-color: #333333;
+	border-color:       #333333;
 }
 
 listview {

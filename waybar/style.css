@@ -20,6 +20,11 @@
 
 #workspaces {
   margin-left: 5;
+  transition: none;
+}
+
+#workspaces:hover {
+  transition: none;
 }
 
 #workspaces button {
@@ -27,6 +32,7 @@
   margin-right: 4;
   box-shadow: none;
   text-shadow: none;
+  transition: none;
 }
 
 #workspaces button:hover {
@@ -35,6 +41,7 @@
   text-shadow: none;
   background: none;
   transition: none;
+  animation: none;
 }
 
 #backlight,
