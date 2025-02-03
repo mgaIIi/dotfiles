@@ -9,7 +9,6 @@
 
 #waybar {
   background: #1e1f22;
-  /* border: 2px solid #c8a4ff; */
   border: 3px solid #333333;
   border-radius: 100px;
 }
@@ -21,6 +20,9 @@
 #workspaces {
   margin-left: 5;
   transition: none;
+  box-shadow: none;
+  text-shadow: none;
+
 }
 
 #workspaces:hover {
