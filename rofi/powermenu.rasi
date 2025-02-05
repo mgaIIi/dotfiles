@@ -10,7 +10,7 @@ configuration {
 * {
 	bg:				    #1e1f22;
 	fg:				    #ffffff;
-	accent:             #5A9BBC;
+	accent:             #ACCFFF;
 	background-color:   @bg;
 	text-color:         @fg;
 }
