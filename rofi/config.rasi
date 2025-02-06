@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 18";
+	font:				"Agave Nerd Font 9";
 	location:           0;
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
@@ -15,18 +15,18 @@ configuration {
 * {
 	bg:				    #1e1f22;
 	fg:				    #ffffff;
-	accent:             #ACCFFF;
+	accent:             #265D38;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      15px;
+	border-radius:      5px;
 	width:			    20%;
 	height:             20%;
 	padding: 			10px;
-	border:             3px;
+	border:             1px;
 	border-color: #333333;
 }
 
@@ -92,7 +92,7 @@ element-text, element-icon {
 }
 
 element selected {
-text-color: @bg;
+text-color: #84FF8A;
 background-color: @accent;
-border-radius: 6px;
+border-radius: 2px;
 }

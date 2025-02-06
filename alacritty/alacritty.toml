@@ -3,7 +3,7 @@ live_config_reload = true
 import = ["~/.config/alacritty/jetbrains_dark.toml"]
 
 [font]
-size = 16
+size = 9
 
 [font.bold]
 family = "Agave Nerd Font"
@@ -49,8 +49,8 @@ dimensions = { columns = 130, lines = 35 }
 # opacity = 0.92
 
 [window.padding]
-x = 15
-y = 15
+x = 5
+y = 5
 # x = 0
 # y = 0
 [cursor]

@@ -39,7 +39,7 @@ render = true
 character = "╎"
 
 [editor.file-picker]
-hidden = false
+hidden = true
 
 [keys.normal]
 p = "paste_clipboard_before"
