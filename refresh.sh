@@ -6,6 +6,7 @@ rm -rf ./helix
 rm -rf ./hypr
 rm -rf ./rofi
 rm -rf ./waybar
+rm -rf ./yazi
 
 cp -r ~/.config/alacritty .
 cp -r ~/.config/dunst .
@@ -13,3 +14,4 @@ cp -r ~/.config/helix .
 cp -r ~/.config/hypr .
 cp -r ~/.config/rofi .
 cp -r ~/.config/waybar .
+cp -r ~/.config/yazi .

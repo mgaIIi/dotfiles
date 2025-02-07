@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 9";
+	font:				"JetbrainsMono NF 8";
 	location:           0;
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";

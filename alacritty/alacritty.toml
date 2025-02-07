@@ -3,23 +3,40 @@ live_config_reload = true
 import = ["~/.config/alacritty/jetbrains_dark.toml"]
 
 [font]
-size = 9
+size = 7
+
+# [font.bold]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
 
 [font.bold]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.normal]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "Agave Nerd Font"
+family = "JetbrainsMono NF"
 style = "Regular"
+
 
 # [font.bold]
 # family = "Vitkovac H"
