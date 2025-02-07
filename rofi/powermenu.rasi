@@ -8,8 +8,8 @@ configuration {
 
 * {
 	bg:				    #1e1f22;
-	fg:				    #ffffff;
-	accent:             #265D38;
+	fg:				    #dddddd;
+	accent:             #83A4FF;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -58,7 +58,7 @@ element-text, element-icon {
 }
 
 element selected {
-	text-color: #84FF8A;
+	text-color: @bg;
     background-color: @accent;
     border-radius: 3px;
 }

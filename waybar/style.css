@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Agave Nerd Font';
-  font-size: 10px;
+  font-size: 8px;
   color: #ffffff;
   background: transparent;
 }
@@ -14,15 +14,19 @@
 }
 
 #custom-arch {
-  margin-left: 5;
+  margin-left: 20;
+  margin-right: 10;
+}
+
+#custom-rof {
+  margin-right: 10;
 }
 
 #workspaces {
-  margin-left: 5;
   transition: none;
   box-shadow: none;
   text-shadow: none;
-
+  margin-right: 10;
 }
 
 #workspaces:hover {
@@ -30,8 +34,8 @@
 }
 
 #workspaces button {
-  margin-left: 4;
-  margin-right: 4;
+  margin-left: 0;
+  margin-right: 0;
   box-shadow: none;
   text-shadow: none;
   transition: none;
@@ -50,11 +54,6 @@
 #pulseaudio,
 #bluetooth,
 #network,
-#battery {
-  padding-left: 5;
-  padding-right: 5;
-}
+#battery {}
 
-#clock {
-  margin-right: 5;
-}
+#clock {}
