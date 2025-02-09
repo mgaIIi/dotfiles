@@ -16,11 +16,11 @@ configuration {
 
 
 window {
-	border-radius:      5px;
+	border-radius:      0px;
 	width:			    20%;
 	padding: 			10px;
-	border:             1px;
-	border-color: #333333;
+	border:             2px;
+	border-color: @accent;
 }
 
 listview {
