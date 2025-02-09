@@ -1,7 +1,7 @@
 # theme = "tokyonight"
 # theme = "catppuccin_mocha"
-theme = "jetbrains_dark"
-
+# theme = "jetbrains_dark"
+theme = "github_dark_high_contrast"
 [editor]
 mouse = true
 auto-save = true
