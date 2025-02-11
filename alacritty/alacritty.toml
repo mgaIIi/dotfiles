@@ -1,58 +1,56 @@
 [general]
 live_config_reload = true
-# import = ["~/.config/alacritty/tokyo.toml"]
-import = ["~/.config/alacritty/github_dark.toml"]
+import = ["~/.config/alacritty/cat.toml"]
 
 [font]
-size = 18
+size = 15
 
+# [font.bold]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "Agave Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "Agave Nerd Font"
+# style = "Regular"
+# 
 [font.bold]
-family = "Agave Nerd Font"
+family = "SFMono"
 style = "Regular"
 
 [font.italic]
-family = "Agave Nerd Font"
+family = "SFMono"
 style = "Regular"
 
 [font.normal]
-family = "Agave Nerd Font"
+family = "SFMono"
 style = "Regular"
 
 [font.bold_italic]
-family = "Agave Nerd Font"
+family = "SFMono"
 style = "Regular"
 
 # [font.bold]
-# family = "DepartureMono Nerd Font"
+# family = "SFMono Nerd Font"
 # style = "Regular"
 
 # [font.italic]
-# family = "DepartureMono Nerd Font"
+# family = "SFMono Nerd Font"
 # style = "Regular"
 
 # [font.normal]
-# family = "DepartureMono Nerd Font"
+# family = "SFMono Nerd Font"
 # style = "Regular"
 
 # [font.bold_italic]
-# family = "DepartureMono Nerd Font"
-# style = "Regular"
-
-
-# [font.bold]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.italic]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.normal]
-# family = "JetbrainsMono NF"
-# style = "Regular"
-
-# [font.bold_italic]
-# family = "JetbrainsMono NF"
+# family = "SFMono Nerd Font"
 # style = "Regular"
 
 
@@ -84,8 +82,8 @@ dimensions = { columns = 130, lines = 35 }
 # opacity = 0.92
 
 [window.padding]
-x = 8
-y = 8
+x = 15
+y = 15
 # x = 0
 # y = 0
 [cursor]

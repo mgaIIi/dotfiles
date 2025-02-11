@@ -1,7 +1,4 @@
-# theme = "tokyonight"
-# theme = "catppuccin_mocha"
-# theme = "jetbrains_dark"
-theme = "github_dark_high_contrast"
+theme = "catppuccin_mocha"
 
 [editor]
 mouse = true
@@ -40,7 +37,7 @@ render = true
 character = "╎"
 
 [editor.file-picker]
-hidden = true
+hidden = false
 
 [keys.normal]
 p = "paste_clipboard_before"
