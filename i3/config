@@ -1,20 +1,20 @@
 set $mod Mod4
 
-font pango:JetbrainsMono NF 9
-gaps inner 10
-gaps outer 10
+font pango:SFMono 8
+gaps inner 5
+gaps outer 0
 
 default_border pixel 2
 default_floating_border pixel 2
 
-client.focused          #5e5e6e #5e5e6e #ffffff #5e5e6e
-client.unfocused        #11111b #11111b #ffffff #11111b
+client.focused          #bb99ee #bb99ee #bb99ee #bb99ee
+client.unfocused        #333333 #333333 #333333 #333333
 client.urgent           #11111b #11111b #ffffff #11111b
 client.placeholder      #11111b #11111b #ffffff #11111b
 
 exec --no-startup-id dex --autostart --environment i3
 
-exec feh --bg-fill ~/.config/i3/wallpapers/rwb.png
+exec feh --bg-fill ~/.config/i3/wallpapers/void.png
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
@@ -44,7 +44,7 @@ bindsym $mod+c resize set 1200 px 800 px, move position center
 # start rofi
 bindsym $mod+d exec "rofi -modi drun,run -show drun"
 bindsym $mod+o exec ~/.config/i3/volume.sh
-bindsym $mod+Shift+d exec ~/.config/i3/powermenu.sh
+bindsym $mod+Shift+d exec ~/.config/rofi/bin/powermenu
 
 bindsym $mod+h focus left
 bindsym $mod+j focus down
@@ -113,20 +113,3 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
-
-# bar {
-#     position top
-    
-#     colors {
-#         background #1e1e2e
-#         statusline #ffffff
-#         separator  #ffffff
-
-#         focused_workspace  #5e5e6e #5e5e6e #ffffff
-#         active_workspace   #2d353b #2d353b #FFFFFF
-#         inactive_workspace #2d353b #2d353b #FFFFFF
-#         urgent_workspace   #900000 #900000 #575757
-#     }
-
-#     tray_output primary
-# }
