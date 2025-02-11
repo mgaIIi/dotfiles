@@ -7,18 +7,18 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #0a0c10;
+	bg:				    #1e1e2e;
 	fg:				    #dddddd;
-	accent:             #aaaaaa;
+	accent:             #bb99ee;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      20px;
 	width:			    20%;
-	padding: 			10px;
+	padding: 			20px;
 	border:             2px;
 	border-color: @accent;
 }
@@ -60,5 +60,5 @@ element-text, element-icon {
 element selected {
 	text-color: @bg;
     background-color: @accent;
-    border-radius: 3px;
+    border-radius: 5px;
 }
