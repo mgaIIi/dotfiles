@@ -7,19 +7,19 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1e1e2e;
+	bg:				    #0a0c10;
 	fg:				    #dddddd;
-	accent:             #bb99ee;
+	accent:             #9F1A1C;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      20px;
-	width:			    20%;
+	border-radius:      0px;
+	width:			    25%;
 	padding: 			20px;
-	border:             2px;
+	border:             4px;
 	border-color: @accent;
 }
 
@@ -41,7 +41,7 @@ element {
     orientation:                    horizontal;
 	horizontal-align:               0.5;
     vertical-align:                 0.5;
-    padding:                        0.2% 0.2% 0.2% 0.2%;
+    padding:                        0.4% 0.4% 0.4% 0.4%;
 	text-color:                     #ffffff;
 }
 
@@ -58,7 +58,7 @@ element-text, element-icon {
 }
 
 element selected {
-	text-color: @bg;
+	text-color: @fg;
     background-color: @accent;
     border-radius: 5px;
 }
