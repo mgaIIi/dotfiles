@@ -9,7 +9,7 @@ configuration {
 * {
 	bg:				    #0a0c10;
 	fg:				    #dddddd;
-	accent:             #9F1A1C;
+	accent:             #ffffff;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -19,7 +19,7 @@ window {
 	border-radius:      0px;
 	width:			    25%;
 	padding: 			20px;
-	border:             4px;
+	border:             1px;
 	border-color: @accent;
 }
 
@@ -58,7 +58,7 @@ element-text, element-icon {
 }
 
 element selected {
-	text-color: @fg;
+	text-color: @bg;
     background-color: @accent;
     border-radius: 5px;
 }
