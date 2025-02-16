@@ -1,13 +1,13 @@
 set $mod Mod4
 
-font pango:SFMono 8
+font pango:IosevkaTermSlab NF 8
 gaps inner 5
 gaps outer 0
 
-default_border pixel 2
-default_floating_border pixel 2
+default_border pixel 1
+default_floating_border pixel 1
 
-client.focused          #bb99ee #bb99ee #bb99ee #bb99ee
+client.focused          #ffffff #ffffff #000000 #ffffff
 client.unfocused        #333333 #333333 #333333 #333333
 client.urgent           #11111b #11111b #ffffff #11111b
 client.placeholder      #11111b #11111b #ffffff #11111b
