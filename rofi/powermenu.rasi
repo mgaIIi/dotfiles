@@ -16,9 +16,9 @@ configuration {
 
 
 window {
-	border-radius:      0px;
-	width:			    25%;
-	padding: 			20px;
+	border-radius:      15px;
+	width:			    15%;
+	padding: 			10px;
 	border:             1px;
 	border-color: @accent;
 }
@@ -60,5 +60,5 @@ element-text, element-icon {
 element selected {
 	text-color: @bg;
     background-color: @accent;
-    border-radius: 5px;
+    border-radius: 7px;
 }
