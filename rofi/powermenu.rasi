@@ -7,8 +7,8 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #0a0c10;
-	fg:				    #dddddd;
+	bg:				    #010a10;
+	fg:				    #ffffff;
 	accent:             #ffffff;
 	background-color:   @bg;
 	text-color:         @fg;
@@ -16,11 +16,11 @@ configuration {
 
 
 window {
-	border-radius:      15px;
+	border-radius:      10px;
 	width:			    15%;
-	padding: 			10px;
-	border:             1px;
-	border-color: @accent;
+	padding: 			0px;
+	border:             2px;
+	border-color:       @fg;
 }
 
 listview {
@@ -60,5 +60,5 @@ element-text, element-icon {
 element selected {
 	text-color: @bg;
     background-color: @accent;
-    border-radius: 7px;
+    border-radius: 0px;
 }

@@ -3,22 +3,22 @@ live_config_reload = true
 import = ["~/.config/alacritty/github_dark.toml"]
 
 [font]
-size = 17
+size = 16
 
 [font.bold]
-family = "IosevkaTermSlab NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.italic]
-family = "IosevkaTermSlab NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.normal]
-family = "IosevkaTermSlab NF"
+family = "Iosevka NF"
 style = "Regular"
 
 [font.bold_italic]
-family = "IosevkaTermSlab NF"
+family = "Iosevka NF"
 style = "Regular"
 
 # [font.bold]
@@ -65,8 +65,8 @@ dimensions = { columns = 130, lines = 35 }
 # opacity = 0.92
 
 [window.padding]
-x = 15
-y = 15
+x = 30
+y = 30
 # x = 0
 # y = 0
 [cursor]
