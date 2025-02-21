@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Iosevka NF 16";
+	font:				"SFMono 16";
 	location:           0;
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
@@ -13,9 +13,9 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #010a10;
-	fg:				    #ffffff;
-	accent:             #ffffff;
+	bg:				    #1d2021;
+	fg:				    #d5c4a1;
+	accent:             #d5c4a1;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -33,7 +33,7 @@ window {
 entry {
     placeholder: "Search";
 	background-color: @bg;
-    placeholder-color: #888888;
+    placeholder-color: @fg;
 	text-color: @accent;
 	vertical-align:   0.5;
 	horizontal-align: 0.5;
@@ -52,7 +52,7 @@ inputbar {
 }
 
 listview {
-	foreground: #ffffff;
+	foreground: @fg;
 	columns: 1;
     lines: 3;
     cycle: true;

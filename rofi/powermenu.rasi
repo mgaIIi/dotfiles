@@ -7,9 +7,9 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #010a10;
-	fg:				    #ffffff;
-	accent:             #ffffff;
+	bg:				    #1d2021;
+	fg:				    #d5c4a1;
+	accent:             #d5c4a1;
 	background-color:   @bg;
 	text-color:         @fg;
 }

@@ -1,4 +1,4 @@
-theme = "github_dark_high_contrast"
+theme = "gruvbox_dark_hard"
 
 [editor]
 mouse = true
