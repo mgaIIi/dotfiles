@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"SFMono 16";
+	font:				"SFMono 14";
 	location:           0;
 	show-icons:         false;
 	icon-theme: 		"Tela-circle";
@@ -13,33 +13,33 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #1d2021;
-	fg:				    #d5c4a1;
-	accent:             #d5c4a1;
+	bg:				    #0a0c10;
+	fg:				    #ffffff;
+	accent:             #333344;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      10px;
-	width:			    15%;
+	border-radius:      5px;
+	width:			    25%;
 	height:             15%;
 	padding: 			0px;
 	border:             2px;
-	border-color:       @fg;
+	border-color:       @accent;
 }
 
 entry {
     placeholder: "Search";
 	background-color: @bg;
     placeholder-color: @fg;
-	text-color: @accent;
+	text-color: @fg;
 	vertical-align:   0.5;
 	horizontal-align: 0.5;
     expand: true;
-    padding: 0.2% 0.2% 0.2% 0.2%;
-	margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%;
+	margin: 0% 0% 1% 0%;
 }
 
 inputbar {
@@ -92,7 +92,7 @@ element-text, element-icon {
 }
 
 element selected {
-text-color: @bg;
+text-color: @fg;
 background-color: @accent;
 border-radius: 0px;
 }

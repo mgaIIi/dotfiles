@@ -1,7 +1,7 @@
 [global]
-    origin = top-right
+    origin = bottom-center
     width = 500
-    offset = 10x10
+    offset = 20x20
     max_icon_size = 32
     progress_bar_min_width = 50
     progress_bar_max_width = 50
@@ -9,12 +9,12 @@
     padding = 20
     horizontal_padding = 20
     frame_width = 2
-    frame_color = "#ffffff"
-    gap_size = 14
-    font = "Iosevka NF 16"
+    frame_color = "#333344"
+    gap_size = 15
+    font = "SFMono 14"
     timeout = 0
     icon_path = "/usr/share/icons/Tela-circle"
     enable_recursive_icon_lookup = true
     corner_radius = 10
-    background = "#010a10"
-    foreground = "#ffffff"
+    background = "#0a0c10"
+    foreground = "#f0f3f6"
