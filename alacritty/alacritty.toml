@@ -3,39 +3,39 @@ live_config_reload = true
 import = ["~/.config/alacritty/github_dark.toml"]
 
 [font]
-size = 14
-
-# [font.bold]
-# family = "Iosevka NF"
-# style = "Regular"
-
-# [font.italic]
-# family = "Iosevka NF"
-# style = "Regular"
-
-# [font.normal]
-# family = "Iosevka NF"
-# style = "Regular"
-
-# [font.bold_italic]
-# family = "Iosevka NF"
-# style = "Regular"
+size = 16
 
 [font.bold]
-family = "SFMono"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.italic]
-family = "SFMono"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.normal]
-family = "SFMono"
+family = "Agave Nerd Font"
 style = "Regular"
 
 [font.bold_italic]
-family = "SFMono"
+family = "Agave Nerd Font"
 style = "Regular"
+
+# [font.bold]
+# family = "SFMono"
+# style = "Regular"
+
+# [font.italic]
+# family = "SFMono"
+# style = "Regular"
+
+# [font.normal]
+# family = "SFMono"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "SFMono"
+# style = "Regular"
 
 # [font.bold]
 # family = "Vitkovac H"
