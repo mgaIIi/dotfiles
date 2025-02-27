@@ -9,7 +9,7 @@
     padding = 20
     horizontal_padding = 20
     frame_width = 2
-    frame_color = "#333344"
+    frame_color = "#74DCDA"
     gap_size = 15
     font = "Agave Nerd Font 14"
     timeout = 0

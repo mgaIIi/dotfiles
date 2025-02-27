@@ -3,7 +3,7 @@ live_config_reload = true
 import = ["~/.config/alacritty/github_dark.toml"]
 
 [font]
-size = 16
+size = 15
 
 [font.bold]
 family = "Agave Nerd Font"
@@ -62,7 +62,6 @@ decorations = "Full"
 dynamic_padding = false
 dynamic_title = false
 dimensions = { columns = 130, lines = 35 }
-# opacity = 0.92
 
 [window.padding]
 x = 15
