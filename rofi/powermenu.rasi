@@ -9,17 +9,17 @@ configuration {
 * {
 	bg:				    #0a0c10;
 	fg:				    #ffffff;
-	accent:             #DC7496;
+	accent:             #2BB9E8;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      5px;
+	border-radius:      0px;
 	width:			    20%;
 	padding: 			10px;
-	border:             2px;
+	border:             4px;
 	border-color:       @accent;
 }
 
