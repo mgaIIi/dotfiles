@@ -22,11 +22,11 @@ configuration {
 
 
 window {
-	border-radius:      0px;
-	width:			    20%;
+	border-radius:      15px;
+	width:			    25%;
 	height:             15%;
 	padding: 			10px;
-	border:             4px;
+	border:             2px;
 	border-color:       @accent;
 }
 

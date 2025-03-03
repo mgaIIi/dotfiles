@@ -16,10 +16,10 @@ configuration {
 
 
 window {
-	border-radius:      0px;
+	border-radius:      15px;
 	width:			    20%;
 	padding: 			10px;
-	border:             4px;
+	border:             2px;
 	border-color:       @accent;
 }
 
