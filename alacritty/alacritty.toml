@@ -1,6 +1,6 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/github_dark.toml"]
+import = ["~/.config/alacritty/tokyo.toml"]
 
 [font]
 size = 20

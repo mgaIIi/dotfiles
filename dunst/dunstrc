@@ -1,6 +1,6 @@
 [global]
     origin = top-right
-    width = 700
+    width = 400
     offset = 30x30
     max_icon_size = 32
     progress_bar_min_width = 50
@@ -11,7 +11,7 @@
     frame_width = 3
     frame_color = "#cccccc"
     gap_size = 15
-    font = "Agave Nerd Font 20"
+    font = "Agave Nerd Font 14"
     timeout = 0
     icon_path = "/usr/share/icons/Tela-circle"
     enable_recursive_icon_lookup = true
