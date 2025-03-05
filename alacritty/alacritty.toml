@@ -22,19 +22,19 @@ family = "Agave Nerd Font"
 style = "Regular"
 
 # [font.bold]
-# family = "SFMono"
-# style = "Regular"
+# family = "Iosevka NF"
+# style = "Regualar"
 
 # [font.italic]
-# family = "SFMono"
+# family = "Iosevka NF"
 # style = "Regular"
 
 # [font.normal]
-# family = "SFMono"
+# family = "Iosevka NF"
 # style = "Regular"
 
 # [font.bold_italic]
-# family = "SFMono"
+# family = "Iosevka NF"
 # style = "Regular"
 
 # [font.bold]
