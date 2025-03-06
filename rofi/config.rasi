@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 20";
+	font:				"Agave Nerd Font 14";
 	location:           0;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
@@ -13,9 +13,9 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #0a0c10;
+	bg:				    #0d1117;
 	fg:				    #ffffff;
-	accent:             #ffffff;
+	accent:             #cccccc;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -23,63 +23,63 @@ configuration {
 
 window {
 	border-radius:      0px;
-	width:			    30%;
-	height:             30%;
-	padding: 			2%;
+	width:			    20%;
+	height:             20%;
+	padding: 			20;
 	border:             3px;
 	border-color:       @accent;
 }
 
 entry {
-    placeholder: "Search";
-	background-color: @bg;
-    placeholder-color: @fg;
+    placeholder: "Search for an application";
+	background-color: transparent;
+    placeholder-color: #6e6e8e70;
 	text-color: @fg;
 	vertical-align:   0.5;
 	horizontal-align: 0.5;
     expand: true;
-    padding: 0% 0% 0% 0%;
-	margin: 0% 0% 0% 0%;
+    padding: 0;
+	margin: 0;
 }
 
 inputbar {
 	children: [ entry ];
     background-color: @bg;
-    expand: false;
-    border-radius: 0px;
-    margin: 0;
-    padding: 20;
 	border: 3px;
 	border-color: @accent;
+    expand: false;
+    border-radius: 0px;
+    margin: 0 0 0 0;
+    padding: 10;
 }
 
 listview {
 	foreground: @fg;
-	columns: 3;
-	lines: 3;
-    cycle: true;
-    dynamic: false;
+	columns: 2;
+	lines: 1;
+    cycle: false;
+    dynamic: true;
     layout: vertical;
 	fixed-height: true;
-	padding: 0.5% 0% 0% 0%;
-
+	margin: 0;
 }
 
 mainbox {
-    children: [ listview,inputbar ];
-    spacing: 0%;
-    padding: 0% 0% 0% 0%;
+    children: [ listview, inputbar ];
+    spacing: 0;
+    padding: 0;
 }
 
 element {
     orientation: vertical;
-    padding: 0.4% 0.4% 0.4% 0.4%;
+    padding: 15;
 	text-color: #ffffff;
 }
 
 element-icon {
-    size: 60px;
-    horizontal-align: 0.5;
+    size: 40px;
+	margin: 0 0 15 0;
+	horizontal-align: 0.5;
 	vertical-align: 0.5;
 }
 
@@ -96,7 +96,9 @@ element-text, element-icon {
 }
 
 element selected {
-text-color: @bg;
-background-color: @accent;
-border-radius: 5px;
+text-color: @fg;
+background-color: @bg;
+border: 3px;
+border-color: @accent;
+border-radius: 0px;
 }

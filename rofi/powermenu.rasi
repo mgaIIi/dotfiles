@@ -7,9 +7,9 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #0a0c10;
+	bg:				    #0d1117;
 	fg:				    #ffffff;
-	accent:             #ffffff;
+	accent:             #cccccc;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -17,8 +17,8 @@ configuration {
 
 window {
 	border-radius:      0px;
-	width:			    30%;
-	padding: 			2%;
+	width:			    20%;
+	padding: 			10;
 	border:             2px;
 	border-color:       @accent;
 }
@@ -42,10 +42,10 @@ element {
 	horizontal-align:               0.5;
     vertical-align:                 0.5;
     padding:                        20;
-	border:                         3px;
-	border-color:                   @accent;
 	margin:                         10;
 	text-color:                     #ffffff;
+	border-radius: 0px;
+
 }
 
 element-text {
@@ -61,7 +61,8 @@ element-text, element-icon {
 }
 
 element selected {
-	text-color: @bg;
-    background-color: @accent;
+	text-color: @fg;
+	border: 3px;
+	border-color: @accent;
     border-radius: 0px;
 }

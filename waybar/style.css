@@ -1,16 +1,16 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 1;
+  padding: 2;
   font-family: 'Agave Nerd Font';
-  font-size: 8px;
+  font-size: 24px;
   color: #ffffff;
   background: transparent;
 }
 
 #waybar {
-  background: #1e1f22;
-  border: 2px solid #333333;
-  border-radius: 5px;
+  background: #101a26;
+  border: 3px solid #ccccee;
+  border-radius: 0px;
 }
 
 #custom-arch {
