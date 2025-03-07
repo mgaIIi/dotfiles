@@ -9,12 +9,12 @@
     padding = 30
     horizontal_padding = 20
     frame_width = 3
-    frame_color = "#cccccc"
+    frame_color = "#51576d"
     gap_size = 15
     font = "Agave Nerd Font 14"
     timeout = 0
     icon_path = "/usr/share/icons/Tela-circle"
     enable_recursive_icon_lookup = true
-    corner_radius = 0
-    background = "#0a0c10"
-    foreground = "#f0f3f6"
+    corner_radius = 10
+    background = "#303446"
+    foreground = "#ffffff"

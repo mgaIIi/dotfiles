@@ -7,9 +7,9 @@ configuration {
 @theme "/dev/null"
 
 * {
-	bg:				    #0d1117;
+	bg:				    #303446;
 	fg:				    #ffffff;
-	accent:             #cccccc;
+	accent:             #51576d;
 	background-color:   @bg;
 	text-color:         @fg;
 }
@@ -18,15 +18,15 @@ configuration {
 window {
 	border-radius:      0px;
 	width:			    20%;
-	padding: 			10;
+	padding: 			5;
 	border:             2px;
 	border-color:       @accent;
 }
 
 listview {
 	foreground:                     #ffffff;
-	columns:                        1;
-    lines:	                        4;
+	columns:                        2;
+    lines:	                        2;
     layout:                         vertical;
 	fixed-height: true;
 }
