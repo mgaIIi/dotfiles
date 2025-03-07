@@ -1,6 +1,6 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/cat_frappe.toml"]
+import = ["~/.config/alacritty/git_dark_trit.toml"]
 
 [font]
 size = 16

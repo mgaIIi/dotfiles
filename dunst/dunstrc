@@ -16,5 +16,5 @@
     icon_path = "/usr/share/icons/Tela-circle"
     enable_recursive_icon_lookup = true
     corner_radius = 10
-    background = "#303446"
+    background = "#0d1117"
     foreground = "#ffffff"
