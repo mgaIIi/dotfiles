@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Iosevka NF 16";
+	font:				"JetbrainsMono NF 13";
 	location:           0;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
