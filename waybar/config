@@ -2,12 +2,12 @@
   "position": "bottom",
   "layer": "top",
   "margin-top" : 0,
-  "margin-bottom" : 5,
+  "margin-bottom" : 0,
   "margin-left" : 0,
   "margin-right" : 0,
-  "width" : 100,
-  "modules-left": [],
-  "modules-center": ["custom/arch","custom/rof", "hyprland/workspaces"],
+  
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": [],
   "modules-right": [],
 
   "custom/arch": {

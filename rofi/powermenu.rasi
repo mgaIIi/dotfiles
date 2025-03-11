@@ -9,14 +9,14 @@ configuration {
 * {
 	bg:				    #1e1e2e;
 	fg:				    #ffffff;
-	accent:             #f38ba8;
+	accent:             #aaaaaa;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      30px;
+	border-radius:      0px;
 	width:			    20%;
 	padding: 			20;
 	border:             2px;
@@ -64,5 +64,5 @@ element selected {
 	text-color: @fg;
 	border: 3px;
 	border-color: @accent;
-    border-radius: 10px;
+    border-radius: 0px;
 }

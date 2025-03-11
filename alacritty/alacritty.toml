@@ -3,40 +3,56 @@ live_config_reload = true
 import = ["~/.config/alacritty/cat.toml"]
 
 [font]
-size = 16
-
-[font.bold]
-family = "Agave Nerd Font"
-style = "Regular"
-
-[font.italic]
-family = "Agave Nerd Font"
-style = "Regular"
-
-[font.normal]
-family = "Agave Nerd Font"
-style = "Regular"
-
-[font.bold_italic]
-family = "Agave Nerd Font"
-style = "Regular"
-
+size = 14
 
 # [font.bold]
-# family = "SFMono"
+# family = "Agave Nerd Font"
 # style = "Regular"
 
 # [font.italic]
-# family = "SFMono"
+# family = "Agave Nerd Font"
 # style = "Regular"
 
 # [font.normal]
-# family = "SFMono"
+# family = "Agave Nerd Font"
 # style = "Regular"
 
 # [font.bold_italic]
-# family = "SFMono"
+# family = "Agave Nerd Font"
 # style = "Regular"
+
+# [font.bold]
+# family = "ProggyClean Nerd Font"
+# style = "Regular"
+
+# [font.italic]
+# family = "ProggyClean Nerd Font"
+# style = "Regular"
+
+# [font.normal]
+# family = "ProggyClean Nerd Font"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "ProggyClean Nerd Font"
+# style = "Regular"
+
+
+[font.bold]
+family = "SFMono"
+style = "Regular"
+
+[font.italic]
+family = "SFMono"
+style = "Regular"
+
+[font.normal]
+family = "SFMono"
+style = "Regular"
+
+[font.bold_italic]
+family = "SFMono"
+style = "Regular"
 
 
 # [font.bold]

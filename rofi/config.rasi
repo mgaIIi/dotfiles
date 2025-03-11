@@ -1,7 +1,7 @@
 
 configuration {
 	modi:				"drun";
-	font:				"Agave Nerd Font 15";
+	font:				"SFMono 14";
 	location:           0;
 	show-icons:         true;
 	icon-theme: 		"Tela-circle";
@@ -15,14 +15,14 @@ configuration {
 * {
 	bg:				    #1e1e2e;
 	fg:				    #ffffff;
-	accent:             #f38ba8;
+	accent:             #aaaaaa;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      25px;
+	border-radius:      0px;
 	width:			    20%;
 	height:             20%;
 	padding: 			30;
@@ -33,7 +33,7 @@ window {
 entry {
     placeholder: "Search for an application";
 	background-color: transparent;
-    placeholder-color: #f38ba890;
+    placeholder-color: #88aa8890;
 	text-color: @fg;
 	vertical-align:   0.5;
 	horizontal-align: 0.5;
@@ -48,7 +48,7 @@ inputbar {
 	border: 3px;
 	border-color: @accent;
     expand: false;
-    border-radius: 5px;
+    border-radius: 0px;
     margin: 0 0 0 0;
     padding: 10;
 }
@@ -71,22 +71,22 @@ mainbox {
 }
 
 element {
-    orientation: vertical;
+    orientation: horizontal;
     padding: 15;
 	text-color: #ffffff;
 }
 
 element-icon {
-    size: 40px;
-	margin: 0 0 15 0;
-	horizontal-align: 0.5;
+    size: 30px;
+	margin: 0 10 0 0;
+	horizontal-align: 0;
 	vertical-align: 0.5;
 }
 
 element-text {
 	text-color: @accent;
 	expand: true;
-	horizontal-align: 0.5;
+	horizontal-align: 0;
 	vertical-align: 0.5;
 }
 
@@ -99,5 +99,5 @@ element selected {
 text-color: @fg;
 border: 3px;
 border-color: @accent;
-border-radius: 10px;
+border-radius: 0px;
 }
