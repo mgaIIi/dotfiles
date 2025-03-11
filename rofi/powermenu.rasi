@@ -1,24 +1,24 @@
 configuration {
 	modi:				"drun";
 	show-icons:         false;
-	sidebar-mode: 			false;
+	sidebar-mode: 		false;
 }
 
 @theme "/dev/null"
 
 * {
-	bg:				    #0d1117;
+	bg:				    #1e1e2e;
 	fg:				    #ffffff;
-	accent:             #51576d;
+	accent:             #f38ba8;
 	background-color:   @bg;
 	text-color:         @fg;
 }
 
 
 window {
-	border-radius:      0px;
+	border-radius:      30px;
 	width:			    20%;
-	padding: 			5;
+	padding: 			20;
 	border:             2px;
 	border-color:       @accent;
 }
@@ -64,5 +64,5 @@ element selected {
 	text-color: @fg;
 	border: 3px;
 	border-color: @accent;
-    border-radius: 0px;
+    border-radius: 10px;
 }

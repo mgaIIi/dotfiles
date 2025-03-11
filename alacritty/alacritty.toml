@@ -1,6 +1,6 @@
 [general]
 live_config_reload = true
-import = ["~/.config/alacritty/git_dark_trit.toml"]
+import = ["~/.config/alacritty/cat.toml"]
 
 [font]
 size = 16
@@ -20,6 +20,24 @@ style = "Regular"
 [font.bold_italic]
 family = "Agave Nerd Font"
 style = "Regular"
+
+
+# [font.bold]
+# family = "SFMono"
+# style = "Regular"
+
+# [font.italic]
+# family = "SFMono"
+# style = "Regular"
+
+# [font.normal]
+# family = "SFMono"
+# style = "Regular"
+
+# [font.bold_italic]
+# family = "SFMono"
+# style = "Regular"
+
 
 # [font.bold]
 # family = "Iosevka NF"
@@ -64,8 +82,8 @@ dynamic_title = false
 dimensions = { columns = 130, lines = 35 }
 
 [window.padding]
-x = 15
-y = 15
+x = 20
+y = 20
 # x = 0
 # y = 0
 [cursor]
