@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetbrainsMono NF:pixelsize=15:antialias=true:autohint=true";
+static char *font = "JetbrainsMono NF:pixelsize=18:antialias=true:autohint=true";
 static int borderpx = 15;
 
 /*
@@ -181,6 +181,9 @@ static Shortcut shortcuts[] = {
     {MODKEY, XK_p, zoom, {.f = +1}},
     {MODKEY, XK_n, zoom, {.f = -1}},
     {MODKEY, XK_r, zoomreset, {.f = 0}},
+    {MODKEY, XK_c, clipcopy, {.i = 0}},
+    {MODKEY, XK_v, clippaste, {.i = 0}},
+
     {TERMMOD, XK_Num_Lock, numlock, {.i = 0}},
 };
 
