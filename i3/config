@@ -1,27 +1,20 @@
 set $mod Mod4
 
-font pango:Agave Nerd Font 9
-gaps inner 5
-gaps outer 5
+font pango:JetbrainsMono NF 6
+gaps inner 20
+gaps outer 20
 
 default_border pixel 1
 default_floating_border pixel 1
 
-client.focused          #ffffff #ffffff #000000 #ffffff
-client.unfocused        #333333 #333333 #333333 #333333
+client.focused          #ffffff #ffffff #ffffff #ffffff
+client.unfocused        #555555 #555555 #555555 #555555
 client.urgent           #11111b #11111b #ffffff #11111b
 client.placeholder      #11111b #11111b #ffffff #11111b
 
 exec --no-startup-id dex --autostart --environment i3
-
-exec feh --bg-fill ~/Pictures/wallpapers/void.png
-exec pipewire
-exec pipewire-pulse
-exec wireplumber
-
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
-
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 # Use pactl to adjust volume in PulseAudio.
@@ -47,9 +40,9 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+i  exec firefox
 bindsym $mod+q kill
 bindsym $mod+a move position center
-bindsym $mod+c resize set 1200 px 800 px, move position center
-bindsym $mod+b exec /home/milo/.config/i3//scripts/battify.sh
-bindsym $mod+d exec /home/milo/.config/i3/scripts/dattify.sh
+bindsym $mod+c resize set 2000 px 1500 px, move position center
+bindsym $mod+b exec "~/Scripts/battify.sh"
+bindsym $mod+d exec "~/Scripts/dattify.sh"
 
 # start rofi
 bindsym $mod+space exec "rofi -modi drun,run -show drun"
@@ -108,6 +101,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
+bindsym $mod+Shift+e exit
 
 mode "resize" {
     bindsym h resize shrink width 10 px or 10 ppt
