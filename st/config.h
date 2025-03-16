@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetbrainsMono NF:pixelsize=18:antialias=true:autohint=true";
-static int borderpx = 15;
+static char *font = "Agave Nerd Font:pixelsize=22:antialias=true:autohint=true";
+static int borderpx = 16;
 
 /*
  * What program is execed by st depends of these precedence rules:
