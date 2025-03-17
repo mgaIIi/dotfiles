@@ -1,15 +1,15 @@
-static const unsigned int borderpx = 2; /* border pixel of windows */
+static const unsigned int borderpx = 3; /* border pixel of windows */
 static const unsigned int gappx = 0;    /* gaps between windows */
 static const unsigned int snap = 32;    /* snap pixel */
 static const int showbar = 0;           /* 0 means no bar */
 static const int topbar = 1;            /* 0 means bottom bar */
-static const char *fonts[] = {"Agave Nerd Font:size=14"};
-static const char dmenufont[] = "Agave Nerd Font:size=14";
-static const char col_gray1[] = "#11111b";
-static const char col_gray2[] = "#1e1e2e";
-static const char col_gray3[] = "#45475a";
-static const char col_gray4[] = "#a6adc8";
-static const char col_cyan[] = "#aaaaaa";
+static const char *fonts[] = {"JetbrainsMono NF:size=15"};
+static const char dmenufont[] = "JetbrainsMono NF:size=15";
+static const char col_gray1[] = "#1d2024";
+static const char col_gray2[] = "#aaaaaa";
+static const char col_gray3[] = "#aaaaaa";
+static const char col_gray4[] = "#282828";
+static const char col_cyan[] = "#b8bb26";
 static const char *colors[][3] = {
     /*               fg         bg         border   */
     [SchemeNorm] = {col_gray4, col_gray1, col_gray2},
@@ -65,6 +65,7 @@ static const char *battify[] = {"/home/mgalli/Scripts/battify.sh", NULL};
 static const char *dattify[] = {"/home/mgalli/Scripts/dattify.sh", NULL};
 static const char *browser_command[] = {"firefox", NULL};
 static const char *screenshot[] = {"flameshot", "gui", NULL};
+static const char *lock_screen[] = {"feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/lock.png", NULL};
 
 /* patching */
 #include "patches/shiftview.c"
