@@ -5,11 +5,11 @@ static const int showbar = 0;           /* 0 means no bar */
 static const int topbar = 1;            /* 0 means bottom bar */
 static const char *fonts[] = {"JetbrainsMono NF:size=15"};
 static const char dmenufont[] = "JetbrainsMono NF:size=15";
-static const char col_gray1[] = "#1d2024";
-static const char col_gray2[] = "#aaaaaa";
-static const char col_gray3[] = "#aaaaaa";
-static const char col_gray4[] = "#282828";
-static const char col_cyan[] = "#b8bb26";
+static const char col_gray1[] = "#002b36";
+static const char col_gray2[] = "#cccccc";
+static const char col_gray3[] = "#cccccc";
+static const char col_gray4[] = "#224d58";
+static const char col_cyan[] = "#8c91e4";
 static const char *colors[][3] = {
     /*               fg         bg         border   */
     [SchemeNorm] = {col_gray4, col_gray1, col_gray2},
@@ -66,6 +66,7 @@ static const char *dattify[] = {"/home/mgalli/Scripts/dattify.sh", NULL};
 static const char *browser_command[] = {"firefox", NULL};
 static const char *screenshot[] = {"flameshot", "gui", NULL};
 static const char *lock_screen[] = {"feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/lock.png", NULL};
+static const char *go_to_sleep[] = {"zzz", NULL};
 
 /* patching */
 #include "patches/shiftview.c"
@@ -77,16 +78,18 @@ static const Key keys[] = {
     {MODKEY, XK_w, spawn, {.v = wallpaper_toggle}},
     {MODKEY, XK_i, spawn, {.v = browser_command}},
 
-    {MODKEY, XK_q, killclient, {0}},
+    {MODKEY,             XK_q, killclient, {0}},
     {MODKEY | ShiftMask, XK_space, togglefloating, {0}},
 
-    {MODKEY, XK_minus, setgaps, {.i = -1}},
-    {MODKEY, XK_equal, setgaps, {.i = +1}},
+    {MODKEY,  XK_minus, setgaps, {.i = -1}},
+    {MODKEY,  XK_equal, setgaps, {.i = +1}},
     {MODKEY | ShiftMask, XK_equal, setgaps, {.i = 0}},
 
     {MODKEY | ShiftMask, XK_b, spawn, {.v = battify}},
     {MODKEY | ShiftMask, XK_d, spawn, {.v = dattify}},
     {MODKEY | ShiftMask, XK_s, spawn, {.v = screenshot}},
+
+    {MODKEY | ShiftMask, XK_z, spawn, {.v = go_to_sleep}},
 
     
     {MODKEY, XK_h, focusstack, {.i = +1}},
