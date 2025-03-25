@@ -1,15 +1,15 @@
-static const unsigned int borderpx = 3; /* border pixel of windows */
-static const unsigned int gappx = 0;    /* gaps between windows */
+static const unsigned int borderpx = 5; /* border pixel of windows */
+static const unsigned int gappx = 30;    /* gaps between windows */
 static const unsigned int snap = 32;    /* snap pixel */
-static const int showbar = 0;           /* 0 means no bar */
-static const int topbar = 1;            /* 0 means bottom bar */
+static const int showbar = 1;           /* 0 means no bar */
+static const int topbar = 0;            /* 0 means bottom bar */
 static const char *fonts[] = {"JetbrainsMono NF:size=15"};
 static const char dmenufont[] = "JetbrainsMono NF:size=15";
-static const char col_gray1[] = "#002b36";
+static const char col_gray1[] = "#282828";
 static const char col_gray2[] = "#cccccc";
 static const char col_gray3[] = "#cccccc";
-static const char col_gray4[] = "#224d58";
-static const char col_cyan[] = "#8c91e4";
+static const char col_gray4[] = "#cccccc";
+static const char col_cyan[] = "#b8bb26";
 static const char *colors[][3] = {
     /*               fg         bg         border   */
     [SchemeNorm] = {col_gray4, col_gray1, col_gray2},
@@ -63,7 +63,6 @@ static const char *wallpaper_toggle[] = {
     "feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/void.png", NULL};
 static const char *battify[] = {"/home/mgalli/Scripts/battify.sh", NULL};
 static const char *dattify[] = {"/home/mgalli/Scripts/dattify.sh", NULL};
-static const char *browser_command[] = {"firefox", NULL};
 static const char *screenshot[] = {"flameshot", "gui", NULL};
 static const char *lock_screen[] = {"feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/lock.png", NULL};
 static const char *go_to_sleep[] = {"zzz", NULL};
@@ -76,9 +75,8 @@ static const Key keys[] = {
     {MODKEY, XK_space, spawn, {.v = dmenucmd}},
     {MODKEY, XK_Return, spawn, {.v = termcmd}},
     {MODKEY, XK_w, spawn, {.v = wallpaper_toggle}},
-    {MODKEY, XK_i, spawn, {.v = browser_command}},
 
-    {MODKEY,             XK_q, killclient, {0}},
+    {MODKEY, XK_q, killclient, {0}},
     {MODKEY | ShiftMask, XK_space, togglefloating, {0}},
 
     {MODKEY,  XK_minus, setgaps, {.i = -1}},
