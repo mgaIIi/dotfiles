@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font =
-    "JetbrainsMono NF:pixelsize=20:antialias=true:autohint=true"; static int borderpx = 20;
+    "JetbrainsMono NF:pixelsize=22:antialias=true:autohint=true"; static int borderpx = 20;
 
 /*
  * What program is execed by st depends of these precedence rules:
