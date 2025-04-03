@@ -1,7 +1,7 @@
 static const unsigned int borderpx = 3; /* border pixel of windows */
 static const unsigned int gappx = 35;   /* gaps between windows */
 static const unsigned int snap = 20;    /* snap pixel */
-static const int showbar = 0;           /* 0 means no bar */
+static const int showbar = 1;           /* 0 means no bar */
 static const int topbar = 1;            /* 0 means bottom bar */
 static const char *fonts[] = {"JetbrainsMono NF:size=16"};
 static const char dmenufont[] = "JetbrainsMono NF:size=16";
