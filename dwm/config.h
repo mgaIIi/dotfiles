@@ -1,8 +1,15 @@
-static const unsigned int borderpx = 3; /* border pixel of windows */
+static const unsigned int borderpx = 2; /* border pixel of windows */
+
+static const unsigned int barpadv	= 10;		/* bar vertical padding (from top)*/
+static const unsigned int barpadh	= 200;		/* bar vertical padding (from top)*/
+static const unsigned int barheight	= 2;		/* bar vertical padding (from top)*/
+static const unsigned int barborder	= 2;		/* bar vertical padding (from top)*/
+
+static const unsigned int floatbar	= 1;		/* 0 means bar won't float; float or dock the bar */
 static const unsigned int gappx = 35;   /* gaps between windows */
 static const unsigned int snap = 20;    /* snap pixel */
-static const int showbar = 0;           /* 0 means no bar */
-static const int topbar = 1;            /* 0 means bottom bar */
+static const int showbar = 1;           /* 0 means no bar */
+static const int topbar = 0;            /* 0 means bottom bar */
 static const char *fonts[] = {"JetbrainsMono NF:size=16"};
 static const char dmenufont[] = "JetbrainsMono NF:size=16";
 static const char col_gray1[] = "#000000";
@@ -14,7 +21,9 @@ static const char *colors[][3] = {
     /*               fg         bg         border   */
     [SchemeNorm] = {col_gray4, col_gray1, col_gray4},
     [SchemeSel] = {col_gray1, col_cyan, col_cyan},
+    [SchemeBar] = { NULL, NULL, col_cyan},
 };
+
 /* tagging */
 static const char *tags[] = {"1", "2", "3", "4", "5", "6", "7", "8", "9"};
 
