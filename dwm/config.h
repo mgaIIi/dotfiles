@@ -1,21 +1,21 @@
 static const unsigned int borderpx = 2; /* border pixel of windows */
 
-static const unsigned int barpadv	= 10;		/* bar vertical padding (from top)*/
-static const unsigned int barpadh	= 200;		/* bar vertical padding (from top)*/
-static const unsigned int barheight	= 2;		/* bar vertical padding (from top)*/
-static const unsigned int barborder	= 2;		/* bar vertical padding (from top)*/
+static const unsigned int barpadv	= 0;		/* bar vertical padding (from top)*/
+static const unsigned int barpadh	= 800;		/* bar vertical padding (from top)*/
+static const unsigned int barheight	= 0;		/* bar vertical padding (from top)*/
+static const unsigned int barborder	= 0;		/* bar vertical padding (from top)*/
 
-static const unsigned int floatbar	= 1;		/* 0 means bar won't float; float or dock the bar */
+static const unsigned int floatbar	= 0;		/* 0 means bar won't float; float or dock the bar */
 static const unsigned int gappx = 35;   /* gaps between windows */
 static const unsigned int snap = 20;    /* snap pixel */
-static const int showbar = 1;           /* 0 means no bar */
+static const int showbar = 0;           /* 0 means no bar */
 static const int topbar = 0;            /* 0 means bottom bar */
-static const char *fonts[] = {"JetbrainsMono NF:size=16"};
-static const char dmenufont[] = "JetbrainsMono NF:size=16";
-static const char col_gray1[] = "#000000";
+static const char *fonts[] = {"JetbrainsMono NF:size=14"};
+static const char dmenufont[] = "JetbrainsMono NF:size=14";
+static const char col_gray1[] = "#1e1e2e";
 static const char col_gray2[] = "#aaaaaa";
 static const char col_gray3[] = "#aaaaaa";
-static const char col_gray4[] = "#1d2021";
+static const char col_gray4[] = "#aaaaaa";
 static const char col_cyan[] = "#dedede";
 static const char *colors[][3] = {
     /*               fg         bg         border   */
