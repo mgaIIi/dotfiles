@@ -69,13 +69,13 @@ static const char *dmenucmd[] = {
     "-nf",       col_gray3, "-sb",    col_cyan, "-sf",     col_gray1, NULL};
 static const char *termcmd[] = {"st", NULL};
 static const char *wallpaper_toggle[] = {
-    "feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/void.png", NULL};
+    "feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/arch.png", NULL};
 static const char *battify[] = {"/home/mgalli/Scripts/battify.sh", NULL};
 static const char *dattify[] = {"/home/mgalli/Scripts/dattify.sh", NULL};
 static const char *screenshot[] = {"flameshot", "gui", NULL};
 static const char *lock_screen[] = {
     "feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/lock.png", NULL};
-static const char *go_to_sleep[] = {"zzz", NULL};
+static const char *go_to_sleep[] = {"systemctl","suspend", NULL};
 
 /* patching */
 #include "patches/shiftview.c"

@@ -1,4 +1,4 @@
-theme = "solarized_dark"
+theme = "github_dark_high_contrast"
 
 [editor]
 mouse = true
@@ -38,6 +38,7 @@ character = "╎"
 
 [editor.file-picker]
 hidden = true
+ignore = true
 
 [keys.normal]
 p = "paste_clipboard_before"
