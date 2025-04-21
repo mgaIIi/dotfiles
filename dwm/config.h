@@ -10,9 +10,9 @@ static const unsigned int gappx = 35;   /* gaps between windows */
 static const unsigned int snap = 20;    /* snap pixel */
 static const int showbar = 0;           /* 0 means no bar */
 static const int topbar = 0;            /* 0 means bottom bar */
-static const char *fonts[] = {"JetbrainsMono NF:size=14"};
-static const char dmenufont[] = "JetbrainsMono NF:size=14";
-static const char col_gray1[] = "#1e1e2e";
+static const char *fonts[] = {"JetbrainsMono NF:size=11"};
+static const char dmenufont[] = "JetbrainsMono NF:size=11";
+static const char col_gray1[] = "#000000";
 static const char col_gray2[] = "#aaaaaa";
 static const char col_gray3[] = "#aaaaaa";
 static const char col_gray4[] = "#aaaaaa";
