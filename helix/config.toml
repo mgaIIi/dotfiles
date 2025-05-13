@@ -5,10 +5,11 @@ mouse = true
 auto-save = true
 cursorline = true
 cursorcolumn = false
-bufferline = "always"
+bufferline = "multiple"
 true-color = true
 line-number = "relative"
 scrolloff = 999
+end-of-line-diagnostics = "hint"
 
 [editor.soft-wrap]
 enable = true
@@ -21,7 +22,7 @@ select = "underline"
 [editor.statusline]
 left = ["mode", "spinner", "diagnostics"]
 center = ["file-name", "separator", "version-control", "separator"]
-right = ["position", "position-percentage", "total-line-numbers"]
+right = ["position", "total-line-numbers"]
 separator = " "
 mode.normal = " 󰄛  "
 mode.insert = "   "
@@ -39,6 +40,10 @@ character = "╎"
 [editor.file-picker]
 hidden = true
 ignore = true
+
+[editor.inline-diagnostics]
+cursor-line = "error" # Show inline diagnostics when the cursor is on the line
+other-lines = "disable" # Don't expand diagnostics unless the cursor is on the line
 
 [keys.normal]
 p = "paste_clipboard_before"
