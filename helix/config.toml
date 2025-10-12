@@ -1,15 +1,14 @@
-theme = "github_dark_high_contrast"
+theme = "gruvbox"
 
 [editor]
 mouse = true
 auto-save = true
 cursorline = true
 cursorcolumn = false
-bufferline = "multiple"
+bufferline = "always"
 true-color = true
 line-number = "relative"
 scrolloff = 999
-end-of-line-diagnostics = "hint"
 
 [editor.soft-wrap]
 enable = true
@@ -22,7 +21,7 @@ select = "underline"
 [editor.statusline]
 left = ["mode", "spinner", "diagnostics"]
 center = ["file-name", "separator", "version-control", "separator"]
-right = ["position", "total-line-numbers"]
+right = ["position", "position-percentage", "total-line-numbers"]
 separator = " "
 mode.normal = " 󰄛  "
 mode.insert = "   "
@@ -38,12 +37,8 @@ render = true
 character = "╎"
 
 [editor.file-picker]
-hidden = true
+hidden = false
 ignore = true
-
-[editor.inline-diagnostics]
-cursor-line = "error" # Show inline diagnostics when the cursor is on the line
-other-lines = "disable" # Don't expand diagnostics unless the cursor is on the line
 
 [keys.normal]
 p = "paste_clipboard_before"
