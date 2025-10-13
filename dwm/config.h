@@ -69,7 +69,7 @@ static const char *dmenucmd[] = {
     "-nf",       col_gray3, "-sb",    col_cyan, "-sf",     col_gray1, NULL};
 static const char *termcmd[] = {"st", NULL};
 static const char *wallpaper_toggle[] = {
-    "feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/arch.png", NULL};
+    "feh", "--bg-fill", "/home/mgalli/Pictures/wallpapers/wall.png", NULL};
 static const char *battify[] = {"/home/mgalli/Scripts/battify.sh", NULL};
 static const char *dattify[] = {"/home/mgalli/Scripts/dattify.sh", NULL};
 static const char *screenshot[] = {"flameshot", "gui", NULL};
