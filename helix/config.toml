@@ -9,6 +9,11 @@ bufferline = "always"
 true-color = true
 line-number = "relative"
 scrolloff = 999
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
+other-lines = "disable"
 
 [editor.soft-wrap]
 enable = true
