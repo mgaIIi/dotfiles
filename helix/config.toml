@@ -1,11 +1,11 @@
 theme = "gruvbox"
 
 [editor]
-mouse = false
-auto-save = true
+mouse = true
+auto-save = false
 cursorline = true
 cursorcolumn = false
-bufferline = "always"
+bufferline = "never"
 true-color = true
 line-number = "relative"
 scrolloff = 999
@@ -24,13 +24,16 @@ normal = "block"
 select = "underline"
 
 [editor.statusline]
-left = ["mode","file-name" ]
-center = []
+# left = ["mode", "spinner", "diagnostics"]
+# center = ["file-name", "separator", "version-control", "separator"]
+# right = ["position", "position-percentage", "total-line-numbers"]
+left = []
+center = ["file-name"]
 right = []
-separator = " "
-mode.normal = "   "
-mode.insert = " 󰙏  "
-mode.select = " 󰒅  "
+# separator = " "
+# mode.normal = " 󰄛  "
+# mode.insert = "   "
+# mode.select = "   "
 
 [editor.lsp]
 enable = true
@@ -47,12 +50,11 @@ ignore = true
 
 [keys.normal]
 p = "paste_clipboard_before"
-y = "yank_main_selection_to_clipboard"
+Y = "yank_main_selection_to_clipboard"
 C-c = "normal_mode"
 "A-h" = "goto_previous_buffer"
 "A-l" = "goto_next_buffer"
 "A-x" = ":buffer-close"
-"A-z" = "@x<A-d>"
 "0" = "goto_line_start"
 "$" = "goto_line_end"
 "G" = "goto_file_end"
@@ -60,3 +62,8 @@ C-c = "normal_mode"
 [keys.normal.g]
 "g" = "goto_file_start"
 
+[keys.select]
+"G" = "goto_file_end"
+
+[keys.insert]
+C-c = "normal_mode"
