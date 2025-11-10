@@ -35,6 +35,8 @@ bind : mod + w : "feh --bg-fill ~/Pictures/wallpapers/wall.png"
 bind : mod + d : "sh ~/Scripts/dattify.sh"
 bind : mod + b : "sh ~/Scripts/battify.sh"
 bind : mod + s : "flameshot gui"
+bind : mod + shift + m : "brightnessctl s 100"
+bind : mod + shift + n : "brightnessctl s 40"
 
 # Window Management:
 call : mod +  q : close_window
