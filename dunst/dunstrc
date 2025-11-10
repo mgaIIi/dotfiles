@@ -11,7 +11,7 @@
     frame_width = 2
     frame_color = "#dedede"
     gap_size = 10
-    font = "IosevkaTerm NF 14"
+    font = "JetbrainsMono NF 14"
     timeout = 0
     icon_path = "/usr/share/icons/Tela-circle"
     enable_recursive_icon_lookup = true
